@@ -17,6 +17,9 @@ import acquire.sdk.emv.IEmvParamLoader;
  */
 public class FileConst {
 
+    public final static String EXTRA_FILE_URL_CUSTOM_FOLDER = "/storage/emulated/0/custom_city";
+    public final static String EXTRA_FILE_URL_INI = "/storage/emulated/0/custom_city/CITYLPARA.ini";
+
     public final static String MENU_FILE_PRINT_RECEIPT = "print-receipt.json";
     public final static String MENU_KEY_PRINT_RECEIPT = "printReceiptMenuPrefKey";
 

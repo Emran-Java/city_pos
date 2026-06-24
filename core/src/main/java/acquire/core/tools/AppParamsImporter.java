@@ -49,7 +49,7 @@ public class AppParamsImporter {
             //The file downloaded from the PC downloader will be placed in FileDir.SHARE_PATH
 
             File importFile = new File(FileDir.SHARE_PATH + FileConst.PARAMS);
-            File importExtranalFile = new File("/storage/emulated/0/custom_ucb/UCBLPARA.ini");
+            File importExtranalFile = new File(FileConst.EXTRA_FILE_URL_INI);
 
             if (importExtranalFile.exists()) {
                 importFile = importExtranalFile;

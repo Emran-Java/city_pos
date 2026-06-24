@@ -40,6 +40,7 @@ import acquire.base.utils.DisplayUtils;
 import acquire.base.utils.ParamsUtils;
 import acquire.base.widget.dialog.message.MessageDialog;
 import acquire.core.TransActivity;
+import acquire.core.constant.FileConst;
 import acquire.core.constant.ParamsConst;
 import acquire.core.constant.ScreenHeightDps;
 import acquire.core.constant.TransTag;
@@ -118,7 +119,7 @@ public class MainBracFragment extends BaseFragment {
 
         //Before release, this path will be read from config.ini file
 //        String pathWithDirectoryName = "/storage/emulated/0/custom_brac";
-        String pathWithDirectoryName = "/storage/emulated/0/custom_ucb";
+        String pathWithDirectoryName = FileConst.EXTRA_FILE_URL_CUSTOM_FOLDER;
 
         ExecutorService executor = Executors.newSingleThreadExecutor();
 

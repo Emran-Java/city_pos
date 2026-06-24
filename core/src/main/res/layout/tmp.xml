@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:paddingBottom="1dp"
+    android:background="#D1D1D1">
+
+    <TextView
+        android:id="@+id/tvSchemeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="@dimen/core_report_details_root_padding"
+        android:text="VISA:"
+        android:textColor="#3F5D99"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/rowSaleBg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/tvSchemeName"
+        android:layout_marginTop="1dp"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/labelSale"
+        style="@style/RepotCardDetailsTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/rowSaleBg"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp"
+        android:text="Sale" />
+
+    <TextView
+        android:id="@+id/tvSaleCount"
+        style="@style/RepotCardDetailsTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/rowSaleBg"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="2" />
+
+    <TextView
+        android:id="@+id/tvSaleAmount"
+        style="@style/RepotCardDetailsTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/rowSaleBg"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_vertical|end"
+        android:paddingEnd="8dp"
+        android:text="TK 0.03" />
+
+    <View
+        android:id="@+id/rowVoidBg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/rowSaleBg"
+        android:layout_marginTop="1dp"
+        android:background="#F9F9F9" />
+
+    <TextView
+        android:id="@+id/labelVoid"
+        style="@style/RepotCardDetailsTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/rowVoidBg"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp"
+        android:text="Void" />
+
+    <TextView
+        android:id="@+id/tvVoidCount"
+        style="@style/RepotCardDetailsTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/rowVoidBg"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/tvVoidAmount"
+        style="@style/RepotCardDetailsTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/rowVoidBg"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_vertical|end"
+        android:paddingEnd="8dp"
+        android:text="-TK 0.00" />
+
+    <View
+        android:id="@+id/rowTotalBg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/rowVoidBg"
+        android:layout_marginTop="1dp"
+        android:background="#EBEBEB" />
+
+    <TextView
+        android:id="@+id/labelTotal"
+        style="@style/RepotCardDetailsTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/rowTotalBg"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp"
+        android:text="TOTAL"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTotalCount"
+        style="@style/RepotCardDetailsTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/rowTotalBg"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTotalAmount"
+        style="@style/RepotCardDetailsTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/rowTotalBg"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_vertical|end"
+        android:paddingEnd="8dp"
+        android:text="TK 0.03"
+        android:textStyle="bold" />
+
+</RelativeLayout>

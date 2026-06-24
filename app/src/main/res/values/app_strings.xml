@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CITY_PLC</string>
+
+    <string name="app_exit_prompt">Exit this application?</string>
+    <string name="app_menu_top_description">pay for amount</string>
+    <string name="app_menu_print_folder_title">Print</string>
+    <string name="app_menu_qr_folder_title">QR</string>
+    <string name="app_menu_pre_auth_folder_title">PreAuth</string>
+    <string name="app_menu_exit">Exit</string>
+    <string name="app_version">Version</string>
+    <string name="splash_text">BRAC BANK</string>
+    <string name="app_saver_fragment_key_entry_promote">Press 1 for Sale,or any key for menu</string>
+
+    <string name="success">Success</string>
+    <string name="payment_successful">Payment is successful</string>
+    <string name="failed">Failed</string>
+    <string name="payment_failed">Payment not completed</string>
+    <string name="clear">Clear</string>
+    <string name="ok">OK</string>
+    <string name="device_not_support">Device not supported</string>
+
+</resources>

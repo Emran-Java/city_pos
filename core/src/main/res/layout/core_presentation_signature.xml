@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_background"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp20"
+        android:paddingStart="@dimen/dp25"
+        android:paddingEnd="@dimen/dp25"
+        android:text="@string/core_sign_on_screen"
+        android:textColor="@color/base_secondaryText" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/dp26"
+        android:layout_marginEnd="@dimen/dp26"
+        android:layout_weight="1">
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp1"
+            android:layout_alignParentBottom="true"
+            app:dividerColor="@color/base_colorPrimary" />
+
+        <acquire.base.widget.HandWriteView
+            android:id="@+id/hand_write"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp160"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp8"
+            android:scaleType="fitEnd"
+            android:src="@drawable/core_handwrite_bg" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp36"
+        android:layout_marginBottom="@dimen/dp18"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_clear"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="@dimen/dp250"
+            android:layout_height="wrap_content"
+            android:text="@string/base_clear"
+            app:backgroundTint="@color/core_signature_clear"
+            app:icon="@drawable/core_sign_clear_icon"
+            app:iconGravity="textStart"
+            app:iconSize="@dimen/dp48" />
+
+        <View
+            android:layout_width="@dimen/dp56"
+            android:layout_height="match_parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_done"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="@dimen/dp250"
+            android:layout_height="wrap_content"
+            android:text="@string/base_done"
+            app:backgroundTint="@color/core_signature_ok"
+            app:icon="@drawable/core_sign_confirm_icon"
+            app:iconGravity="textStart"
+            app:iconSize="@dimen/dp48" />
+    </LinearLayout>
+</LinearLayout>

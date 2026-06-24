@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp10"
+    android:background="@drawable/settings_merchant_item_bg"
+    android:backgroundTint="@color/settings_merchant_item_tint"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/dp16"
+    android:paddingTop="@dimen/dp10"
+    android:paddingEnd="@dimen/dp16"
+    android:paddingBottom="@dimen/dp16">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/dp3"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/settings_merchant_ic_title" />
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp6"
+            android:layout_weight="1"
+            android:textSize="@dimen/base_secondaryTextSize"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp8"
+            android:src="@drawable/settings_merchant_ic_delete"
+            app:tint="@color/settings_merchant_delete_tint" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp8"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_merchant_item_mid"
+            android:textSize="@dimen/base_tertiaryTextSize" />
+
+        <TextView
+            android:id="@+id/tv_mid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textColor="@color/base_secondaryText"
+            android:textSize="@dimen/base_tertiaryTextSize" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp8"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_merchant_item_tid"
+            android:textSize="@dimen/base_tertiaryTextSize" />
+
+        <TextView
+            android:id="@+id/tv_tid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textColor="@color/base_secondaryText"
+            android:textSize="@dimen/base_tertiaryTextSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp8"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_merchant_item_batch_no"
+            android:textSize="@dimen/base_tertiaryTextSize" />
+
+        <TextView
+            android:id="@+id/tv_batch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textColor="@color/base_secondaryText"
+            android:textSize="@dimen/base_tertiaryTextSize" />
+    </LinearLayout>
+</LinearLayout>

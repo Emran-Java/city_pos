@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_underBackground"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/app_menu_topbg" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/dp16"
+        android:scaleType="fitXY"
+        android:src="@drawable/app_main_topfore" />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/app_banner_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/app_banner_margin_top"
+        android:scaleType="fitCenter"
+        android:src="@drawable/app_banner" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_image"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@dimen/app_menu_margin_horizontal"
+        android:layout_marginTop="@dimen/app_menu_margin_top"
+        android:layout_marginEnd="@dimen/app_menu_margin_horizontal"
+        android:layout_marginBottom="@dimen/dp4"
+        android:background="@drawable/base_card_background"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv_top_container"
+            style="@style/Widget.Material3.CardView.Filled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/dp16"
+            android:layout_marginEnd="@dimen/dp16"
+            android:layout_marginTop="@dimen/dp18"
+            app:cardCornerRadius="@dimen/dp12"
+            app:contentPadding="@dimen/dp10">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/iv_top_icon"
+                    android:layout_width="@dimen/app_menu_top_item_size"
+                    android:layout_height="@dimen/app_menu_top_item_size"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/dp20" />
+
+                <TextView
+                    android:id="@+id/tv_top_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp17"
+                    android:layout_marginTop="@dimen/dp14"
+                    android:layout_toEndOf="@id/iv_top_icon"
+                    android:textSize="@dimen/base_secondaryTextSize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_top_name"
+                    android:layout_alignStart="@id/tv_top_name"
+                    android:layout_marginTop="@dimen/dp4"
+                    android:text="@string/app_menu_top_description"
+                    android:textColor="@color/base_lightText"
+                    android:textSize="@dimen/base_tertiaryTextSize" />
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/dp4"
+            android:orientation="horizontal"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+</RelativeLayout>

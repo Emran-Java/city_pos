@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--CPOS X5/X3-->
+<resources>
+    <dimen name="base_primaryTextSize">@dimen/sp20</dimen>
+    <dimen name="base_secondaryTextSize">@dimen/sp14</dimen>
+    <dimen name="base_tertiaryTextSize">@dimen/sp13</dimen>
+
+    <dimen name="base_dialog_fragment_content_padding_vertical">@dimen/dp40</dimen>
+    <dimen name="base_dialog_fragment_content_padding_horizontal">@dimen/dp400</dimen>
+</resources>

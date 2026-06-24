@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_underBackground"
+    android:columnCount="5"
+    android:minHeight="@dimen/base_keyboard_height"
+    android:padding="@dimen/base_keyboard_padding"
+    android:rowCount="4">
+
+
+    <!--===============Row 1===================-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key1"
+        style="@style/KeyboardButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_keyboard_key_1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key2"
+        style="@style/KeyboardButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_keyboard_key_2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key3"
+        style="@style/KeyboardButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_keyboard_key_3" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key4"
+        style="@style/KeyboardButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_keyboard_key_4" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/keyCancel"
+        style="@style/KeyboardRedButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_cancel" />
+
+    <!--===============Row 2===================-->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key5"
+        style="@style/KeyboardButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_keyboard_key_5" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key6"
+        style="@style/KeyboardButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_keyboard_key_6" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key7"
+        style="@style/KeyboardButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_keyboard_key_7" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key8"
+        style="@style/KeyboardButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_keyboard_key_8" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/keyBack"
+        style="@style/KeyboardYellowButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+
+    <!--===============Row 3===================-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key9"
+        style="@style/KeyboardButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_keyboard_key_9" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key0"
+        style="@style/KeyboardButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_keyboard_key_0" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/keyA"
+        style="@style/KeyboardButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_keyboard_key_a" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/keyB"
+        style="@style/KeyboardButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_keyboard_key_b" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/keyEnter"
+        style="@style/KeyboardBlueButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowSpan="2"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_ok" />
+
+    <!--===============Row 4===================-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/keyC"
+        style="@style/KeyboardButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_keyboard_key_c" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/keyD"
+        style="@style/KeyboardButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_keyboard_key_d" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/keyE"
+        style="@style/KeyboardButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_keyboard_key_e" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/keyF"
+        style="@style/KeyboardButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="@string/base_keyboard_key_f" />
+</GridLayout>

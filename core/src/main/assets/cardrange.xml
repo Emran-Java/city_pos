@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <!--see CardBinProvider.class-->
+    <!--UNIONPAY-->
+    <card scheme = "CUP">
+        <bin start = "60138200"  end = "601382058" />
+        <bin start = "60138206"  end = "601382088" />
+        <bin start = "60138209"  end = "601382198" />
+        <bin start = "60138220"  end = "601382268" />
+        <bin start = "60138227"  end = "601382508" />
+        <bin start = "60138251"  end = "601382618" />
+        <bin start = "601382620" end = "601382628" />
+        <bin start = "60138263"  end = "601382648" />
+        <bin start = "60138265"  end = "601382708" />
+        <bin start = "60138271"  end = "601382758" />
+        <bin start = "601382760" end = "601382768" />
+        <bin start = "60138277"  end = "6013829"   />
+        <bin start = "601428"    end = ""          />
+        <bin start = "60326513"  end = ""          />
+        <bin start = "603367"    end = ""          />
+        <bin start = "603601"    end = ""          />
+        <bin start = "603694"    end = ""          />
+        <bin start = "603708"    end = ""          />
+        <bin start = "632062"    end = ""          />
+        <bin start = "685800"    end = "690755"    />
+        <bin start = "900105"    end = "968809"    />
+        <bin start = "984300"    end = "984303"    />
+        <bin start = "810000"    end = "817199"    />
+        <bin start = "620000"    end = "629999"    />
+    </card>
+
+    <!--VISA-->
+    <card scheme = "VISA">
+        <bin start = "4"         end = ""          />
+    </card>
+
+    <!--Mastercard-->
+    <card scheme = "Mastercard">
+        <bin start = "510000"    end = "559999"    />
+        <bin start = "222100"    end = "272099"    />
+        <bin start = "500000"    end = "509999"    />
+        <bin start = "679981"    end = "679999"    />
+    </card>
+
+    <!--AMEX-->
+    <card scheme = "AMEX">
+        <bin start = "34"        end = ""          />
+        <bin start = "37"        end = ""          />
+    </card>
+
+    <!--JCB-->
+    <card scheme = "JCB">
+        <bin start = "352800"    end = "356096"    />
+        <bin start = "356098"    end = "356204"    />
+        <bin start = "356206"    end = "356206"    />
+        <bin start = "356210"    end = "356214"    />
+        <bin start = "356219"    end = "356596"    />
+        <bin start = "356598"    end = "356733"    />
+        <bin start = "356735"    end = "356753"    />
+        <bin start = "356755"    end = "358999"    />
+    </card>
+
+    <!--Discover-->
+    <card scheme = "Discover">
+        <bin start = "601100"    end = "601109"    />
+        <bin start = "601120"    end = "601149"    />
+        <bin start = "601174"    end = "601174"    />
+        <bin start = "601177"    end = "601179"    />
+        <bin start = "601186"    end = "601199"    />
+        <bin start = "644000"    end = "659999"    />
+    </card>
+
+    <!--DINERS CLUB-->
+    <card scheme = "DinersClub">
+        <bin start = "300000"   end = "305999"          />
+        <bin start = "309500"   end = "309599"          />
+        <bin start = "360000"   end = "369999"          />
+        <bin start = "380000"   end = "399999"          />
+    </card>
+
+    <!--RuPay-->
+    <card scheme = "RuPay">
+        <bin start = "606"   end = "608"          />
+    </card>
+
+</root>

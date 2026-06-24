@@ -1,0 +1,23 @@
+<resources>
+    <string name="sdk_helper_printer_status_normal">正常</string>
+    <string name="sdk_helper_printer_status_outof_paper">用紙切れ</string>
+    <string name="sdk_helper_printer_status_hot">プリンターが過熱しました</string>
+    <string name="sdk_helper_printer_status_paper_slot">用紙スロットが閉まっていません</string>
+    <string name="sdk_helper_printer_status_busy">プリンターが使用中です</string>
+    <string name="sdk_helper_printer_status_exception">プリンタの例外</string>
+    <string name="sdk_helper_pinpad_online_pin">オンラインPINを入力してください</string>
+    <string name="sdk_helper_pinpad_offline_pin">オフラインPINを入力してください</string>
+    <string name="sdk_helper_fly_parameter_not_init">まずはFlyParameterHelperを入力してください</string>
+    <string name="sdk_helper_fly_parameter_updating">オープンな更新タスクがあります。</string>
+    <string name="sdk_helper_fly_key_error_unavailable_message">Fly Key が失敗し、エラー メッセージを解析できません</string>
+    <string name="sdk_helper_entry_description_mag">電磁入力入力</string>
+    <string name="sdk_helper_entry_description_insert">接触入力</string>
+    <string name="sdk_helper_entry_description_tap">非接触入力</string>
+    <string name="sdk_helper_entry_description_manual">手動入力</string>
+    <string name="sdk_helper_entry_description_scan">スキャン入力</string>
+    <string name="sdk_helper_entry_description_qr_code">QRコード入力</string>
+    <string name="sdk_helper_entry_description_unknown">不明な入力</string>
+    <string name="sdk_helper_serial_open_failed">Serialのオープンに失敗しました</string>
+    <string name="sdk_helper_usb1_open_failed">USB1のオープンに失敗しました</string>
+    <string name="sdk_helper_usb2_open_failed">USB2のオープンに失敗しました</string>
+</resources>

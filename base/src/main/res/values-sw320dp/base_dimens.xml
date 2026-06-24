@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--N950K/U200 resource-->
+<resources>
+    <dimen name="base_primaryTextSize">@dimen/sp18</dimen>
+    <dimen name="base_secondaryTextSize">@dimen/sp12</dimen>
+    <dimen name="base_tertiaryTextSize">@dimen/sp13</dimen>
+
+    <dimen name="base_dialog_fragment_content_padding_vertical">@dimen/dp50</dimen>
+    <dimen name="base_dialog_fragment_content_padding_horizontal">@dimen/dp12</dimen>
+
+    <!--Keyboard-->
+    <dimen name="base_keyboard_simple_height">@dimen/dp204</dimen>
+    <dimen name="base_keyboard_height">@dimen/dp245</dimen>
+
+    <dimen name="base_primary_button_width">@dimen/dp260</dimen>
+</resources>

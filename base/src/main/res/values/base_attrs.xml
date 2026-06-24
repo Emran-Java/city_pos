@@ -1,0 +1,32 @@
+<resources>
+
+    <declare-styleable name="WheelPicker">
+        <attr name="selectedTextColor" format="color" />
+        <attr name="selectedTextScale" format="float" />
+        <attr name="leftText" format="string"/>
+        <attr name="rightText" format="string"/>
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="showCount" format="integer" />
+        <attr name="cycle" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="PrimaryToolbar">
+        <attr name="title" format="string" />
+        <attr name="rightIcon" format="reference" />
+        <attr name="rightContent" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="IpEditText">
+        <attr name="ip" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="HandWriteView">
+        <attr name="rotate" format="boolean" />
+    </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--X800 resource-->
+<resources>
+    <dimen name="app_banner_margin_top">@dimen/dp48</dimen>
+    <dimen name="app_banner_height">@dimen/dp64</dimen>
+
+    <dimen name="app_menu_margin_top">@dimen/dp28</dimen>
+    <dimen name="app_menu_margin_horizontal">@dimen/dp25</dimen>
+
+    <dimen name="app_menu_top_item_size">@dimen/dp64</dimen>
+
+    <dimen name="app_menu_item_size">@dimen/dp56</dimen>
+    <dimen name="app_menu_corner_radius">@dimen/dp28</dimen>
+
+</resources>

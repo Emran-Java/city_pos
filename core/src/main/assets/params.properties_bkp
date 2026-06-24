@@ -1,0 +1,93 @@
+#Merchant name
+BASE_MERCHANT_NAME=Test Store
+#Trace NO
+BASE_TRACE_NO=000001
+#Refund max amount (CENT)
+BASE_MAX_REFUND_AMOUNT=1000000
+#Country currency code.Such as 840(USD),156(CNY),978(EUR), 392(JPY)
+BASE_CURRENCY_CODE=840
+#Max records
+BASE_MAX_TRANS_COUNT=500
+#Entery pin timeout(SECOND)
+PINPAD_TIMEOUT=60
+#Entery accessibility pin timeout(SECOND)
+PINPAD_ACCESSIBILITY_TIMEOUT=120
+#enable external pinpad (1-YES,0-NO)
+PINPAD_EXTERNAL=0
+#External pinpad connect mode (Serial port 0, USB 1, Dock serial port 10, Dock USB1 11, Dock USB1 12)
+PINPAD_EXTERNAL_CONNECT_MODE=0
+#External printer
+PRINT_EXTERNAL=0
+#External printer connect mode (Serial port 0, USB 1, BLUETOOTH 2, Dock serial port 10, Dock USB1 11, Dock USB1 12)
+PRINT_EXTERNAL_CONNECT_MODE=1
+#External printer serial baud rate
+PRINT_EXTERNAL_SERIAL_BAUDRATE=115200
+#CardReader timeout
+CARD_READER_TIMEOUT=60
+#Print remarks
+PRINT_REMARKS=
+#Support sale (1-YES,0-NO)
+TRANS_SALE=1
+#Support void (1-YES,0-NO)
+TRANS_VOID=1
+#Support refund (1-YES,0-NO)
+TRANS_REFUND=1
+#Support query balance (1-YES,0-NO)
+TRANS_BALANCE=1
+#Support pre-auth (1-YES,0-NO)
+TRANS_PREAUTH=1
+#Support mobile pay (1-YES,0-NO)
+TRANS_MOBILE_PAY=1
+#Support installment pay (1-YES,0-NO)
+TRANS_INSTALLMENT=1
+#Support cash advance (1-YES,0-NO)
+TRANS_CASH_ADVANCE=1
+#Support cash back (1-YES,0-NO)
+TRANS_CASH_BACK=1
+#Support Electric Signature (1-YES,0-NO)
+ELECSIGN_IS_SUPPORT=0
+#Priority Scanner(0-FRONT,1-BACK,2-EXTERNAL )
+SCAN_PRIORITY_SCANNER=1
+#External scanner connect mode (Serial port 0, USB 1, Dock serial port 10, Dock USB1 11, Dock USB1 12)
+SCAN_EXTERN_CONNECT_MODE=0
+#Waiting time for USB scan box receipting completion(millis)
+SCAN_EXTERN_USB_WAIT_TIME=300
+#External scanner serial baud rate
+SCAN_EXTERN_SERIAL_BAUDRATE=115200
+#Admin password 123456
+PASSWORD_ADMIN=8D969EEF6ECAD3C29A3A629280E686CF0C3F5D5A86AFF3CA12020C923ADC6C92
+PASSWORD_ADMIN_LENGTH=6
+#System admin password 000000
+PASSWORD_SYSTEM_ADMIN=91B4D142823F7D20C5F08DF69122DE43F35F057A988D9619F6D3138485C9A203
+PASSWORD_SYSTEM_ADMIN_LENGTH=6
+#Security password 888888
+PASSWORD_SECURITY=92925488B28AB12584AC8FCAA8A27A0F497B2C62940C8F4FBC8EF19EBC87C43E
+PASSWORD_SECURITY_LENGTH=6
+#TOMS FLY PARAMS.Parameter update notification(1-YES,0-NO)
+TOMS_FLY_PARAMETERS=0
+#TOMS FLY RECEIPT.electric receipt(1-YES,0-NO)
+TOMS_FLY_RECEIPT=0
+#Support Tips Amount(1-YES,0-NO)
+OTHER_TIP_INPUT=0
+#Third app show result(1-YES,0-NO)
+OTHER_THIRD_BILL_SHOW=0
+#Void transaction need card(1-YES,0-NO)
+OTHER_VOID_CARD=1
+#Void transaction need PIN (1-YES,0-NO)
+OTHER_VOID_PIN=1
+#The second screen mode.(1-Always TOP,0-Can Be Covered)
+OTHER_SECOND_SCREEN_TOP=1
+#Automatic Print Mode (1-YES,0-NO)
+AUTOMATIC_PRINT_MODE=0
+#Support merchant paper (1-YES,0-NO)
+RECEIPT_MERCHANT_PAPER=1
+#Support customer paper (1-YES,0-NO)
+RECEIPT_CUSTOMER_PAPER=1
+#Support fly receipt (1-YES,0-NO)
+RECEIPT_FLY_RECEIPT=1
+#Support e-receipt NPI Demo(1-YES,0-NO)
+RECEIPT_E_NPI_DEMO=1
+#Support e-receipt pixcel(1-YES,0-NO)
+RECEIPT_E_PIXCEL=0
+#Saver screen time ms
+SAVER_SCREEN_TIME=15000

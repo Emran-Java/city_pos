@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|end"
+    android:orientation="horizontal">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_ip_1"
+        android:layout_width="@dimen/base_edit_ip_segment_width"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="3"
+        android:singleLine="true"
+        android:textSize="@dimen/base_secondaryTextSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/base_edit_text_ip_dot"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_ip_2"
+        android:layout_width="@dimen/base_edit_ip_segment_width"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:gravity="center"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textSize="@dimen/base_secondaryTextSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/base_edit_text_ip_dot" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_ip_3"
+        android:layout_width="@dimen/base_edit_ip_segment_width"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:gravity="center"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textSize="@dimen/base_secondaryTextSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/base_edit_text_ip_dot"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_ip_4"
+        android:layout_width="@dimen/base_edit_ip_segment_width"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:gravity="center"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textSize="@dimen/base_edit_ip_textSize" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <style name="MerchantEdit" parent="@style/Widget.Material3.TextInputLayout.FilledBox.Dense">
+        <item name="android:textSize">@dimen/base_secondaryTextSize</item>
+        <item name="android:layout_marginStart">@dimen/dp16</item>
+        <item name="android:layout_marginEnd">@dimen/dp16</item>
+        <item name="android:textColorHint">@color/base_lightText</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:enabled">false</item>
+        <item name="boxBackgroundColor">@color/base_background</item>
+    </style>
+</resources>

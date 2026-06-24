@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llTotalScheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvTranTypeInner"
+            style="@style/RepotCardDetailsTextAppearance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvTranWiseInnerTotalCount"
+            style="@style/RepotCardDetailsTextAppearance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/tvTranWiseInnerTotalAmount"
+            style="@style/RepotCardDetailsTextAppearance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="TK 0.00" />
+    </LinearLayout>
+
+    <!-- TIP -->
+    <LinearLayout
+        android:id="@+id/llTIPTotalScheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llTotalScheme">
+
+        <TextView
+            android:id="@+id/tvTipTranTypeInner"
+            style="@style/RepotCardDetailsTextAppearance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvTipTranWiseInnerTotalCount"
+            style="@style/RepotCardDetailsTextAppearance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/tvTipTranWiseInnerTotalAmount"
+            style="@style/RepotCardDetailsTextAppearance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="TK 0.00" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

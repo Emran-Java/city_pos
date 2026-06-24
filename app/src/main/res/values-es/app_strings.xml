@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Plantilla Bancaria</string>
+    <string name="app_exit_prompt">Salir de esta aplicacion?</string>
+    <string name="app_menu_top_description">pagar la cantidad</string>
+    <string name="app_menu_print_folder_title">Imprimir</string>
+    <string name="app_menu_qr_folder_title">QR</string>
+    <string name="app_menu_pre_auth_folder_title">Autorización previa</string>
+    <string name="app_menu_exit">Salida</string>
+    <string name="app_version">Versión</string>
+    <string name="splash_text">BRAC BANK</string>
+    <string name="app_saver_fragment_key_entry_promote">Press 1 for Sale,or any key for menu</string>
+
+    <string name="success">Success</string>
+    <string name="payment_successful">Payment is successful</string>
+    <string name="failed">Failed</string>
+    <string name="payment_failed">Payment not completed</string>
+    <string name="clear">Clear</string>
+    <string name="ok">OK</string>
+    <string name="device_not_support">Device not supported</string>
+
+</resources>

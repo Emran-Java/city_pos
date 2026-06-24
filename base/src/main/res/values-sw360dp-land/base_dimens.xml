@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--P300 resource-->
+<resources>
+    <dimen name="base_primaryTextSize">@dimen/sp20</dimen>
+    <dimen name="base_secondaryTextSize">@dimen/sp16</dimen>
+    <dimen name="base_tertiaryTextSize">@dimen/sp13</dimen>
+
+    <dimen name="base_dialog_fragment_content_padding_vertical">@dimen/dp16</dimen>
+    <dimen name="base_dialog_fragment_content_padding_horizontal">@dimen/dp156</dimen>
+</resources>

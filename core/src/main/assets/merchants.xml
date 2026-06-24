@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Merchants>
+    <!--<Merchant>
+        <type>DEFAULT</type>
+        <mid>123456789012345</mid>
+        <tid>12345671</tid>
+        <batchNo>000001</batchNo>
+        <ip>127.0.0.1</ip>
+        <port>30000</port>
+        <commTimeout>60</commTimeout>
+        <tpdu>6002800000</tpdu>
+        <nii>280</nii>
+        <masterKeyIndex>1</masterKeyIndex>
+        &lt;!&ndash;0 dukpt,1 mksk&ndash;&gt;
+        <algorithm>0</algorithm>
+    </Merchant>-->
+
+    <Merchant>
+        <type>DEFAULT</type>
+        <merchantName>Brac merchant</merchantName>
+        <mid>100000000087600</mid>
+        <tid>60011366</tid>
+        <batchNo>000001</batchNo>
+
+<!--        Test(GP SIM) -->
+        <!--<ip>192.168.111.15</ip>
+        <port>3050</port>-->
+
+<!--        Test(ROBI SIM) -->
+        <ip>10.210.0.31</ip>
+        <port>3050</port>
+
+<!--        Test(GP SIM) -->
+        <!--<ip>192.168.111.7</ip>
+        <port>1165</port>-->
+
+<!--        Test(DEV) -->
+<!--        <ip>0.0.0.7</ip>-->
+<!--        <port>1010</port>-->
+
+<!--        Live -->
+<!--        <ip>192.168.111.2</ip>-->
+<!--        <port>1250</port>-->
+        <commTimeout>15</commTimeout>
+        <tpdu>6000000000</tpdu>
+        <nii>001</nii>
+        <masterKeyIndex>1</masterKeyIndex>
+        <!--0 dukpt,1 mksk-->
+        <algorithm>1</algorithm>
+    </Merchant>
+<!--
+    <Merchant>
+        <type>CUP</type>
+        <mid>123456789012345</mid>
+        <tid>12345672</tid>
+        <batchNo>000001</batchNo>
+        <ip>127.0.0.1</ip>
+        <port>30000</port>
+        <commTimeout>60</commTimeout>
+        <tpdu>6002800000</tpdu>
+        <nii>280</nii>
+        <masterKeyIndex>1</masterKeyIndex>
+        <algorithm>0</algorithm>
+    </Merchant>
+    <Merchant>
+        <type>AMEX</type>
+        <mid>123456789012345</mid>
+        <tid>12345673</tid>
+        <batchNo>000001</batchNo>
+        <ip>127.0.0.1</ip>
+        <port>30000</port>
+        <commTimeout>60</commTimeout>
+        <tpdu>6002800000</tpdu>
+        <nii>280</nii>
+        <masterKeyIndex>1</masterKeyIndex>
+        <algorithm>0</algorithm>
+    </Merchant>-->
+ <!--   <Merchant>
+        <type>Mastercard</type>
+        <mid>123456789012345</mid>
+        <tid>12345674</tid>
+        <batchNo>000001</batchNo>
+        <ip>127.0.0.1</ip>
+        <port>30000</port>
+        <commTimeout>60</commTimeout>
+        <tpdu>6002800000</tpdu>
+        <nii>280</nii>
+        <masterKeyIndex>1</masterKeyIndex>
+        <algorithm>0</algorithm>
+    </Merchant>-->
+
+    <Merchant>
+        <type>Mastercard</type>
+        <mid>100000000087600</mid>
+        <tid>60011366</tid>
+        <batchNo>000001</batchNo>
+        <ip>192.168.111.2</ip>
+        <port>1165</port>
+        <commTimeout>60</commTimeout>
+        <tpdu>6000000000</tpdu>
+        <nii>1250</nii>
+        <masterKeyIndex>1</masterKeyIndex>
+        <!--0 dukpt,1 mksk-->
+        <algorithm>1</algorithm>
+    </Merchant>
+</Merchants>

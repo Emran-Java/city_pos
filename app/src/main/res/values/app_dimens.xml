@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="app_banner_margin_top">@dimen/dp52</dimen>
+    <dimen name="app_banner_height">@dimen/dp50</dimen>
+
+    <dimen name="app_menu_margin_top">@dimen/dp20</dimen>
+    <dimen name="app_menu_margin_horizontal">@dimen/dp15</dimen>
+
+    <dimen name="app_menu_top_item_size">@dimen/dp60</dimen>
+
+    <dimen name="app_menu_item_size">64dp</dimen>
+    <dimen name="app_menu_corner_radius">@dimen/dp25</dimen>
+    <dimen name="app_menu_item_space">@dimen/dp10</dimen>
+
+<!--    Number key pad-->
+    <dimen name="dimnPinKeyPadDivider">0.5dp</dimen>
+    <dimen name="dimnBtnRoundSquareStroke">0.5dp</dimen>
+    <dimen name="dimnBtnRoundSquareRadius">8dp</dimen>
+    <dimen name="dimnBtnStrokeColorWidth">2dp</dimen>
+
+
+
+</resources>

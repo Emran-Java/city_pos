@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_menu_light_pink_background">#fffff2ef</color>
+    <!-- Icon BG -->
+    <color name="app_menu_light_white_background">#ffffff</color>
+    <color name="app_menu_light_blue_background">#ffe7f3ff</color>
+    <color name="app_menu_light_green_background">#ffddf5f8</color>
+    <color name="app_menu_light_purple_background">#ffe7e9f8</color>
+    <color name="app_menu_light_gold_background">#ffe7e8e9</color>
+
+    <color name="txtColor">#40474F</color>
+    <color name="btnColorTxt">#FFFFFF</color>
+    <color name="colorPinKeyDivider">#A0A0A0</color>
+
+    <color name="status_bar_color">#DA3040</color>
+    <color name="nav_bar_color">#DE3241</color>
+
+    <color name="base_primary_gradient_start">#F26A75</color>
+    <color name="base_primary_gradient_center">#E74856</color>
+    <color name="base_primary_gradient_end">#DE3241</color>
+
+    <!--accent color-->
+    <color name="colorPrimary">#DE3241</color>
+
+
+    <!--  simpleButton  -->
+    <color name="colorBtnSimpleEnd">#F5F5F5</color>
+    <color name="colorBtnSimpleCenter">#F5F5F5</color>
+    <color name="colorBtnSimpleStart">#F5F5F5</color>
+    <color name="colorBtnSimpleStroke">#F5F5F5</color>
+
+
+    <!--  blueButton  -->
+    <color name="colorBtnBlueEnd">#0659C8</color>
+    <color name="colorBtnBlueCenter">#0659C8</color>
+    <color name="colorBtnBlueStart">#0699F1</color>
+    <color name="colorBtnBlueStroke">#2d80A5</color>
+
+
+    <!--  redButton  -->
+    <color name="colorBtnRedEnd">#EF3838</color>
+    <color name="colorBtnRedCenter">#C83838</color>
+    <color name="colorBtnRedStart">#B83838</color>
+    <color name="colorBtnRedStroke">#DF3838</color>
+
+    <!--  greenButton  -->
+    <color name="colorBtnGreenEnd">#43C487</color>
+    <color name="colorBtnGreenCenter">#2EA36B</color>
+    <color name="colorBtnGreenStart">#288F5E</color>
+    <color name="colorBtnGreenStroke">#43C487</color>
+
+    <!--  yellowButton  -->
+    <color name="colorBtnYellowEnd">#E2D338</color>
+    <color name="colorBtnYellowCenter">#E4C737</color>
+    <color name="colorBtnYellowStart">#E2B32F</color>
+    <!--    <color name="colorBtnYellowEnd">#F5D740</color>-->
+    <!--    <color name="colorBtnYellowCenter">#EAC400</color>-->
+    <!--    <color name="colorBtnYellowStart">#E5AB00</color>-->
+    <color name="colorBtnYellowStroke">#FFAB00</color>
+
+</resources>

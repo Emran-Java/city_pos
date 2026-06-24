@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rotationY="180" />
+
+    <ImageView
+        android:id="@+id/scan_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/core_scan_line" />
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp60"
+        android:layout_marginEnd="@dimen/dpf4"
+        android:layout_alignParentEnd="true">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lav_camera_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:lottie_autoPlay="true"
+            app:lottie_imageAssetsFolder="@string/core_lottie_assets_folder"
+            app:lottie_rawRes="@raw/lottie_camera_down" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lav_camera_rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:lottie_loop="true"
+            app:lottie_imageAssetsFolder="@string/core_lottie_assets_folder"
+            app:lottie_rawRes="@raw/lottie_camera_rotate" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lav_camera_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:lottie_imageAssetsFolder="@string/core_lottie_assets_folder"
+            app:lottie_rawRes="@raw/lottie_camera_up" />
+    </FrameLayout>
+
+</RelativeLayout>

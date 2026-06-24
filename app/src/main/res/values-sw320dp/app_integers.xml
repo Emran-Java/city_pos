@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--N950K/U200 resource-->
+<resources>
+    <integer name="app_main_menu_columns">2</integer>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="2.1" ?><!--
+	FILENAME: 8583.xml
+	type: BCD\ASCII\BINARY
+	length: LLVAR\LLLVAR\fix length
+	align: LEFT\RIGHT
+	fill: one character
+-->
+<root>
+    <!-- Field setting table of ISO8583 -->
+    <FIELD_SETTING>
+        <FIELD000 type="BCD"    length="4"      align="RIGHT"   fill ="0"/>
+        <BITMAP   type="BINARY" length="8"      align="LEFT"    fill ="0"/>
+        <FIELD001 type="BINARY" length="8"      align="LEFT"    fill ="0"/>
+        <FIELD002 type="BCD"    length="LLVAR"  align="LEFT"    fill ="0"/>
+        <FIELD003 type="BCD"    length="6"      align="RIGHT"   fill ="0"/>
+        <FIELD004 type="BCD"    length="12"     align="RIGHT"   fill ="0"/>
+        <FIELD005 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD006 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD007 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD008 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD009 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD010 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD011 type="BCD"    length="6"      align="RIGHT"   fill ="0"/>
+        <FIELD012 type="BCD"    length="6"      align="RIGHT"   fill ="0"/>
+        <FIELD013 type="BCD"    length="4"      align="RIGHT"   fill ="0"/>
+        <FIELD014 type="BCD"    length="4"      align="RIGHT"   fill ="0"/>
+        <FIELD015 type="BCD"    length="4"      align="RIGHT"   fill ="0"/>
+        <FIELD016 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD017 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD018 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD019 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD020 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD021 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD022 type="BCD"    length="3"      align="RIGHT"    fill ="0"/>
+        <FIELD023 type="BCD"    length="3"      align="RIGHT"   fill ="0"/>
+        <FIELD024 type="BCD"    length="3"      align="RIGHT"   fill ="0"/>
+        <FIELD025 type="BCD"    length="2"      align="RIGHT"   fill ="0"/>
+        <FIELD026 type="BCD"    length="2"      align="RIGHT"   fill ="0"/>
+        <FIELD027 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD028 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD029 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD030 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD031 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD032 type="BCD"    length="LLVAR"  align="LEFT"    fill ="0"/>
+        <FIELD033 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD034 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD035 type="BCD"    length="LLVAR"  align="LEFT"    fill ="0"/>
+        <FIELD036 type="BCD"    length="LLLVAR" align="LEFT"    fill ="0"/>
+        <FIELD037 type="ASCII"  length="12"     align="LEFT"    fill =" "/>
+        <FIELD038 type="ASCII"  length="6"      align="LEFT"    fill =" "/>
+        <FIELD039 type="ASCII"  length="2"      align="LEFT"    fill =" "/>
+        <FIELD040 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD041 type="ASCII"  length="8"      align="LEFT"    fill =" "/>
+        <FIELD042 type="ASCII"  length="15"     align="LEFT"    fill =" "/>
+        <FIELD043 type="ASCII"  length="40"     align="LEFT"    fill =" "/>
+        <FIELD044 type="BCD"    length="LLLVAR" align="RIGHT"   fill ="0"/>
+        <FIELD045 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD046 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD047 type="BCD"    length="LLLVAR" align="RIGHT"   fill ="0"/>
+        <FIELD048 type="BCD"    length="LLLVAR" align="LEFT"    fill ="0"/>
+        <FIELD049 type="ASCII"  length="3"      align="LEFT"    fill =" "/>
+        <FIELD050 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD051 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD052 type="BINARY" length="8"      align="LEFT"    fill =" "/>
+        <FIELD053 type="BCD"    length="16"     align="RIGHT"   fill ="0"/>
+<!--        <FIELD054 type="BCD"    length="LLLVAR" align="RIGHT"   fill ="0"/>-->
+        <FIELD054 type="ASCII"    length="LLLVAR" align="RIGHT"   fill ="0"/>
+        <FIELD055 type="BINARY" length="LLLVAR" align="RIGHT"   fill ="0"/>
+        <FIELD056 type="ASCII"  length="LLVAR"  align="LEFT"    fill =" "/>
+        <FIELD057 type="BINARY" length="LLLVAR" align="LEFT"    fill ="0"/>
+        <FIELD058 type="BCD"    length="LLLVAR" align="RIGHT"   fill ="0"/>
+        <FIELD059 type="BCD"    length="LLLVAR" align="LEFT"    fill ="0"/>
+        <FIELD060 type="ASCII"    length="LLLVAR" align="LEFT"    fill ="0"/>
+        <FIELD061 type="BCD"    length="LLLVAR" align="LEFT"    fill ="0"/>
+
+        <!--        ASCII want for Other Transaction Feature-->
+        <!--        <FIELD062 type="ASCII"  length="LLLVAR" align="LEFT"    fill =" "/>-->
+        <!--        BINARY want for LogOn Feature-->
+        <FIELD062 type="BINARY"  length="LLLVAR" align="LEFT"    fill =" "/>
+
+        <FIELD063 type="ASCII"  length="LLLVAR" align="LEFT"    fill =" "/>
+        <FIELD064 type="BINARY" length="8"      align="LEFT"    fill ="0"/>
+    </FIELD_SETTING>
+</root>

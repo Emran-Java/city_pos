@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvSchemeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/core_report_details_root_padding"
+        android:textColor="@color/base_colorPrimary"
+        android:text="SCHEME:"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/trSale"
+            android:layout_marginBottom="0dp"
+            >
+
+            <TextView
+                android:id="@+id/tvTranTypeSale"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="Sale" />
+
+            <TextView
+                android:id="@+id/tvSaleCount"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="0"/>
+
+            <TextView
+                android:id="@+id/tvSaleAmount"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="TK 0.00" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/trVoid"
+            android:layout_marginBottom="0dp">
+
+            <TextView
+                android:id="@+id/tvTranTypeVoid"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="Void" />
+
+            <TextView
+                android:id="@+id/tvVoidCount"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:gravity="center"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/tvVoidAmount"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="-TK 0.00" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/trPreAuthCmplt"
+            android:layout_marginBottom="0dp"
+            >
+
+            <TextView
+                android:id="@+id/tvTranTypePreAuthCmplt"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="SALE COMPL" />
+
+            <TextView
+                android:id="@+id/tvPreAuthCmpltCount"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="0"/>
+
+            <TextView
+                android:id="@+id/tvPreAuthCmpltAmount"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="TK 0.00" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/trPreAuthVoidCmplt"
+            android:layout_marginBottom="0dp"
+            >
+
+            <TextView
+                android:id="@+id/tvTranTypePreAuthVoidCmplt"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="VOID SALE COMPL" />
+
+            <TextView
+                android:id="@+id/tvPreAuthVoidCmpltCount"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="0"/>
+
+            <TextView
+                android:id="@+id/tvPreAuthVoidCmpltAmount"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="TK 0.00" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/trTipAdjust"
+            android:layout_marginBottom="0dp"
+            >
+
+            <TextView
+                android:id="@+id/tvTranTypeTipAdjust"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="TIP ADJUST" />
+
+            <TextView
+                android:id="@+id/tvTipAdjustCount"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="0"/>
+
+            <TextView
+                android:id="@+id/tvTipAdjustAmount"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="TK 0.00" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/trVoidTip"
+            android:layout_marginBottom="0dp"
+            >
+
+            <TextView
+                android:id="@+id/tvTranTypeVoidTipAdjust"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="VOID TIP ADJUST" />
+
+            <TextView
+                android:id="@+id/tvVoidTipAdjustCount"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="0"/>
+
+            <TextView
+                android:id="@+id/tvVoidTipAdjustAmount"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="TK 0.00" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/trTotal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="TOTAL"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTotalCount"
+                style="@style/RepotCardDetailsTextAppearance"
+                android:text="0"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTotalAmount"
+                style="@style/RepotCardDetailsTextAppearance"
+
+                android:text="TK 0.00"
+                android:textStyle="bold" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

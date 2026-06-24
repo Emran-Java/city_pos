@@ -1,0 +1,76 @@
+{
+  "preAuthMenu": [
+    {
+      "title": "PRE-AUTH",
+      "id": 1,
+      "position": 1,
+      "code": "PRE_AUTH",
+      "icon": "ic_pre_auth",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Process-Pre-Auth",
+      "childData": []
+    },
+    {
+      "title": "SALE-COMPLETE",
+      "id": 2,
+      "position": 2,
+      "code": "SALE_COMP",
+      "icon": "ic_app_sale_complete",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Process-Sale-Complete",
+      "childData": []
+    },
+    {
+      "title": "OFFLINE SALE",
+      "id": 3,
+      "position": 3,
+      "code": "OFFLINE_SALE",
+      "icon": "ic_app_offline",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Process-Offline-Sale",
+      "childData": []
+    },
+    {
+      "title": "PRE-AUTH VOID",
+      "id": 4,
+      "position": 4,
+      "code": "PRE_AUTH_VOID",
+      "icon": "ic_app_void",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Process-Void",
+      "childData": []
+    },
+    {
+      "title": "PRE-AUTH REPORT",
+      "id": 5,
+      "position": 5,
+      "code": "PRE_AUTH_RPT",
+      "icon": "ic_report",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Print-Report-Details",
+      "childData": []
+    },
+    {
+      "title": "PRE-AUTH VOID REPORT",
+      "id": 6,
+      "position": 6,
+      "code": "PRE_AUTH_VOID_RPT",
+      "icon": "ic_app_report",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Print-Report-Details",
+      "childData": []
+    }
+  ]
+}

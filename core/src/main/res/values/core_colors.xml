@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utF-8"?>
+<resources>
+    <!--PIN-->
+    <color name="core_pin_shadow">#FF102838</color>
+    <color name="core_card_amount_color">#FFFF0000</color>
+
+    <color name="core_settle_item_gray">#F4F5F9</color>
+    <color name="core_settle_item_head">#F0F0F0</color>
+
+    <color name="core_signature_clear">#FF1E88E5</color>
+    <color name="core_signature_ok">#ff1adea8</color>
+
+    <color name="core_manual">#fff3f3f5</color>
+
+    <color name="core_cash_amount_select">#84B740</color>
+    <color name="core_cash_amount_unselect">#ffc2ea8d</color>
+    <color name="core_purchase_amount_select">@color/base_colorPrimary</color>
+    <color name="core_purchase_amount_unselect">#9ACCFA</color>
+
+    <color name="core_divider">#CCAFAFAF</color>
+
+    <color name="txtColor">#40474F</color>
+    <color name="btnColorTxt">#FFFFFF</color>
+    <color name="colorPinKeyDivider">#A0A0A0</color>
+
+
+    <!--  simpleButton  -->
+    <color name="colorBtnSimpleEnd">#F5F5F5</color>
+    <color name="colorBtnSimpleCenter">#F5F5F5</color>
+    <color name="colorBtnSimpleStart">#F5F5F5</color>
+    <color name="colorBtnSimpleStroke">#F5F5F5</color>
+
+
+    <!--  blueButton  -->
+    <color name="colorBtnBlueEnd">#0659C8</color>
+    <color name="colorBtnBlueCenter">#0659C8</color>
+    <color name="colorBtnBlueStart">#0699F1</color>
+    <color name="colorBtnBlueStroke">#2d80A5</color>
+
+
+    <!--  redButton  -->
+    <color name="colorBtnRedEnd">#EF3838</color>
+    <color name="colorBtnRedCenter">#C83838</color>
+    <color name="colorBtnRedStart">#B83838</color>
+    <color name="colorBtnRedStroke">#DF3838</color>
+
+    <!--  greenButton  -->
+    <color name="colorBtnGreenEnd">#43C487</color>
+    <color name="colorBtnGreenCenter">#2EA36B</color>
+    <color name="colorBtnGreenStart">#288F5E</color>
+    <color name="colorBtnGreenStroke">#43C487</color>
+
+    <!--  yellowButton  -->
+    <color name="colorBtnYellowEnd">#E2D338</color>
+    <color name="colorBtnYellowCenter">#E4C737</color>
+    <color name="colorBtnYellowStart">#E2B32F</color>
+    <!--    <color name="colorBtnYellowEnd">#F5D740</color>-->
+    <!--    <color name="colorBtnYellowCenter">#EAC400</color>-->
+    <!--    <color name="colorBtnYellowStart">#E5AB00</color>-->
+    <color name="colorBtnYellowStroke">#FFAB00</color>
+
+    <color name="colorBgBracNumberKeyboard">@color/colorPinKeyDivider</color>
+
+</resources>

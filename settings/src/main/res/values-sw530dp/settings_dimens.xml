@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--X800 resource-->
+<resources>
+    <!--item height-->
+    <dimen name="settings_menu_item_size">@dimen/dp50</dimen>
+    <dimen name="settings_menu_corner_radius">@dimen/dp25</dimen>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--P300 resource-->
+<resources>
+    <dimen name="core_amount_text_size">@dimen/sp80</dimen>
+
+    <dimen name="core_receipt_height">@dimen/dp360</dimen>
+    <dimen name="core_receipt_image_padding">@dimen/dp24</dimen>
+    <dimen name="core_remove_card_warn_size">@dimen/dp128</dimen>
+
+    <dimen name="core_card_height">@dimen/dp385</dimen>
+    <dimen name="core_card_width">@dimen/dp330</dimen>
+    <dimen name="core_card_entry_name_margin_bottom">@dimen/dp80</dimen>
+    <dimen name="core_card_content_margin_bottom">@dimen/dp10</dimen>
+
+    <dimen name="core_card_reading_dialog_size">@dimen/dp180</dimen>
+
+    <dimen name="core_input_info_edit_top_margin">@dimen/dp80</dimen>
+    <dimen name="core_input_info_next_button_top_margin">@dimen/dp24</dimen>
+    <dimen name="core_card_empty_image_top_margin">@dimen/dp100</dimen>
+
+    <dimen name="core_record_item_height">@dimen/dp82</dimen>
+    <dimen name="core_record_item_margin_top">@dimen/dp16</dimen>
+</resources>

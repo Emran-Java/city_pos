@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/base_gradient_background"
+    android:orientation="vertical">
+
+    <acquire.base.widget.PrimaryToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp8"
+        android:layout_marginHorizontal="@dimen/dp8"
+        android:background="@drawable/core_pin_card"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_card_scheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp20"
+            android:layout_marginTop="@dimen/dp10"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/base_tertiaryTextSize" />
+
+        <TextView
+            android:id="@+id/tv_pan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp3"
+            android:shadowColor="@color/core_pin_shadow"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/core_pin_box"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp18" />
+
+        <TextView
+            android:id="@+id/tv_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp8"
+            android:textColor="@color/base_secondaryText"
+            android:textSize="@dimen/base_secondaryTextSize" />
+
+        <TextView
+            android:id="@+id/tv_pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp4" />
+
+        <View
+            android:layout_width="@dimen/dp197"
+            android:layout_height="@dimen/dp1"
+            android:background="@android:color/black" />
+    </LinearLayout>
+
+    <include layout="@layout/gl_pin_input"/>
+<!--
+
+    <GridLayout
+        android:id="@+id/gl_pin_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_keyboard_height"
+        android:background="@color/base_underBackground"
+        android:columnCount="4"
+        android:padding="@dimen/base_keyboard_padding"
+        android:paddingTop="@dimen/base_keyboard_padding"
+        android:rowCount="4">
+
+
+        &lt;!&ndash;===============Row 1===================&ndash;&gt;
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/key1"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/base_keyboard_key_1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/key2"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/base_keyboard_key_2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/key3"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/base_keyboard_key_3" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/keyCancel"
+            style="@style/KeyboardRedButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/base_cancel" />
+
+        &lt;!&ndash;===============Row 2===================&ndash;&gt;
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/key4"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/base_keyboard_key_4" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/key5"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/base_keyboard_key_5" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/key6"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/base_keyboard_key_6" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/keyBack"
+            style="@style/KeyboardYellowButton"
+            android:text="Delete"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:icon="@drawable/base_keyboard_backspace" />
+
+        &lt;!&ndash;===============Row 3===================&ndash;&gt;
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/key7"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/base_keyboard_key_7" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/key8"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/base_keyboard_key_8" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/key9"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/base_keyboard_key_9" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/keyEnter"
+            style="@style/KeyboardBlueButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowSpan="2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/base_ok" />
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.Material3.CardView.Filled"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/base_keyboard_button_space"
+            app:cardBackgroundColor="@color/base_background"
+            app:cardCornerRadius="@dimen/base_keyboard_button_corner" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/key0"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/base_keyboard_key_0" />
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.Material3.CardView.Filled"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/base_keyboard_button_space"
+            app:cardBackgroundColor="@color/base_background"
+            app:cardCornerRadius="@dimen/base_keyboard_button_corner" />
+    </GridLayout>
+-->
+
+</LinearLayout>

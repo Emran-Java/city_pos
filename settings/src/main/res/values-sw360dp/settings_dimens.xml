@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--N950/N950S/N910/N910Pro/N750/S6 Pro resource-->
+<resources>
+    <!--item height-->
+    <dimen name="settings_menu_item_size">@dimen/dp56</dimen>
+    <dimen name="settings_menu_corner_radius">@dimen/dp28</dimen>
+</resources>

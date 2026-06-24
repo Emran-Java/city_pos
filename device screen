@@ -1,0 +1,24 @@
+sw265dp-land:  N560K
+
+sw320dp-mdpi :	U200
+sw320dp-hdpi:  N950K
+sw360dp-xhdpi:	N950, U2000,N750,S90, N910Pro, N950S, N910, N960K,
+sw360dp-land-xhdpi:	P300
+
+sw480dp-mdpi :	S30
+
+sw530dp-hdpi :	X800 (Main screen)
+sw540dp-land :	X800 (Secondary screen)
+
+sw720dp-land :	CPOS X5, 	CPOS X3
+
+
+800x1208 :	X800 (Main screen)
+land-800x480 :	X800 (Secondary screen)
+480x1782 :	N950K
+320x432 :	U200
+720x1504 :	S90
+1196x720 :	P300
+1920x1008 :	CPOS X5, 	CPOS X3
+720x1280 :	N960K U2000 N950S
+480x480 : S30

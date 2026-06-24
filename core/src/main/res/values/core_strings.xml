@@ -1,0 +1,497 @@
+<resources>
+
+    <string name="core_transaction_result_success">Transaction Success</string>
+    <string name="core_transaction_result_fail">Transaction Failed</string>
+    <string name="core_transaction_result_user_cancel">User Cancelled</string>
+    <string name="core_transaction_result_external_nsdk_error">Please init external modules first!</string>
+    <string name="core_transaction_result_nsdk_error">NSDK not initialized!</string>
+    <string name="core_transaction_result_no_such_trans">No such transaction!</string>
+
+    <string name="core_third_result_invoke_repeatedly">Repeatedly invoke transaction</string>
+    <string name="core_parse_8583_configuration_failed">Failed to parse ISO8583 configuration xml.</string>
+
+    <!--NSDK-->
+    <string name="core_sdk_init_failed">NSDK init failed!</string>
+    <string name="core_device_ext_pinpad_init_failed">Init external PIN pad failed!</string>
+    <string name="core_device_load_emv_configurations">Failed to load EMV configurations!</string>
+    <string name="core_device_fly_parameter_init_failed">Please install TOMS!</string>
+
+    <string name="core_add_record_fail">Failed to append record!</string>
+
+    <!--Response Code-->
+    <string name="core_answer_code_unknow">Unknow Response Code</string>
+    <string name="core_answer_code_prompt_format">Response Code: %1$s\n%2$s</string>
+
+    <!--Transaction Name-->
+    <string name="core_transaction_name_sale">Sale</string>
+    <string name="core_transaction_name_refund">Refund</string>
+    <string name="core_transaction_name_void_sale">Void</string>
+    <string name="core_transaction_name_reports_print">Reports Print</string>
+    <string name="core_transaction_name_balance">Query Balance</string>
+    <string name="core_transaction_name_pre_auth">Pre-Auth</string>
+    <string name="core_transaction_name_auth_complete">Sale-Complete</string>
+    <string name="core_transaction_name_void_pre_auth">Void Pre-Auth</string>
+    <string name="core_transaction_name_void_auth_complete">Void Complete</string>
+    <string name="core_transaction_name_settle">Settlement</string>
+    <string name="core_transaction_name_tip_adjust">TIP Adjust</string>
+    <string name="core_transaction_name_void_tip_adjust">Void (TA)</string>
+    <string name="core_transaction_name_test_txn">Test Txn</string>
+    <string name="core_transaction_name_log_on">Log On</string>
+    <string name="core_transaction_name_settings">Settings</string>
+    <string name="core_transaction_name_about">App Version</string>
+    <string name="core_transaction_name_scan_pay">Scan Pay</string>
+    <string name="core_transaction_name_qr_code">Qr Code</string>
+    <string name="core_transaction_name_qr_refund">Qr Refund</string>
+    <string name="core_transaction_name_reprint_last_receipt">Reprint Last Receipt</string>
+    <string name="core_transaction_name_reprint_receipt">Reprint Receipt</string>
+    <string name="core_transaction_name_reprint_settle">Reprint Settle</string>
+    <string name="core_transaction_name_print_detail">Print Detail</string>
+    <string name="core_transaction_name_installment">Payflex Sale+</string>
+    <string name="core_transaction_name_void_installment">Void Installment</string>
+    <string name="core_transaction_name_reversal">Reversal</string>
+    <string name="core_transaction_name_login">Login</string>
+    <string name="core_transaction_name_cash_back">Cash Back</string>
+    <string name="core_transaction_name_cash_advance">Cash Advance</string>
+    <string name="core_transaction_name_hce_sale">HCE Sale</string>
+    <string name="core_transaction_name_help_center">Help Center</string>
+    <!-- Authorization Password -->
+    <string name="core_password_input_admin_password">Enter admin password</string>
+    <string name="core_password_input_security_password">Enter security password</string>
+    <string name="core_password_input_system_admin_password">Enter system admin password</string>
+    <string name="core_password_incorrect">Incorrect password</string>
+    <string name="contact_information">
+        <u>CONTACT INFORMATION</u>
+    </string>
+
+    <!--Input Amount-->
+    <string name="core_amount_confirm_format">Amount: %1$s</string>
+    <string name="core_amount_hint">Purchase Amount</string>
+    <string name="core_cash_amount_hint">Cash Amount</string>
+
+    <string name="core_amount_max_refund_error">Exceeding the maximum allowable refund amount </string>
+
+    <!--Tip-->
+    <string name="core_tip_amount_title">Tip Amount:</string>
+    <string name="core_tip_amount_default">0.00</string>
+    <string name="core_tip_percent_15">15%</string>
+    <string name="core_tip_percent_25">25%</string>
+    <string name="core_tip_percent_30">30%</string>
+    <string name="core_tip_percent_40">40%</string>
+    <string name="core_tip_amount_limit_error">Tip cannot exceed the bill amount</string>
+    <string name="core_tip_ori_amount_format">(%1$s%2$s)</string>
+
+    <!--Input refund information-->
+    <string name="core_refund_orig_refnum">Orig. Ref.</string>
+
+    <!--Input auth code-->
+    <string name="core_auth_code_title">Auth Code</string>
+
+    <!--Input original date-->
+    <string name="core_orig_date_title">Original Date</string>
+
+    <!--Read Card-->
+    <string name="core_card_amount_title">Total amount</string>
+    <string name="core_card_manual">Manual</string>
+    <string name="core_card_mag">Swipe</string>
+    <string name="core_card_tap">Tap</string>
+    <string name="core_card_insert">Insert</string>
+    <string name="core_card_reading_hint">Reading card,not move</string>
+    <string name="core_card_cancel_dialog_message">Cancel card?</string>
+    <string name="core_card_cancel">Cancel card</string>
+    <string name="core_card_fallback_to_mag_prompt">IC fallback, please swipe card</string>
+    <string name="core_card_fallback_tp_insert_mag_prompt">IC fallback, please insert or swipe card</string>
+    <string name="core_card_icc_prompt">It is an IC card, please insert card.</string>
+    <string name="core_card_try_again">Please Try again.</string>
+    <string name="core_card_try_another_entry">Try another entry mode.</string>
+    <string name="core_card_see_phone">See Phone for Instruction</string>
+    <string name="core_card_null">Card number is null！</string>
+    <string name="core_card_unsupport_any_mode">No supported card entry mode</string>
+    <string name="core_card_second_gac_failed">Secondary gac failed</string>
+    <string name="core_card_swipe_again">Swipe failed.Please try again.</string>
+    <string name="core_card_emv_fail">Read Card Failed</string>
+    <string name="core_card_manual_entry">Entry Manually</string>
+    <string name="core_card_manual_number">Bank Card Number</string>
+    <string name="core_card_manual_expdate">Validity(Month/Year)</string>
+    <string name="core_card_manual_card_number_too_short_format">The bank card number must be longer than %1$d</string>
+    <string name="core_card_manual_expdate_incorrect">The expiry date you entered is incorrect.</string>
+    <string name="core_card_on_external_pinpad">Use card on the External Pinpad.</string>
+    <!--Input Pin-->
+    <string name="core_pin_cancel">Cancel input PIN</string>
+    <string name="core_pin_random_error">Failed to set random PIN pad</string>
+    <string name="core_pin_input_password">Enter online PIN</string>
+    <string name="core_pin_input_offline_password">Enter offline PIN</string>
+    <string name="core_pin_input_extern_password">Enter online PIN on the external PIN pad</string>
+    <string name="core_pin_input_extern_offline_password">Enter offline PIN on the external PIN pad</string>
+    <string name="core_pin_error_format">Input PIN error:%1$d %2$s</string>
+    <string name="core_pin_args_error">Input PIN Arguments Error</string>
+    <string name="core_pin_accessibility_mode">Accessibility Mode</string>
+    <string name="core_pin_timeout">PIN pad timeout</string>
+
+    <!--Emv Process-->
+    <string name="core_emv_fetch_pan_fail">Failed to get card number!</string>
+    <string name="core_emv_fetch_field55_fail">Failed to get card field55!</string>
+    <string name="core_emv_aids_dialog_title">Select Aid</string>
+
+    <!--Communication-->
+    <string name="core_comm_pack_error">Packing error:</string>
+    <string name="core_comm_pack_fail">Failed to pack data!</string>
+    <string name="core_comm_cancel">Cancel communication?</string>
+    <string name="core_comm_connecting">Connecting to network&#8230;</string>
+    <string name="core_comm_recving">Connected to the server\nProcessing…\nReceiving&#8230;</string>
+    <string name="core_comm_connect_fail">Failed to connect to the server!</string>
+    <string name="core_comm_send_fail">Failed to send data to the server!</string>
+    <string name="core_comm_recv_fail">Failed to receive data from the server!</string>
+    <string name="core_comm_pack_iso8583_empty">ISO8583 request data is empty!</string>
+    <string name="core_comm_mac_src_error">Mac src data error!</string>
+    <string name="core_comm_add_mac_error">Failed to add mac, please install the key!</string>
+    <string name="core_comm_pack_tpdu_error">Failed to pack TPDU!</string>
+    <string name="core_comm_pack_bitmap_error">Failed to pack Bitmap!</string>
+    <string name="core_comm_unpack_length_error">Response length error!</string>
+    <string name="core_comm_unpack_tpdu_error">Response tpdu error!</string>
+    <string name="core_comm_unpack_response_format_error">Wrong Response format</string>
+    <string name="core_comm_add_reversal_error">Failed to append reversal data!</string>
+    <string name="core_comm_success">Communication success!</string>
+    <!-- Response -->
+    <string name="core_response_field_fail_mac_error">Response mac error</string>
+    <string name="core_response_field_fail_msg_type_error">Response message type error</string>
+    <string name="core_response_field_fail_process_code_error">Response process code error</string>
+    <string name="core_response_field_fail_amount_error">Response amount error</string>
+    <string name="core_response_field_fail_trace_no_error">Response trace error</string>
+    <string name="core_response_field_fail_sevice_code_error">Response service code error</string>
+    <string name="core_response_field_fail_no_acq_center_code_error">Acquire code is null</string>
+    <string name="core_response_field_fail_no_refnum_error">Ref No is null</string>
+    <string name="core_response_field_fail_posid_error">Response TID error</string>
+    <string name="core_response_field_fail_shopid_error">Response MID error</string>
+    <string name="core_response_field_fail_currency_error">Response currency code error</string>
+
+    <!--Scan-->
+    <string name="core_scan_manual_entry">Manual Entry</string>
+    <string name="core_scan_cancel">Cancel scan</string>
+    <string name="core_scan_timeout">Scan timeout </string>
+    <string name="core_scan_external_prompt">Scan the code as shown in the figure.</string>
+    <string name="core_scan_manual_hint">Enter QR code manually</string>
+    <string name="core_scan_no_camera">No cameras available</string>
+    <string name="core_scan_camera_configure_error">Configured camera failed</string>
+    <string name="core_scan_prompt">Scan QR code/Barcode</string>
+    <string name="core_scan_ing">Scanning&#8230;</string>
+    <string name="core_scan_hard_scanner_not_exost">Hard scanner does not exist</string>
+    <string name="core_scan_unsupport_type">Unsupport scan type</string>
+
+    <!--QR Code-->
+    <string name="core_qrcode_request_ing">QR code generating&#8230;</string>
+    <string name="core_qrcode_please_scan">Scan to pay</string>
+    <string name="core_qrcode_create_fail">Failed to generate QR code!</string>
+    <string name="core_qrcode_net_error_please_retry">Network error,click this to try again</string>
+    <string name="core_qrcode_net_error">Network error</string>
+    <string name="core_qrcode_retry">Retry</string>
+    <string name="core_qrcode_query_net_error_dialog_title">Network error</string>
+    <string name="core_qrcode_query_net_error_dialog_message">Continue trading?</string>
+    <string name="core_qrcode_query_net_error_dialog_cancel">Cancel</string>
+    <string name="core_qrcode_query_net_error_dialog_confirm">Continue</string>
+
+    <!--Login-->
+    <string name="core_login_user_hint">User number</string>
+    <string name="core_login_password_hint">Password</string>
+    <string name="core_login_user_empty">Please enter user</string>
+    <string name="core_login_success">Login success</string>
+    <string name="core_login_incorrect_password">Incorrect password</string>
+    <string name="core_login_load_pin_key_failed">Load PIN key failed</string>
+    <string name="core_login_load_mac_key_failed">Load MAC key failed</string>
+
+    <!--Result Bill-->
+    <string name="core_result_success_prompt">Success</string>
+    <string name="core_result_bill_item_amount">AMOUNT</string>
+    <string name="core_result_bill_item_mid">MID</string>
+    <string name="core_result_bill_item_tid">TID</string>
+    <string name="core_result_bill_item_qr_orde">QR ORDER</string>
+    <string name="core_result_bill_item_card_num">CARD NO</string>
+    <string name="core_result_bill_item_trace_no">TRACE NO</string>
+    <string name="core_result_bill_item_auth_code">AUTH NO</string>
+    <string name="core_result_bill_item_reference_no">REF NO</string>
+    <string name="core_result_bill_item_time">DATE/TIME</string>
+
+    <!--Check in the end of transaction-->
+    <string name="core_remove_card">Please Remove Card</string>
+
+    <!--Print-->
+    <string name="core_print_progress_detail">Printing Detail&#8230;</string>
+    <string name="core_print_progress_settlement">Printing Settlement&#8230;</string>
+    <string name="core_print_about_info">Printing About Info&#8230;</string>
+    <string name="core_print_progress_merchant_copy">Printing Merchant Copy&#8230;</string>
+    <string name="core_print_progress_customer_copy">Printing Customer Copy&#8230;</string>
+    <string name="core_print_progress_bank_copy">Printing Bank Copy&#8230;</string>
+
+    <string name="core_print_success">Print Success</string>
+    <string name="core_print_generate_data_failed">Failed to generate print data </string>
+    <string name="core_print_unsupport">Unsupport print</string>
+    <string name="core_print_no_such_data">No data to be printed</string>
+    <string name="core_print_error_prompt">Out of paper</string>
+    <string name="core_print_dialog_title_merchant">Do you want to print\n merchant copy?</string>
+    <string name="core_print_dialog_title_customer">Do you want to print\n customer copy?</string>
+    <string name="core_print_dialog_title_bank">Do you want to print\n bank copy?</string>
+    <string name="core_print_dialog_button_reprint">Reprint</string>
+    <string name="core_print_encrypt_mode_sm4">SM4</string>
+    <string name="core_print_encrypt_mode_single">DES</string>
+    <string name="core_print_encrypt_mode_double">DES3</string>
+    <string name="core_print_failed_to_fetch_print_data">Failed to generate receipt data!</string>
+    <string name="core_print_load_paper">Please load paper</string>
+    <!--ESC Print-->
+    <string name="core_esc_init_usb_failed">Please config USB on Settings</string>
+    <string name="core_esc_open_usb_failed">Open USB failed</string>
+    <string name="core_esc_send_usb_failed">Send data to USB failed</string>
+    <string name="core_esc_open_serial_port_failed">Open serial port failed</string>
+    <string name="core_esc_send_serial_port_failed">Send data to serial port failed</string>
+    <string name="core_esc_open_dock_usb1_failed">Open dock USB1 failed</string>
+    <string name="core_esc_send_dock_usb1_failed">Send data to dock USB1 failed</string>
+    <string name="core_esc_open_dock_usb2_failed">Open dock USB2 failed</string>
+    <string name="core_esc_send_dock_usb2_failed">Send data to dock USB2 failed</string>
+    <string name="core_esc_open_dock_serial_port_failed">Open dock serial port failed</string>
+    <string name="core_esc_send_dock_serial_port_failed">Send data to dock serial port failed</string>
+    <string name="core_esc_send_bluetooth_failed">Send data to bluetooth device failed</string>
+    <string name="core_esc_wrong_type">Wrong printer type</string>
+    <!--receipt-->
+    <string name="core_receipt_merchant_id_title">MID: </string>
+    <string name="core_receipt_terminal_id_title">TID: </string>
+    <string name="core_receipt_date_time_title">DATE/TIME: </string>
+    <string name="core_receipt_date_title">DATE</string>
+    <string name="core_receipt_time_title">TIME</string>
+    <string name="core_receipt_card_exp">EXP: </string>
+    <string name="core_receipt_card_exp_MASK">XX/XX: </string>
+    <string name="core_receipt_tran_rrn_title">RRN: </string>
+
+    <string name="core_receipt_batch_title">BATCH NO: </string>
+    <string name="core_receipt_trace_title">STAN: </string>
+    <string name="core_receipt_refnum_title">REF NO: </string>
+    <string name="core_receipt_authcode_title">AUTH NO: </string>
+    <string name="core_receipt_total_amount">TOTAL AMOUNT: </string>
+    <string name="core_receipt_amount">AMOUNT&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;TK: </string>
+    <string name="core_receipt_total_tk_amount">TOTAL AMT&#160;&#160;&#160;&#160;&#160;&#160;TK: </string>
+    <string name="core_receipt_card_report_title">TXN TYPE&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;COUNT&#160;</string>
+    <string name="core_receipt_tip_amount">TIP AMOUNT: </string>
+    <string name="core_receipt_cash_amount">CASH AMOUNT: </string>
+    <string name="core_receipt_purchase_amount">PURCHASE AMOUNT: </string>
+    <string name="core_receipt_base_amount">BASE AMOUNT: </string>
+    <string name="core_receipt_local_currency_amount_format">AMOUNT in %1$s:</string>
+    <string name="core_receipt_conversion_rate">CONVERSION RATE:</string>
+    <string name="core_receipt_mark_up_rate">MARK-UP RATE:</string>
+    <string name="core_receipt_orig_trace_title">ORIG.TRACE NO:</string>
+    <string name="core_receipt_orig_authcode_title">AUTH NO:</string>
+    <string name="core_receipt_no_signature">NO SIGNATURE REQUIRED</string>
+    <string name="core_receipt_signature_line">Sign:_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ </string>
+    <string name="core_receipt_emv_app_title">APP: </string>
+    <string name="core_receipt_emv_aid_title">AID: </string>
+    <string name="core_receipt_emv_tvr_title">TVR: </string>
+    <string name="core_receipt_emv_tsi_title">TSI: </string>
+    <string name="core_receipt_reprint_flag">REPRINT</string>
+    <string name="core_receipt_merchant_copy">*** MERCHANT COPY ***</string>
+    <string name="core_receipt_bank_copy">*** BANK COPY ***</string>
+    <string name="core_receipt_customer_copy">*** CUSTOMER COPY ***</string>
+
+    <string name="core_receipt_merchant_type">TYPE:</string>
+    <string name="core_receipt_merchant_title">MERCHANT:</string>
+    <string name="core_receipt_settle_balance_title">BALANCE</string>
+    <string name="core_receipt_settle_unbalance_title">UNBALANCE</string>
+    <string name="core_receipt_settle_flag">SETTLEMENT</string>
+    <string name="core_receipt_transaction_column">TRANS</string>
+    <string name="core_receipt_count_column">COUNT</string>
+    <string name="core_receipt_amount_column">AMOUNT</string>
+    <string name="core_receipt_total">TOTAL</string>
+    <string name="core_receipt_detail">TXN LIST</string>
+    <string name="core_receipt_card_column">CARD</string>
+    <string name="core_receipt_trace_column">TRACE NO</string>
+    <!--Pre Check Before Transaction-->
+    <string name="core_check_unsupport_trans_format">Unsupported transaction:%1$s</string>
+    <string name="core_check_record_max_limit_fail">Record full,settle first.</string>
+    <string name="core_check_settle_status_fail">The last settlement not completed,please settle.</string>
+    <string name="core_check_admin_pwd_fail">Admin password error.</string>
+    <string name="core_check_admin_pwd_cancel">Cancel admin password.</string>
+    <string name="core_check_admin_pwd_timeout">Admin password timeout.</string>
+    <string name="core_check_low_rom_size">Insufficient storage space, please settle.</string>
+    <!--Reversal-->
+    <string name="core_reversal_success">Reversal success</string>
+    <string name="core_reversal_fail">Reversal failed</string>
+    <string name="core_reversal_pack_fail">Failed to pack reversal data!</string>
+    <string name="core_reversal_sending">Reversal&#8230;</string>
+    <string name="core_reversal_finish">Reversal completion</string>
+    <string name="core_reversal_not_exist">No reversal data</string>
+
+    <!--Balance-->
+    <string name="core_balance_display_prefix">Balance: </string>
+
+    <!--Void Sale-->
+    <string name="core_voidsale_orig_record_pan_no_match">Card num not match the Orig. record</string>
+
+    <!--Settle-->
+    <string name="core_settle_no_record_to_settled">No data to be settled </string>
+    <string name="core_settle_cancel">Cancel settlement</string>
+    <string name="core_settle_success">Settle success</string>
+    <string name="core_settle_continue_last_halt">Continue last settlement?</string>
+    <string name="core_settle_button_settle">Settle</string>
+    <string name="core_settle_head_type">Type</string>
+    <string name="core_settle_head_number">Count</string>
+    <string name="core_settle_head_amount">Amount</string>
+    <string name="core_settle_total_sale">Sale</string>
+    <string name="core_settle_total_refund">Refund</string>
+    <string name="core_settle_no_record">No settled data</string>
+    <string name="core_settle_no_selected">Please select</string>
+    <string name="core_settle_merchant_dialog_title">Select Merchant</string>
+    <string name="core_settle_merchant_dialog_check_all">All Merchant</string>
+    <string name="core_settle_total">Total</string>
+    <string name="core_settle_check_all">All</string>
+    <!--Batch Up-->
+    <string name="core_batch_uploading_fomat">Batch uploading&#8230;%1$d</string>
+    <string name="core_batch_upload_pack_error">Failed to batch upload!</string>
+    <string name="core_batch_upload_failed">Failed to upload records!</string>
+    <string name="core_batch_upload_success">Upload success</string>
+
+    <!--Input Information-->
+    <string name="core_input_info_length_min_limit">The input length cannot be less than </string>
+    <string name="core_input_info_require_not_null">Cannot be null</string>
+
+    <!--Record-->
+    <string name="core_record_no_records_found">No records found</string>
+    <string name="core_record_select_date_range">Select date range</string>
+    <string name="core_record_search">Search</string>
+    <string name="core_record_search_edit_hint">Input original trace</string>
+    <string name="core_record_void">void</string>
+
+    <!--Record Details-->
+    <string name="core_record_detail_name_pan">CARD NO</string>
+    <string name="core_record_detail_amount">AMOUNT</string>
+    <string name="core_record_detail_name_scheme">CARD SCHEME</string>
+    <string name="core_record_detail_name_trace">INVOICE NO</string>
+    <string name="core_record_detail_name_batch">BATCH NO</string>
+    <string name="core_record_detail_name_refnum">REF NO</string>
+    <string name="core_record_detail_name_authcode">APPR.CODE</string>
+    <string name="core_record_detail_name_time">DATE/TIME</string>
+    <string name="core_record_detail_tran_date_name_time">TRANSACTION DATE</string>
+    <string name="core_record_detail_tran_type">TRANSACTION TYPE</string>
+    <string name="core_record_detail_name_date">DATE</string>
+    <string name="core_record_detail_name_time2">TIME</string>
+    <string name="core_record_detail_print_button">Print</string>
+    <string name="core_record_detail_reprint">Reprint</string>
+
+    <!--Installment pay-->
+    <string name="core_installment_input_hint">Input installment count</string>
+    <string name="core_installment_count_not_0">Installment count can not be 0 </string>
+
+    <!--Version fragment-->
+    <string name="core_about_app_name">App Name</string>
+    <string name="core_about_app_version">App Version</string>
+    <string name="core_about_nsdk_version">NSDK Version</string>
+    <string name="core_about_emv_version">EMV Version</string>
+    <string name="core_about_serial_number">Seria Number</string>
+    <string name="core_about_firmware_version">Firmware Version</string>
+    <string name="core_about_sip_operator">SIM Operator</string>
+    <string name="core_about_ccid">CCID</string>
+    <string name="core_get_about_phone">Phone No</string>
+    <string name="core_about_external_emv_version">External EMV Version</string>
+    <string name="core_about_external_device_version">External PIN Pad Version</string>
+    <string name="core_about_external_device_baudrate">External PIN Pad Baud</string>
+    <string name="core_about_app_creation_time">Release Time</string>
+    <string name="core_about_external_scanner">External Scanner</string>
+    <string name="core_about_external_printer">External Printer</string>
+    <string name="core_about_model">Terminal Model</string>
+    <!--Fly Parameter-->
+    <string name="core_fly_parameter_dialog_updating_title">Update params from Fly Parameter?</string>
+    <string name="core_fly_parameter_updating">Downloading params&#8230;</string>
+    <string name="core_fly_parameter_unzip_failed">unzip file failed!</string>
+    <string name="core_fly_parameter_parse_emv_failed_format">Parsed EMV file [%1$s] failed</string>
+    <string name="core_fly_parameter_update_success">Updated params success</string>
+
+    <!--Fly Receipt-->
+    <string name="core_fly_receipt_communicate_prompt">Connected to the Fly Receipt service\nProcessing…\nReceiving&#8230;</string>
+    <string name="core_fly_receipt_communicate_error">Fly Receipt failed:%1$s</string>
+    <string name="core_fly_receipt_success">Fly Receipt success</string>
+
+    <!--signature-->
+    <string name="core_sign_confirm_complete">Signature complete?</string>
+    <string name="core_sign_not_valid">Signature data is illegal. Please re-sign.</string>
+    <string name="core_sign_skip">Skip signature</string>
+    <string name="core_sign_abort_prompt">Abort your signature?</string>
+    <string name="core_sign_on_screen">Sign on screen</string>
+
+    <!--Payment Service-->
+    <string name="core_outorder_null">Out order is null</string>
+    <string name="core_trace_number_null">Trace number is null</string>
+    <string name="core_find_success">Find success</string>
+
+    <!--Bluetooth-->
+    <string name="core_bluetooth_configure_bluetooth_prompt">Please configure bluetooth in Settings</string>
+    <string name="core_bluetooth_connect_uuid_error">UUID wrong format </string>
+    <string name="core_bluetooth_connect_bond_error">bluetooth bond failed</string>
+    <string name="core_bluetooth_connect_fail">bluetooth connect failed</string>
+    <string name="core_bluetooth_connect_timeout">bluetooth connect timeout</string>
+    <string name="core_bluetooth_send_fail">bluetooth send failed</string>
+    <string name="core_bluetooth_switch_open">Bluetooth</string>
+    <string name="core_bluetooth_available_devices">Available devices</string>
+    <string name="core_bluetooth_refresh">Refresh</string>
+    <string name="core_bluetooth_status_connected">State：Connected</string>
+    <string name="core_bluetooth_status_disconnected">State：Disconnected</string>
+    <string name="core_bluetooth_activity_title">Bluetooth Settings</string>
+    <string name="core_bluetooth_connecting">Connecting&#8230;</string>
+    <string name="core_bluetooth_connected_device_content">Connected for data communication</string>
+    <string name="core_bluetooth_dialog_connect_message">Connect %1$s\naddress: %2$s</string>
+    <string name="core_bluetooth_dialog_connect_message_without_name">Connect %1$s</string>
+    <string name="core_bluetooth_dialog_button_connect">Connect</string>
+    <string name="core_bluetooth_dialog_disconnect_message">Disconnect %1$s</string>
+    <string name="core_bluetooth_dialog_button_disconnect">Disconnect</string>
+    <!--USB-->
+    <string name="core_usb_activity_title">USB Settings</string>
+    <string name="core_usb_refresh">Refresh</string>
+    <string name="core_usb_no_device">Not Found USB Device</string>
+    <string name="core_usb_ids_format">vid: 0x%1$s, pid: 0x%2$s</string>
+    <string name="core_usb_state_bound">Bound</string>
+    <string name="core_usb_bind_dialog_message_format">Bind device: %1$s?</string>
+    <string name="core_usb_unbind_dialog_message_format">Unbind device: %1$s?</string>
+    <string name="core_usb_dialog_bind">Bind</string>
+    <string name="core_usb_dialog_unbind">Unbind</string>
+    <string name="core_usb_request_permission_failed">Permission deny</string>
+    <string name="core_usb_devices">USB devices</string>
+    <!--lottie animation assets file-->
+    <string name="core_lottie_assets_folder">lottie_images</string>
+
+    <!--Presentation-->
+    <string name="core_presentation_waiting_printing">Wating for printing&#8230;</string>
+    <string name="core_presentation_waiting_server">Requesting server&#8230;</string>
+    <string name="core_presentation_waiting_card">Waiting for card entry&#8230;</string>
+    <string name="core_presentation_waiting_pin">Waiting for PIN entry&#8230;</string>
+    <string name="core_presentation_waiting_card_manual">Waiting for manual entry of card&#8230;</string>
+    <string name="core_presentation_cancel_pin">Cancel PIN?</string>
+    <string name="core_presentation_waiting_signature">Waiting for signature&#8230;</string>
+    <string name="core_presentation_waiting_qrcode">Waiting for QR code&#8230;</string>
+    <string name="core_presentation_reading">Reading&#8230;</string>
+    <string name="core_presentation_prongress">Wait a moment&#8230;</string>
+    <string name="core_presentation_waiting_user_aids">Waiting for user to select card AID&#8230;</string>
+    <string name="core_presentation_waiting_scan">Wating for scanning&#8230;</string>
+
+
+    <string name="core_connect_mode_serial_port">Serial Port</string>
+    <string name="core_connect_mode_usb">USB</string>
+    <string name="core_connect_mode_bluetooth">Bluetooth</string>
+    <string name="core_connect_mode_dock_serial_port">Serial Port (Dock)</string>
+    <string name="core_connect_mode_dock_usb1">USB1 (Dock)</string>
+    <string name="core_connect_mode_dock_usb2">USB2 (Dock)</string>
+
+
+    <string name="core_paramfile_no_exist">Configuration file not exist</string>
+    <string name="core_paramfile_parse_failed_format">parsed %1$s failed</string>
+
+    <string name="core_choose_receipt">Choose Receipt</string>
+    <string name="core_hce_read_device">Tap your phone to pay</string>
+    <string name="core_hce_tip_receipt">Tap your phone\n to get the e-receipt</string>
+    <string name="core_hce_tip_receipt_2">Tap your phone to get the e-receipt</string>
+    <string name="core_hce_timeout">Timeout</string>
+
+    <!--Receipt-->
+    <string name="core_receipt_merchant_paper">Merchant Paper</string>
+    <string name="core_receipt_customer_paper">Customer Paper</string>
+    <string name="core_receipt_fly_receipt">Fly Receipt</string>
+    <string name="core_receipt_e_npidemo">HCE Receipt(Demo)</string>
+    <string name="core_receipt_e_pixcel">Pi-xcels Receipt</string>
+
+    <!--  Number input key board  -->
+    <string name="key_pad_cancel">CANCEL</string>
+    <string name="key_pad_delete">DELETE</string>
+    <string name="key_pad_ok">OK</string>
+</resources>

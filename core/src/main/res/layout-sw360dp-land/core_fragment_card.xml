@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--P300-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_underBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp287"
+        android:background="@drawable/base_gradient_background">
+
+        <acquire.base.widget.PrimaryToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/core_card_width"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp64"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tv_amount_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/tv_amount"
+                android:layout_marginStart="@dimen/dp10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/tv_amount_tag"
+                android:textColor="@android:color/white" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/manual"
+                style="@style/Widget.Material3.Button.IconButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text="@string/core_card_manual"
+                android:textColor="@color/base_secondaryText"
+                app:backgroundTint="@color/core_card_manual_tint"
+                app:cornerRadius="@dimen/dp8"
+                app:icon="@drawable/core_manual_entry"
+                app:iconPadding="@dimen/dp4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp8"
+            android:layout_marginBottom="@dimen/dp6"
+            android:background="@drawable/base_card_background"
+            android:orientation="vertical">
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/cb_access_pin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/dp24"
+                android:button="@drawable/core_card_access_pin_switch"
+                app:buttonTint="@null"/>
+
+            <TextView
+                android:id="@+id/tv_reading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/core_card_reading_hint"
+                android:textColor="@color/base_warning"
+                android:textSize="@dimen/base_primaryTextSize"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie_animation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                app:lottie_imageAssetsFolder="@string/core_lottie_assets_folder" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/dp36"
+                android:textColor="@color/base_primaryText"
+                android:textSize="@dimen/base_secondaryTextSize" />
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/dp10"
+                android:textColor="@color/base_warning"
+                android:textSize="@dimen/base_secondaryTextSize" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

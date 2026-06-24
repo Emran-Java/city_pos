@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_underBackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <acquire.base.widget.PrimaryToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rightIcon="@drawable/settings_merchant_ic_modify"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_merchants"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/dp16"
+        android:layout_marginEnd="@dimen/dp16"
+        android:layout_weight="1"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_add"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_primary_button_height"
+        android:layout_marginStart="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp4"
+        android:layout_marginEnd="@dimen/dp16"
+        android:layout_marginBottom="@dimen/dp4"
+        android:text="@string/settings_merchant_add_button"
+        android:textColor="@color/base_primaryText"
+        app:strokeColor="?android:attr/colorPrimary" />
+</LinearLayout>

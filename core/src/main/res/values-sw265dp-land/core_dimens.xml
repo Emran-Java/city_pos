@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--N560K-->
+<resources>
+
+    <dimen name="core_amount_text_size">@dimen/sp40</dimen>
+
+
+    <dimen name="core_receipt_height">@dimen/dp160</dimen>
+    <dimen name="core_receipt_image_padding">@dimen/dp60</dimen>
+
+
+    <dimen name="core_login_edit_margin_top">@dimen/dp5</dimen>
+    <dimen name="core_login_edit_margin_start">@dimen/dp32</dimen>
+    <dimen name="core_login_button_margin_top">@dimen/dp5</dimen>
+
+
+    <!--display 1 box-->
+    <dimen name="core_scan_line_width">@dimen/dp240</dimen>
+    <dimen name="core_scan_line_margin">@dimen/dp20</dimen>
+    <dimen name="core_scan_button_size">@dimen/dp40</dimen>
+    <dimen name="core_scan_layout_margin_bottom">@dimen/dp0</dimen>
+    <dimen name="core_scan_button_padding">@dimen/dp6</dimen>
+
+    <!--cash back-->
+    <dimen name="core_cashback_amount_card_height">@dimen/dp80</dimen>
+    <dimen name="core_cashback_amount_card_corn">@dimen/dp10</dimen>
+    <dimen name="core_cashback_amount_card_pad_bottom">@dimen/dp10</dimen>
+    <dimen name="core_cashback_amount_card_pad_horizontal">@dimen/dp10</dimen>
+    <dimen name="core_cashback_amount_card_pad_top">@dimen/dp10</dimen>
+
+
+    <dimen name="core_input_info_edit_top_margin">@dimen/dp60</dimen>
+    <dimen name="core_input_info_next_button_top_margin">@dimen/dp18</dimen>
+    <dimen name="core_card_empty_image_top_margin">@dimen/dp25</dimen>
+
+    <dimen name="core_record_item_height">@dimen/dp70</dimen>
+    <dimen name="core_record_item_margin_top">@dimen/dp8</dimen>
+</resources>

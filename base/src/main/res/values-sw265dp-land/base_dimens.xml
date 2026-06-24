@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="base_primaryTextSize">@dimen/sp20</dimen>
+    <dimen name="base_secondaryTextSize">@dimen/sp14</dimen>
+    <dimen name="base_tertiaryTextSize">@dimen/sp14</dimen>
+
+    <!--button-->
+    <dimen name="base_primary_button_height">@dimen/dp45</dimen>
+    <dimen name="base_primary_button_width">@dimen/dp266</dimen>
+
+    <!--Toolbar title text size-->
+    <dimen name="base_toolbar_back_horizontal_padding">@dimen/dp15</dimen>
+    <dimen name="base_toolbar_height">@dimen/dp40</dimen>
+
+    <!--Dialog-->
+    <dimen name="base_dialog_message_text_size">@dimen/sp18</dimen>
+    <dimen name="base_dialog_min_width">@dimen/dp200</dimen>
+    <dimen name="base_dialog_padding_screen">@dimen/dp24</dimen>
+    <dimen name="base_dialog_message_padding_vertical">@dimen/dp16</dimen>
+    <!--IpEditText-->
+    <dimen name="base_edit_ip_textSize">@dimen/sp18</dimen>
+    <dimen name="base_edit_ip_segment_width">@dimen/dp64</dimen>
+
+
+    <dimen name="base_dialog_fragment_content_padding_vertical">@dimen/dp20</dimen>
+    <dimen name="base_dialog_fragment_content_padding_horizontal">@dimen/dp20</dimen>
+
+    <dimen name="base_dialog_date_time_margin_vertical">@dimen/dp4</dimen>
+    <dimen name="base_dialog_date_time_confirm_button_margin_top">@dimen/dp4</dimen>
+    <dimen name="base_dialog_date_time_confirm_button_margin_bottom">@dimen/dp5</dimen>
+</resources>

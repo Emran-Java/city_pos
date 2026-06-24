@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--N950/N910/N910Pro/N750/S6 Pro resource-->
+<resources>
+    <dimen name="core_amount_text_size">@dimen/sp40</dimen>
+
+
+    <dimen name="core_receipt_height">@dimen/dp360</dimen>
+    <dimen name="core_receipt_image_padding">@dimen/dp4</dimen>
+
+    <dimen name="core_search_view_height">@dimen/dp32</dimen>
+    <dimen name="core_search_view_width">@dimen/dp246</dimen>
+
+    <dimen name="core_password_item_size">@dimen/dp40</dimen>
+    <dimen name="core_password_item_margin">@dimen/dp6</dimen>
+    <dimen name="core_password_item_padding">@dimen/dp12</dimen>
+
+
+    <dimen name="core_login_edit_margin_top">@dimen/dp16</dimen>
+    <dimen name="core_login_edit_margin_start">@dimen/dp32</dimen>
+    <dimen name="core_login_button_margin_top">@dimen/dp48</dimen>
+
+    <dimen name="core_card_height">@dimen/dp345</dimen>
+    <dimen name="core_card_width">@dimen/dp330</dimen>
+    <dimen name="core_card_entry_name_margin_bottom">@dimen/dp50</dimen>
+    <dimen name="core_card_content_margin_bottom">@dimen/dp20</dimen>
+    <!--display 1 box-->
+    <dimen name="core_display1_text_size">@dimen/sp24</dimen>
+
+    <dimen name="core_remove_card_warn_size">@dimen/dp100</dimen>
+
+    <dimen name="core_card_reading_dialog_size">@dimen/dp180</dimen>
+
+    <dimen name="core_scan_line_width">@dimen/dp320</dimen>
+    <dimen name="core_scan_line_margin">@dimen/dp60</dimen>
+    <dimen name="core_scan_button_size">@dimen/dp46</dimen>
+    <dimen name="core_scan_button_padding">@dimen/dp8</dimen>
+
+    <dimen name="core_cashback_amount_card_height">@dimen/dp120</dimen>
+
+    <dimen name="core_input_info_edit_top_margin">@dimen/dp80</dimen>
+    <dimen name="core_input_info_next_button_top_margin">@dimen/dp24</dimen>
+    <dimen name="core_card_empty_image_top_margin">@dimen/dp100</dimen>
+
+    <dimen name="core_record_item_height">@dimen/dp82</dimen>
+    <dimen name="core_record_item_margin_top">@dimen/dp16</dimen>
+
+</resources>

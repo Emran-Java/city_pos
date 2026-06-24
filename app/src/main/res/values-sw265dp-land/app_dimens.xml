@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="app_banner_margin_top">@dimen/dp24</dimen>
+    <dimen name="app_banner_height">@dimen/dp42</dimen>
+
+    <dimen name="app_menu_margin_top">@dimen/dp5</dimen>
+    <dimen name="app_menu_margin_horizontal">@dimen/dp15</dimen>
+
+    <dimen name="app_menu_top_item_size">@dimen/dp60</dimen>
+
+    <dimen name="app_menu_item_size">@dimen/dp165</dimen>
+    <dimen name="app_menu_corner_radius">@dimen/dp10</dimen>
+    <dimen name="app_menu_item_space">@dimen/dp10</dimen>
+
+
+
+</resources>

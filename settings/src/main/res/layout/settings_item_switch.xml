@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_switch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/base_background"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless"
+        android:paddingStart="@dimen/settings_item_horizontal_margin"
+        android:paddingEnd="@dimen/settings_item_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/switch_button"
+            android:layout_alignBottom="@id/switch_button"
+            android:layout_toStartOf="@id/switch_button"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/base_primaryText"
+                android:textSize="@dimen/base_secondaryTextSize" />
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/base_secondaryText"
+                android:textSize="@dimen/base_tertiaryTextSize" />
+        </LinearLayout>
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switch_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/settings_item_height"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/base_primaryText"
+            android:textSize="@dimen/base_secondaryTextSize" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/coreColorBracBG"
+    android:orientation="vertical">
+
+
+    <acquire.base.widget.PrimaryToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="never"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="0dp">
+            <!-- Title -->
+            <TextView
+                android:id="@+id/tvTranTypeTitle"
+                style="@style/RepotMerchantDetailsTextAppearance"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="8dp"
+                android:text="SALE DETAILS REPORT"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/incMerchant"
+                layout="@layout/ll_merchant_info" />
+
+            <!--Show Records-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvTranType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                tools:itemCount="1"
+                tools:listitem="@layout/item_card_report" />
+
+            <!-- Card report -->
+            <TextView
+                android:id="@+id/tvCardReportTitle"
+                style="@style/RepotMerchantDetailsTextAppearance"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/item_card_details_table_row_bg"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Card Report"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvCardScheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                tools:itemCount="1"
+                android:layout_marginBottom="20dp"
+                tools:listitem="@layout/item_card_scheme_report" />
+
+
+            <!-- EMI -->
+            <include
+                android:id="@+id/incEmiDetails"
+                layout="@layout/ll_emi_details_report" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/btnPrint"
+        style="@style/PrimaryBracButton"
+        android:layout_width="@dimen/base_primary_button_width"
+        android:layout_height="@dimen/base_primary_button_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/dp15"
+        android:text="Print" />
+
+</LinearLayout>

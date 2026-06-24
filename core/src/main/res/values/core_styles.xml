@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RnibPinNumberButton" parent="Widget.Material3.Button">
+        <item name="android:layout_margin">@dimen/dp4</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textSize">@dimen/sp44</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="backgroundTint">@color/base_primaryText</item>
+        <item name="cornerRadius">@dimen/base_keyboard_button_corner</item>
+        <item name="android:textAppearance">@android:style/Widget.TextView</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RnibPinCancelButton" parent="Widget.Material3.Button">
+        <item name="android:layout_margin">@dimen/dp4</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">@color/base_primaryText</item>
+        <item name="android:textSize">@dimen/sp22</item>
+        <item name="backgroundTint">#FF2929</item>
+        <item name="cornerRadius">@dimen/base_keyboard_button_corner</item>
+        <item name="android:textAppearance">@android:style/Widget.TextView</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="RnibPinBackButton" parent="Widget.Material3.Button">
+        <item name="android:layout_margin">@dimen/dp4</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textSize">@dimen/sp22</item>
+        <item name="android:textColor">@color/base_primaryText</item>
+        <item name="backgroundTint">#FFF355</item>
+        <item name="cornerRadius">@dimen/base_keyboard_button_corner</item>
+        <item name="android:textAppearance">@android:style/Widget.TextView</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="RnibPinEnterButton" parent="Widget.Material3.Button">
+        <item name="android:layout_margin">@dimen/dp4</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textSize">@dimen/sp22</item>
+        <item name="android:textColor">@color/base_primaryText</item>
+        <item name="backgroundTint">#39EB39</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">@dimen/base_keyboard_button_corner</item>
+        <item name="android:textAppearance">@android:style/Widget.TextView</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <style name="HintTextAppearance" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">@dimen/sp8</item>
+    </style>
+
+    <style name="RepotMerchantDetailsTextAppearance" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#666</item>
+    </style>
+
+    <style name="RepotTransactionDetailsTextAppearance" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#666</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="RepotCardDetailsTextAppearance" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/item_card_details_table_row_bg</item>
+    </style>
+
+
+    <!-- Bottom Sheet   -->
+    <style name="bottomSheetBackground" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_et_normal</item>
+
+    </style>
+
+    <style name="BottomSheetDialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetBackground</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0</item>
+    </style>
+
+
+    <style name="TableCellStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="HorizontalDivider">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#CCCCCC</item>
+    </style>
+
+    <style name="VerticalDivider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">#CCCCCC</item>
+    </style>
+
+
+    <style name="TvPinPad" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/txtColor</item>
+        <item name="android:background">@drawable/btn_number</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:textStyle">bold</item>
+        <!--        <item name="android:layout_marginStart">2dp</item>-->
+        <!--        <item name="android:layout_marginEnd">2dp</item>-->
+        <!--        <item name="android:layout_marginTop">2dp</item>-->
+        <!--        <item name="android:layout_marginBottom">2dp</item>-->
+
+        <!--        <item name="android:clickable">true</item>-->
+        <!--        <item name="android:focusable">true</item>-->
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="KeyboardButton" parent="Widget.Material3.Button">
+        <item name="android:layout_margin">@dimen/base_keyboard_button_space</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:background">@drawable/btn_number</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">@color/base_primaryText</item>
+        <item name="android:textSize">@dimen/base_primaryTextSize</item>
+<!--        <item name="backgroundTint">@color/base_keyboard_button_tint</item>-->
+        <item name="backgroundTint">@null</item>
+        <item name="cornerRadius">@dimen/base_keyboard_button_corner</item>
+<!--        <item name="android:textAppearance">@android:style/Widget.TextView</item>-->
+    </style>
+
+
+    <style name="KeyboardRedButton" parent="KeyboardButton">
+        <item name="android:background">@drawable/core_btn_number_red</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="KeyboardBlueButton" parent="KeyboardButton">
+        <item name="android:background">@drawable/core_btn_number_blue</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="KeyboardYellowButton" parent="KeyboardButton">
+        <item name="android:background">@drawable/core_btn_number_yellow</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="PrimaryBracButton">
+        <item name="android:layout_width">@dimen/base_primary_button_width</item>
+        <item name="android:layout_height">@dimen/base_primary_button_height</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="cornerRadius">30dp</item>
+        <item name="background">@drawable/btn_main_primary</item>
+    </style>
+
+    <style name="CoreCommonEditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/dimn_contat_info_edittext_height</item>
+        <item name="android:background">@drawable/bg_et_invoice_input</item>
+        <item name="android:inputType">text</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:enabled">false</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textColorHint">#888888</item>
+    </style>
+
+</resources>

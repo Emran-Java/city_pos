@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--horizontal margin-->
+    <dimen name="settings_item_horizontal_margin">@dimen/dp16</dimen>
+    <!--item heigth-->
+    <dimen name="settings_item_height">@dimen/dp64</dimen>
+
+    <dimen name="settings_menu_item_size">@dimen/dp50</dimen>
+    <dimen name="settings_menu_corner_radius">@dimen/dp25</dimen>
+    <dimen name="settings_menu_item_space">@dimen/dp10</dimen>
+</resources>

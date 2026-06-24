@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <acquire.base.widget.PrimaryToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/settings_merchant_edit_add_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_type"
+                style="@style/Widget.Material3.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp16"
+                android:layout_marginTop="@dimen/dp24"
+                android:layout_marginEnd="@dimen/dp16"
+                android:enabled="false"
+                android:hint="@string/settings_merchant_edit_type_hint"
+                android:textColorHint="@color/base_lightText"
+                app:boxBackgroundColor="@color/base_background">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/sp_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:textSize="@dimen/base_secondaryTextSize" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_mid"
+                style="@style/MerchantEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp16"
+                android:hint="@string/settings_merchant_edit_mid_hint"
+                app:counterEnabled="true"
+                app:counterMaxLength="15"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_mid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:maxLength="15"
+                    android:textSize="@dimen/base_secondaryTextSize" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_tid"
+                style="@style/MerchantEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/settings_merchant_edit_tid_hint"
+                app:counterEnabled="true"
+                app:counterMaxLength="8">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_tid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:maxLength="8"
+                    android:textSize="@dimen/base_secondaryTextSize" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_batch"
+                style="@style/MerchantEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/settings_merchant_edit_batch_hint"
+                app:counterEnabled="true"
+                app:counterMaxLength="6">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_batch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:textSize="@dimen/base_secondaryTextSize" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_ip"
+                style="@style/MerchantEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/settings_merchant_edit_ip_hint"
+                app:counterEnabled="true"
+                app:counterMaxLength="64">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_ip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLength="64"
+                    android:textSize="@dimen/base_secondaryTextSize" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_port"
+                style="@style/MerchantEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/settings_merchant_edit_port_hint"
+                app:counterEnabled="true"
+                app:counterMaxLength="6">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_port"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:textSize="@dimen/base_secondaryTextSize" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_tpdu"
+                style="@style/MerchantEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/settings_merchant_edit_tpdu_hint"
+                app:counterEnabled="true"
+                app:counterMaxLength="10">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_tpdu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:textSize="@dimen/base_secondaryTextSize" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_nii"
+                style="@style/MerchantEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/settings_merchant_edit_nii_hint"
+                app:counterEnabled="true"
+                app:counterMaxLength="3">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_nii"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:textSize="@dimen/base_secondaryTextSize" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_timeout"
+                style="@style/MerchantEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/settings_merchant_edit_timeout_hint"
+                app:counterEnabled="true"
+                app:counterMaxLength="3">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_timeout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:textSize="@dimen/base_secondaryTextSize" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_key_index"
+                style="@style/MerchantEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/settings_merchant_edit_key_index_hint"
+                app:counterEnabled="true"
+                app:counterMaxLength="3">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_key_index"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:textSize="@dimen/base_secondaryTextSize" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_algorithm"
+                style="@style/Widget.Material3.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp16"
+                android:layout_marginTop="@dimen/dp16"
+                android:layout_marginEnd="@dimen/dp16"
+                android:enabled="false"
+                android:hint="@string/settings_merchant_edit_algorithm_hint"
+                android:textColorHint="@color/base_lightText"
+                app:boxBackgroundColor="@color/base_background">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/sp_algorithm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:textSize="@dimen/base_secondaryTextSize" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_done"
+        android:layout_width="@dimen/base_primary_button_width"
+        android:layout_height="@dimen/base_primary_button_height"
+        android:layout_marginTop="@dimen/dp8"
+        android:layout_marginBottom="@dimen/dp22"
+        android:text="@string/base_ok" />
+</LinearLayout>

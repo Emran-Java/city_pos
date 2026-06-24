@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/RepotCardDetailsTextAppearance"
+        android:background="@drawable/item_card_details_table_row_bg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/base_tertiaryTextSize" />
+
+    <TextView
+        android:id="@+id/tv_number"
+        style="@style/RepotCardDetailsTextAppearance"
+        android:background="@drawable/item_card_details_table_row_bg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/base_tertiaryTextSize" />
+
+    <TextView
+        android:id="@+id/tv_amount"
+        style="@style/RepotCardDetailsTextAppearance"
+        android:background="@drawable/item_card_details_table_row_bg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/base_tertiaryTextSize" />
+</LinearLayout>

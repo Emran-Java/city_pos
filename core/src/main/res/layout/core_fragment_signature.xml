@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_background"
+    android:orientation="vertical">
+
+    <acquire.base.widget.PrimaryToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp8"
+        android:layout_marginTop="@dimen/dp20"
+        android:text="@string/core_sign_on_screen" />
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/Widget.Material3.CardView.Outlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp30"
+        android:layout_marginEnd="@dimen/dp10"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="@dimen/dp2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp2"
+                android:layout_marginTop="@dimen/dp14"
+                android:layerType="software"
+                android:src="@drawable/core_dash_line" />
+
+            <acquire.base.widget.HandWriteView
+                android:id="@+id/hand_write"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp170" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp2"
+                android:layout_marginBottom="@dimen/dp14"
+                android:layerType="software"
+                android:src="@drawable/core_dash_line" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/core_handwrite_bg" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_primary_button_height"
+        android:layout_marginStart="@dimen/dp30"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_marginEnd="@dimen/dp30"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_clear"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/base_clear"
+            app:backgroundTint="@color/core_signature_clear"
+            app:cornerRadius="@dimen/dp10"
+            app:icon="@drawable/core_sign_clear_icon"
+            app:iconSize="@dimen/dp24" />
+
+        <View
+            android:layout_width="@dimen/dp30"
+            android:layout_height="0dp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_done"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/base_done"
+            app:backgroundTint="@color/core_signature_ok"
+            app:cornerRadius="@dimen/dp10"
+            app:icon="@drawable/core_sign_confirm_icon"
+            app:iconSize="@dimen/dp24" />
+    </LinearLayout>
+
+
+</LinearLayout>

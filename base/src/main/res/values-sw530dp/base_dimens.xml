@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--X800 resource-->
+<resources>
+    <!--Keyboard-->
+    <dimen name="base_keyboard_simple_height">@dimen/dp316</dimen>
+    <dimen name="base_keyboard_height">@dimen/dp360</dimen>
+
+    <dimen name="base_dialog_padding_screen">@dimen/dp64</dimen>
+    <dimen name="base_dialog_message_padding_vertical">@dimen/dp24</dimen>
+
+    <dimen name="base_primary_button_height">@dimen/dp56</dimen>
+
+    <dimen name="base_dialog_fragment_content_padding_vertical">@dimen/dp126</dimen>
+    <dimen name="base_dialog_fragment_content_padding_horizontal">@dimen/dp64</dimen>
+</resources>

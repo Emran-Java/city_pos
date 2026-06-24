@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <stroke
+        android:color="@color/colorPinKeyDivider"
+        android:width="@dimen/dimnBtnStrokeColorWidth"/>
+
+    <corners android:radius="@dimen/dimnBtnRoundSquareRadius"/>
+
+    <gradient
+        android:angle="@integer/btn_color_shad_angle"
+        android:endColor="@color/colorBtnRedEnd"
+        android:centerColor="@color/colorBtnRedCenter"
+        android:startColor="@color/colorBtnRedStart"/>
+
+</shape>

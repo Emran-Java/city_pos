@@ -1,0 +1,28 @@
+{
+  "printReceiptMenu": [
+    {
+      "title": "REPRINT LAST TRANSACTION",
+      "id": 1,
+      "position": 1,
+      "code": "REPRINT_LAST_RECEIPT",
+      "icon": "app_menu_reprint_last_receipt",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "ReprintLastReceipt",
+      "childData": []
+    },
+    {
+      "title": "PRINT ANY TRANSACTION",
+      "id": 2,
+      "position": 2,
+      "code": "REPRINT_ANY_RECEIPT",
+      "icon": "app_menu_print_folder",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "ReprintReceipt",
+      "childData": []
+    }
+  ]
+}

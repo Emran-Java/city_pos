@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_toolbar_height">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:paddingStart="@dimen/base_toolbar_back_horizontal_padding"
+            android:paddingEnd="@dimen/base_toolbar_back_horizontal_padding"
+            android:visibility="gone"
+            android:src="@drawable/base_toolbar_ic_back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <RelativeLayout
+            android:id="@+id/ll_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:paddingStart="@dimen/base_toolbar_back_horizontal_padding"
+            android:paddingEnd="@dimen/base_toolbar_back_horizontal_padding"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/base_toolbar_ic_back" />
+
+            <TextView
+                android:id="@+id/tv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_right"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/base_tertiaryTextSize" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

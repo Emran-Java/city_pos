@@ -1,0 +1,52 @@
+{
+  "payFlaxMenu": [
+    {
+      "title": "PAY-FLEX LOG-ON",
+      "id": 1,
+      "position": 1,
+      "code": "PAY_FLEX_LOG_ON",
+      "icon": "ic_signin",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Process-Pay-Flex-Log-On",
+      "childData": []
+    },
+    {
+      "title": "PAY-FLEX",
+      "id": 2,
+      "position": 2,
+      "code": "PAY_FLEX",
+      "icon": "ic_app_payflex",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Process-Pay-Flex",
+      "childData": []
+    },
+    {
+      "title": "PAY-FLEX VOID",
+      "id": 3,
+      "position": 3,
+      "code": "PAY_FLEX_VOID",
+      "icon": "ic_app_void",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Process-Pay-Flex-Void",
+      "childData": []
+    },
+    {
+      "title": "PAY-FLEX REPORT",
+      "id": 4,
+      "position": 4,
+      "code": "PAY_FLEX_RPT",
+      "icon": "ic_app_report",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Print-Report-Details",
+      "childData": []
+    }
+  ]
+}

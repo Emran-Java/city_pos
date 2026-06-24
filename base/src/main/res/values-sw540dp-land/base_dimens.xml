@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--X800's secondary display resource-->
+<resources>
+    <dimen name="base_primaryTextSize">@dimen/sp32</dimen>
+    <dimen name="base_secondaryTextSize">@dimen/sp26</dimen>
+    <dimen name="base_tertiaryTextSize">@dimen/sp22</dimen>
+</resources>

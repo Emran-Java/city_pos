@@ -1,0 +1,1322 @@
+--------- beginning of main
+01-26 15:30:15.488 I/adbd    ( 1492): Tianyuan Current sh name:export ANDROID_LOG_TAGS="''"; exec logcat '-c'
+01-26 15:30:29.317 D/Power-HealthInfoCallback(  396): Update charge status to: 1
+01-26 15:30:34.818 I/adbd    ( 1492): Tianyuan Current sh name:getprop
+01-26 15:30:34.859 W/getprop ( 6545): type=1400 audit(0.0:748): avc: denied { map } for path="/dev/__properties__/u:object_r:firstboot_prop:s0" dev="tmpfs" ino=238 scontext=u:r:shell:s0 tcontext=u:object_r:firstboot_prop:s0 tclass=file permissive=0
+01-26 15:30:34.859 W/getprop ( 6545): type=1400 audit(0.0:749): avc: denied { map } for path="/dev/__properties__/u:object_r:ylog_prop:s0" dev="tmpfs" ino=314 scontext=u:r:shell:s0 tcontext=u:object_r:ylog_prop:s0 tclass=file permissive=0
+--------- beginning of system
+01-26 15:31:10.910 D/DeviceStorageMonitorService(  797): updateStateEx oldLevel = 0, newLevel = 0
+01-26 15:31:29.317 D/Power-HealthInfoCallback(  396): Update charge status to: 1
+01-26 15:31:34.889 I/adbd    ( 1492): Tianyuan Current sh name:getprop
+01-26 15:31:34.929 W/getprop ( 6547): type=1400 audit(0.0:750): avc: denied { map } for path="/dev/__properties__/u:object_r:firstboot_prop:s0" dev="tmpfs" ino=238 scontext=u:r:shell:s0 tcontext=u:object_r:firstboot_prop:s0 tclass=file permissive=0
+01-26 15:31:34.929 W/getprop ( 6547): type=1400 audit(0.0:751): avc: denied { map } for path="/dev/__properties__/u:object_r:ylog_prop:s0" dev="tmpfs" ino=314 scontext=u:r:shell:s0 tcontext=u:object_r:ylog_prop:s0 tclass=file permissive=0
+01-26 15:31:43.020 I/adbd    ( 1492): Tianyuan Current sh name:export ANDROID_LOG_TAGS="''"; exec logcat '-v' 'time' 'process'
+01-26 15:32:10.940 D/DeviceStorageMonitorService(  797): updateStateEx oldLevel = 0, newLevel = 0
+01-26 15:32:13.815 I/NlLogService( 1489): /data/log size is: 8.3 M
+01-26 15:32:13.866 I/NlLogService( 1489): /data/logzip size is: 199.0 M
+01-26 15:32:14.045 I/NlLogService( 1489): /data/klog size is: 46.0 M
+01-26 15:32:29.317 D/Power-HealthInfoCallback(  396): Update charge status to: 1
+01-26 15:32:34.961 I/adbd    ( 1492): Tianyuan Current sh name:getprop
+01-26 15:32:34.999 W/getprop ( 6555): type=1400 audit(0.0:752): avc: denied { map } for path="/dev/__properties__/u:object_r:firstboot_prop:s0" dev="tmpfs" ino=238 scontext=u:r:shell:s0 tcontext=u:object_r:firstboot_prop:s0 tclass=file permissive=0
+01-26 15:32:34.999 W/getprop ( 6555): type=1400 audit(0.0:753): avc: denied { map } for path="/dev/__properties__/u:object_r:ylog_prop:s0" dev="tmpfs" ino=314 scontext=u:r:shell:s0 tcontext=u:object_r:ylog_prop:s0 tclass=file permissive=0
+01-26 15:32:46.563 D/AlarmManagerService(  797): set alarm to kernel: 3988.500000000, type=2 
+01-26 15:32:46.563 D/AlarmManagerService(  797): set alarm to kernel: 3971.231000000, type=3 
+01-26 15:32:46.568 D/AlarmManagerService(  797): set alarm to kernel: 3971.231000000, type=3 
+01-26 15:32:46.573 I/c*.n*.t*.p*.AlarmManag*( 1698): onReceive: [groopush-ping]:com.newland.pospp.mtms.client.n900
+01-26 15:32:46.574 I/c*.n*.t*.p*.AlarmManag*( 1698): Alarm went off
+01-26 15:32:46.584 I/c*.n*.g*.c*.m*.i*.Simp*( 1698): start ping...
+01-26 15:32:46.768 I/c*.n*.g*.c*.m*.i*.Simp*( 1698): receive mqtt msg:13
+01-26 15:32:46.768 I/c*.n*.g*.c*.m*.i*.Simp*( 1698): ping end...[184]
+01-26 15:32:46.769 I/c*.n*.t*.p*.AlarmManag*( 1698): schedule[[groopush-ping]:com.newland.pospp.mtms.client.n900]register alarm![3957999,299815,4257814]1769419966769
+01-26 15:32:46.771 D/AlarmManagerService(  797): set alarm to kernel: 3971.231000000, type=3 
+01-26 15:32:57.278 W/BatteryExternalStatsWorker(  797): modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+01-26 15:33:00.000 D/AlarmManagerService(  797): set alarm to kernel: 4151.231000000, type=3 
+01-26 15:33:10.990 D/DeviceStorageMonitorService(  797): updateStateEx oldLevel = 0, newLevel = 0
+01-26 15:33:17.270 D/AlarmManagerService(  797): set alarm to kernel: 4219.646000000, type=2 
+01-26 15:33:17.270 D/AlarmManagerService(  797): set alarm to kernel: 4031.230000000, type=3 
+01-26 15:33:17.277 D/AlarmManagerService(  797): set alarm to kernel: 4031.230000000, type=3 
+01-26 15:33:17.284 D/AlarmManagerService(  797): set alarm to kernel: 4257.814000000, type=2 
+01-26 15:33:17.284 D/AlarmManagerService(  797): set alarm to kernel: 4031.230000000, type=3 
+01-26 15:33:17.291 D/TrafficReceiver.onReceive(L:22)( 3362): TrafficReceiver intent.getAction():com.newlandnpt.otaservice.traffic.ALARM_TRIGGER
+01-26 15:33:17.293 D/TrafficService2.onStatistics(L:74)( 3362): OtaService onStatistics start mode is:HAVE_NETWORK
+01-26 15:33:17.295 D/TrafficService2.onCalculate(L:50)( 3362): OtaService TrafficService2 onCalculate
+01-26 15:33:17.297 D/TrafficService2.onStatistics(L:78)( 3362): OtaService traffic action: current isConnect:true
+01-26 15:33:17.298 D/TrafficService2.onStatistics(L:95)( 3362): OtaService onStatistics end mode is:HAVE_NETWORK
+01-26 15:33:17.301 D/TrafficLab.getUids(L:81)( 3362): OtaService TrafficLab getUids
+01-26 15:33:17.386 D/TrafficLab( 3362): calculateTraffic packageName:android_system currentStats:-2
+01-26 15:33:17.386 D/TrafficLab( 3362): calculateTraffic packageName:com.android.phone currentStats:-2
+01-26 15:33:17.386 D/TrafficLab( 3362): calculateTraffic packageName:com.android.bluetooth currentStats:-2
+01-26 15:33:17.386 D/TrafficLab( 3362): calculateTraffic packageName:com.android.nfc currentStats:-2
+01-26 15:33:17.386 D/TrafficLab( 3362): calculateTraffic packageName:com.android.networkstack currentStats:-2
+01-26 15:33:17.386 D/TrafficLab( 3362): calculateTraffic packageName:com.android.providers.downloads currentStats:-2
+01-26 15:33:17.386 D/TrafficLab( 3362): calculateTraffic packageName:com.android.proxyhandler currentStats:-2
+01-26 15:33:17.387 D/TrafficLab( 3362): calculateTraffic packageName:com.android.statementservice currentStats:-2
+01-26 15:33:17.387 D/TrafficLab( 3362): calculateTraffic packageName:com.android.managedprovisioning currentStats:-2
+01-26 15:33:17.387 D/TrafficLab( 3362): calculateTraffic packageName:com.newland.kld.rki currentStats:-2
+01-26 15:33:17.387 D/TrafficLab( 3362): calculateTraffic packageName:com.android.hotspot2 currentStats:-2
+01-26 15:33:17.387 D/TrafficLab( 3362): calculateTraffic packageName:com.android.captiveportallogin currentStats:-2
+01-26 15:33:17.387 D/TrafficLab( 3362): calculateTraffic packageName:com.newland.bankdemo currentStats:-2
+01-26 15:33:17.387 D/TrafficLab( 3362): calculateTraffic packageName:com.android.launcher3 currentStats:-2
+01-26 15:33:17.387 D/TrafficLab( 3362): calculateTraffic packageName:com.android.printservice.recommendation currentStats:-2
+01-26 15:33:17.387 D/TrafficLab( 3362): calculateTraffic packageName:com.newland.dockservice currentStats:-2
+01-26 15:33:17.390 D/TrafficLab( 3362): calculateTraffic packageName:com.newlandnpt.otaservice currentStats:0
+01-26 15:33:17.390 D/TrafficLab( 3362): calculateTraffic packageName:com.android.bips currentStats:-2
+01-26 15:33:17.390 D/TrafficLab( 3362): calculateTraffic packageName:com.newlandnpt.otaservice currentStats:-2
+01-26 15:33:17.390 D/TrafficLab( 3362): calculateTraffic packageName:com.android.wallpaper currentStats:-2
+01-26 15:33:17.390 D/TrafficLab( 3362): calculateTraffic packageName:com.android.camera2 currentStats:-2
+01-26 15:33:17.390 D/TrafficLab( 3362): calculateTraffic packageName:com.google.android.webview currentStats:-2
+01-26 15:33:17.390 D/TrafficLab( 3362): calculateTraffic packageName:com.bank.payment.brac currentStats:-2
+01-26 15:33:17.390 D/TrafficLab( 3362): calculateTraffic packageName:com.newland.template currentStats:-2
+01-26 15:33:17.396 D/TrafficLab( 3362): calculateTraffic totalTraffic: 0 lastStats:0 grow:0
+01-26 15:33:17.397 D/TrafficLab.insertOnDay(L:215)( 3362): OtaService TrafficLab insertOnDay insertDay = []
+01-26 15:33:17.398 D/TrafficLab.updateOnDay(L:221)( 3362): OtaService TrafficLab updateOnDay updateDay = []
+01-26 15:33:17.398 I/AlarmUtils.setAlarm(L:39)( 3362): register [com.newlandnpt.otaservice.traffic.ALARM_TRIGGER] alarm![3988629,600000,4588629]1769419997398
+01-26 15:33:17.400 D/AlarmManagerService(  797): set alarm to kernel: 4031.230000000, type=3 
+01-26 15:33:29.317 D/Power-HealthInfoCallback(  396): Update charge status to: 1
+01-26 15:33:35.033 I/adbd    ( 1492): Tianyuan Current sh name:getprop
+01-26 15:33:35.069 W/getprop ( 6559): type=1400 audit(0.0:754): avc: denied { map } for path="/dev/__properties__/u:object_r:firstboot_prop:s0" dev="tmpfs" ino=238 scontext=u:r:shell:s0 tcontext=u:object_r:firstboot_prop:s0 tclass=file permissive=0
+01-26 15:33:35.069 W/getprop ( 6559): type=1400 audit(0.0:755): avc: denied { map } for path="/dev/__properties__/u:object_r:ylog_prop:s0" dev="tmpfs" ino=314 scontext=u:r:shell:s0 tcontext=u:object_r:ylog_prop:s0 tclass=file permissive=0
+01-26 15:33:59.999 D/AlarmManagerService(  797): set alarm to kernel: 4211.230000000, type=3 
+01-26 15:34:11.001 D/DeviceStorageMonitorService(  797): updateStateEx oldLevel = 0, newLevel = 0
+01-26 15:34:29.317 D/Power-HealthInfoCallback(  396): Update charge status to: 1
+01-26 15:34:35.099 I/adbd    ( 1492): Tianyuan Current sh name:getprop
+01-26 15:34:35.129 W/getprop ( 6561): type=1400 audit(0.0:756): avc: denied { map } for path="/dev/__properties__/u:object_r:firstboot_prop:s0" dev="tmpfs" ino=238 scontext=u:r:shell:s0 tcontext=u:object_r:firstboot_prop:s0 tclass=file permissive=0
+01-26 15:34:35.139 W/getprop ( 6561): type=1400 audit(0.0:757): avc: denied { map } for path="/dev/__properties__/u:object_r:ylog_prop:s0" dev="tmpfs" ino=314 scontext=u:r:shell:s0 tcontext=u:object_r:ylog_prop:s0 tclass=file permissive=0
+01-26 15:35:11.036 D/DeviceStorageMonitorService(  797): updateStateEx oldLevel = 0, newLevel = 0
+01-26 15:35:19.240 I/NlLogService( 1489): /data/log size is: 8.3 M
+01-26 15:35:19.290 I/NlLogService( 1489): /data/logzip size is: 199.0 M
+01-26 15:35:19.478 I/NlLogService( 1489): /data/klog size is: 46.0 M
+01-26 15:35:29.317 D/Power-HealthInfoCallback(  396): Update charge status to: 1
+01-26 15:35:35.177 I/adbd    ( 1492): Tianyuan Current sh name:getprop
+01-26 15:35:35.219 W/getprop ( 6566): type=1400 audit(0.0:758): avc: denied { map } for path="/dev/__properties__/u:object_r:firstboot_prop:s0" dev="tmpfs" ino=238 scontext=u:r:shell:s0 tcontext=u:object_r:firstboot_prop:s0 tclass=file permissive=0
+01-26 15:35:35.219 W/getprop ( 6566): type=1400 audit(0.0:759): avc: denied { map } for path="/dev/__properties__/u:object_r:ylog_prop:s0" dev="tmpfs" ino=314 scontext=u:r:shell:s0 tcontext=u:object_r:ylog_prop:s0 tclass=file permissive=0
+01-26 15:36:09.456 D/InputReader(  797): processEventsLocked: type=1 Count=4 code=116 value=1 deviceId=3
+01-26 15:36:09.457 D/WindowManager(  797): Receive Input KeyEvent of Powerkey down
+01-26 15:36:09.461 D/SprdGestureLauncherService(  797):  isOkToCall mEmergencyFeatureEnabled=false allowSOS=false
+01-26 15:36:09.462 D/WindowManager(  797): wake Up From Power Key
+01-26 15:36:09.463 I/PowerManagerService(  797): Waking up from Asleep (uid=1000, reason=WAKE_REASON_POWER_BUTTON, details=android.policy:POWER, opPackageName=android)...
+01-26 15:36:09.463 W/UsageStatsService(  797): Event reported without a package name, eventType:15
+01-26 15:36:09.464 I/WindowManager(  797): Started waking up... (why=ON_BECAUSE_OF_USER)
+01-26 15:36:09.465 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:09.465 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:09.465 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:09.465 D/KeyguardViewMediator( 1025): onStartedWakingUp, seq = 12
+01-26 15:36:09.466 D/KeyguardViewMediator( 1025): notifyStartedWakingUp
+01-26 15:36:09.466 D/WindowManager(  797): Receive Input KeyEvent of Powerkey up
+01-26 15:36:09.466 D/DisplayPowerController(  797): updateProximitySensorState: setProximitySensorEnabled(false)
+01-26 15:36:09.467 I/DisplayPowerController(  797): Blocking screen on until initial contents have been drawn.
+01-26 15:36:09.467 I/WindowManager(  797): Screen turning on...
+01-26 15:36:09.468 D/KeyguardViewMediator( 1025): handleNotifyWakingUp
+01-26 15:36:09.470 D/ActivityTaskManager(  797): Top Process State changed to PROCESS_STATE_TOP
+01-26 15:36:09.471 D/LockPatternUtils( 1025): isLockScreenDisabled disabledByDefault = false isSystemUser = false isDemoUser = false
+01-26 15:36:09.471 V/WindowManager(  797): Set focused app to: AppWindowToken{b89689a token=Token{ffd4945 ActivityRecord{684e5bc u0 com.newland.template/acquire.app.MainActivity t471}}} moveFocusNow=true displayId=0
+01-26 15:36:09.478 D/SectionHabit(  797): update pkgName:com.newland.template,type:3,data:package:com.newland.template ,count :5,launchCountIndex:1,fgtime:73690,fgtimeIndex:0
+01-26 15:36:09.479 D/KeyguardViewMediator( 1025): notifyScreenOn
+01-26 15:36:09.486 D/KeyguardViewMediator( 1025): handleNotifyScreenTurningOn
+01-26 15:36:09.486 D/WindowManager(  797): mKeyguardDelegate.ShowListener.onDrawn.
+01-26 15:36:09.486 W/WindowManager(  797): Setting mKeyguardDrawComplete
+01-26 15:36:09.495 D/SensorManager( 1025): registerListenerImpl sensor = {Sensor name="stk3x1x Proximity sensor", vendor="STK", version=1, type=8, maxRange=1.0, resolution=1.0, power=0.005, minDelay=0}, delayUs = 20000, latencyUs = 0, listener = com.android.systemui.classifier.brightline.BrightLineFalsingManager$1@611ccb4
+01-26 15:36:09.501 I/MediaFocusControl(  797): requestAudioFocus() from uid/pid 11078/6168 clientId=android.media.AudioManager@9c6b03d callingPack=com.newland.template req=1 flags=0x0 sdk=33
+01-26 15:36:09.507 W/MediaPlayer( 6168): Couldn't open /storage/emulated/0/custom_brac/vdo_home.mp4
+01-26 15:36:09.507 W/MediaPlayer( 6168): java.io.FileNotFoundException: No content provider: /storage/emulated/0/custom_brac/vdo_home.mp4
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.content.ContentResolver.openTypedAssetFileDescriptor(ContentResolver.java:1673)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1503)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1420)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.media.MediaPlayer.attemptDataSource(MediaPlayer.java:1103)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.media.MediaPlayer.setDataSource(MediaPlayer.java:1075)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.media.MediaPlayer.setDataSource(MediaPlayer.java:1099)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.widget.VideoView.openVideo(VideoView.java:412)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.widget.VideoView.access$2200(VideoView.java:83)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.widget.VideoView$7.surfaceCreated(VideoView.java:694)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.view.SurfaceView.updateSurface(SurfaceView.java:762)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.view.SurfaceView.windowStopped(SurfaceView.java:246)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.view.ViewRootImpl.setWindowStopped(ViewRootImpl.java:1585)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.view.WindowManagerGlobal.setStoppedState(WindowManagerGlobal.java:709)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.app.Activity.performRestart(Activity.java:7954)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.app.ActivityThread.handleSleeping(ActivityThread.java:4874)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.app.ActivityThread.access$2500(ActivityThread.java:235)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1981)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.os.Looper.loop(Looper.java:214)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at android.app.ActivityThread.main(ActivityThread.java:7635)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at java.lang.reflect.Method.invoke(Native Method)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:587)
+01-26 15:36:09.507 W/MediaPlayer( 6168): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+01-26 15:36:09.509 V/DisplayPowerController(  797): Brightness [83] reason changing to: 'manual', previous reason: 'screen_off'.
+01-26 15:36:09.509 D/DisplayPowerController(  797): updateProximitySensorState: setProximitySensorEnabled(false)
+01-26 15:36:09.510 D/NuPlayerDriver(  470): NuPlayerDriver(0xad135aa0) created, clientPid(6168)
+01-26 15:36:09.510 D/sensor  (  384): poll__batch handle=4 sampling_period_ns=20ms, max_report_latency_ns=0ms
+01-26 15:36:09.510 D/sensor  (  384): stk getEnable::mEnabled=0x0; enable=0
+01-26 15:36:09.510 D/sensor  (  384): activate handle=4; drv=1
+01-26 15:36:09.510 D/sensor  (  384): stk setEnable PlsSensor::what=1; en=1
+01-26 15:36:09.510 D/sensor  (  384): stk setEnable open device ...
+01-26 15:36:09.510 E/sensor  (  384): Couldn't open /dev/als_ps (No such file or directory)
+01-26 15:36:09.510 D/sensor  (  384): stk setEnable::enable what=1; flags=1; err=-9
+01-26 15:36:09.510 E/sensor  (  384): ECS_IOCTL_APP_SET_XXX failed (Bad file descriptor)
+01-26 15:36:09.510 D/sensor  (  384): stk setEnable::mEnabled=0x0
+01-26 15:36:09.511 D/AlarmManagerService(  797): set alarm to kernel: 4211.230000000, type=3 
+01-26 15:36:09.511 I/LocationManagerService(  797): applyRequirementsLocked to passive prvider.
+01-26 15:36:09.511 I/LocationManagerService(  797): applyRequirementsLocked to gps prvider.
+01-26 15:36:09.511 E/SensorService(  797): Error activating sensor 4 (Function not implemented)
+01-26 15:36:09.513 E/AsyncSensorManager( 1025): Registering com.android.systemui.classifier.brightline.BrightLineFalsingManager$1@611ccb4 for {Sensor name="stk3x1x Proximity sensor", vendor="STK", version=1, type=8, maxRange=1.0, resolution=1.0, power=0.005, minDelay=0} failed.
+01-26 15:36:09.513 D/SurfaceFlinger(  407): Setting power mode 2 on display 0
+01-26 15:36:09.514 I/LocationManagerService(  797): applyRequirementsLocked to fused prvider.
+01-26 15:36:09.514 I/GnssLocationProvider(  797): reportLocation: false, isGpsEnabled: false, mStarted: false
+01-26 15:36:09.515 I/Codec2Client(  470): Creating a Codec2 client to service "software"
+01-26 15:36:09.518 I/Codec2Client(  470): Client to Codec2 service "software" created
+01-26 15:36:09.521 D/Tile.LteServiceTile( 1025): handleUpdateState: mLteEnabled = true mSimAvailable = true mServiceForPhone 0
+01-26 15:36:09.526 D/SSense  (  797): windowsChanged
+01-26 15:36:09.526 I/DisplayManagerService(  797): Display device changed state: "Built-in Screen", ON
+01-26 15:36:09.538 D/SurfaceUtils(  470): connecting to surface 0xad193008, reason setVideoSurfaceTexture
+01-26 15:36:09.539 D/NuPlayer(  470): onSetVideoSurface(0xad193800, no video decoder)
+01-26 15:36:09.540 D/SystemUIFloatKey( 1025): receive intent:android.intent.action.USER_PRESENT
+01-26 15:36:09.541 D/SystemUIFloatKey( 1025): setFloatViewVisible true
+01-26 15:36:09.541 W/AlarmManager(  797): Unrecognized alarm listener com.android.server.power.sprdpower.BackgroundCleanHelper$1@78cce6d
+01-26 15:36:09.544 D/DRM_DrmOmaPlugIn(  457): onInitialize : 5984
+01-26 15:36:09.545 D/DRM_DrmOmaPlugIn(  457): onSetOnInfoListener : 5984
+01-26 15:36:09.545 D/DRM_DrmOmaPlugIn(  457): (5984)onOpenDecryptSession : offset:0, length:11651169, fd:7
+01-26 15:36:09.545 D/DRM_DcfParser(  457): parse (null), fd: 8
+01-26 15:36:09.545 D/DRM_DcfParser(  457): parse (null), version: 0
+01-26 15:36:09.545 E/DRM_DcfParser(  457): parse error, only dcf v1 is supported, 0
+01-26 15:36:09.545 E/DRM_DrmOmaPlugIn(  457): onOpenDecryptSession , dcf parse error
+01-26 15:36:09.546 D/DRM_DrmOmaPlugIn(  457): onTerminate : 5984
+01-26 15:36:09.547 D/GenericSource(  470): FileSource remote
+01-26 15:36:09.552 D/CellularTile( 1025): handleUpdateState() mobileDataEnabled = true
+01-26 15:36:09.552 D/RotationLockTile( 1025): state.value: true state.state 1
+01-26 15:36:09.553 D/PowerManagerServiceEx(  797): get Power Save Mode When Charging
+01-26 15:36:09.572 I/SampleTable(  468): There are reordered frames present.
+01-26 15:36:09.580 D/MediaBufferGroup(  468): creating MemoryDealer
+01-26 15:36:09.598 D/SurfaceCallbackHelper( 6168): dispatchSurfaceRedrawNeededAsync, callbacks=[Landroid.view.SurfaceHolder$Callback;@83942c5, callbacks.length=1
+01-26 15:36:09.599 D/SurfaceCallbackHelper( 6168): mFinishDrawingRunnable, mFinishDrawingCollected=1, mFinishDrawingExpected=1
+01-26 15:36:09.602 D/AS.AudioService(  797): onReceive()  action= android.intent.action.SCREEN_ON
+01-26 15:36:09.602 E/WifiClientModeImpl(  797): getWifiLinkLayerStats called without an interface
+01-26 15:36:09.604 I/audio_hw_primary(  369): adev_set_parameters  kvpairs : screen_state=on
+01-26 15:36:09.605 I/AudioCustom_MMI(  369): AudioMMIParse MMI test is close!
+01-26 15:36:09.605 V/audio_hw_primary(  369): AudioCustom_MmiParse Is OFF
+01-26 15:36:09.605 I/WindowManager(  797): All windows ready for display!
+01-26 15:36:09.605 W/WindowManager(  797): Setting mWindowManagerDrawComplete
+01-26 15:36:09.605 D/SensorManager(  797): registerListenerImpl sensor = {Sensor name="MPU6050 3-axis Accelerometer", vendor="Invensense", version=1, type=1, maxRange=19.6, resolution=5.985504E-4, power=0.23, minDelay=20000}, delayUs = 66667, latencyUs = 100000, listener = com.android.server.policy.WindowOrientationListener$AccelSensorJudge@1c555c8
+01-26 15:36:09.605 I/BTAudioHw(  369): adev_sprd_set_parameters
+01-26 15:36:09.605 I/BTAudioHw(  369): adev_sprd_set_parameters: stream_ptr is NULL, return.
+01-26 15:36:09.606 D/sensor  (  384): poll__flush handle=0
+01-26 15:36:09.606 E/sensor  (  384): reading flush event from pipe
+01-26 15:36:09.607 D/WindowManager(  797): finishScreenTurningOn: mAwake=true, mScreenOnEarly=true, mScreenOnFully=false, mKeyguardDrawComplete=true, mWindowManagerDrawComplete=true
+01-26 15:36:09.607 I/WindowManager(  797): Finished screen turning on...
+01-26 15:36:09.608 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:09.608 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:09.608 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:09.608 D/AlarmManagerService(  797): set alarm to kernel: 4211.231000000, type=3 
+01-26 15:36:09.609 I/DisplayPowerController(  797): Unblocked screen on after 142 ms
+01-26 15:36:09.609 D/DisplayPowerController(  797): updateProximitySensorState: setProximitySensorEnabled(false)
+01-26 15:36:09.613 V/bankdemoR3.13:LogLife.onStart(L:27)( 6168): MainBracFragment{8e49841}->onStart
+01-26 15:36:09.615 E/NdkpLibClient(  797): Data packed cmd=CMD_NAPI_SecGetTamperStatus:
+01-26 15:36:09.617 V/bankdemoR3.13:LogLife.onStart(L:27)( 6168): BankMenuItemsFragment{2fed1e6}->onStart
+01-26 15:36:09.620 V/bankdemoR3.13:LogLife.onStart(L:27)( 6168): MenuBankItemsFragment{299383a}->onStart
+01-26 15:36:09.623 I/GnssLocationProvider(  797): receive broadcast intent, action: android.intent.action.SCREEN_ON
+01-26 15:36:09.625 D/ConnectivityService(  797): requestNetwork for uid/pid:11078/6168 NetworkRequest [ TRACK_DEFAULT id=23, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 11078] ]
+01-26 15:36:09.625 D/UntrustedWifiNetworkFactory(  797): got request NetworkRequest [ TRACK_DEFAULT id=23, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 11078] ] with score 50 and serial 3
+01-26 15:36:09.626 D/WifiNetworkFactory(  797): got request NetworkRequest [ TRACK_DEFAULT id=23, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 11078] ] with score 50 and serial 3
+01-26 15:36:09.626 D/Ethernet(  797): got request NetworkRequest [ TRACK_DEFAULT id=23, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 11078] ] with score 50 and serial 3
+01-26 15:36:09.630 V/bankdemoR3.13:LogLife.onStart(L:27)( 6168): MainActivity{816463f}->onStart
+01-26 15:36:09.631 I/spserver(  453): acquire wake_lock
+01-26 15:36:09.633 D/PhoneSwitcherNetworkRequstListener( 1003): got request NetworkRequest [ TRACK_DEFAULT id=23, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 11078] ] with score 50 and serial 3
+01-26 15:36:09.633 E/NdkpLibServer(  453): CMD_NAPI_SecGetTamperStatus ret=0, executed from K21 in SUCCESS!
+01-26 15:36:09.638 V/bankdemoR3.13:LogLife.onResume(L:31)( 6168): MainBracFragment{8e49841}->onResume
+01-26 15:36:09.643 V/bankdemoR3.13:LogLife.onResume(L:31)( 6168): MainActivity{816463f}->onResume
+01-26 15:36:09.648 E/BufferQueueProducer(  407): [com.newland.template/acquire.app.MainActivity#0] disconnect: not connected (req=1)
+01-26 15:36:09.648 W/libEGL  ( 6168): EGLNativeWindowType 0x9c6c7348 disconnect failed
+01-26 15:36:09.663 D/StatusBar/NavBarView( 1025): mDisabledFlags = 0 mKeyguardManager.isKeyguardLocked() = false pinningActive = false navigationbar_config = 0
+01-26 15:36:09.664 D/MediaPlayerNative( 6168): getMetadata
+01-26 15:36:09.710 D/mali_winsys( 6168): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+01-26 15:36:09.761 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:09.764 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:36:09.765 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:36:09.765 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:36:09.765 I/gralloc (  407): gralloc_register hnd=0xb03c4540, share_fd=65, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xae41c000, writeOwner=0, min_pgsz=4096
+01-26 15:36:09.766 I/gralloc ( 6168): gralloc_register hnd=0x87388500, share_fd=120, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x81b18000, writeOwner=0, min_pgsz=4096
+01-26 15:36:09.766 E/        ( 6168): Shared attribute region not available to be mapped
+01-26 15:36:09.749 W/HwBinder:377_1(  377): type=1400 audit(0.0:760): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:09.781 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:36:09.816 D/InputReader(  797): processEventsLocked: type=3 Count=4 code=57 value=0 deviceId=1
+01-26 15:36:09.818 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:09.818 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:09.818 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:09.818 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:09.818 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:09.818 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:09.819 D/InputReader(  797): processEventsLocked: type=3 Count=4 code=57 value=0 deviceId=1
+01-26 15:36:09.919 D/SPRDHWComposer(  378): Excessive delay in drm_blank(): 404ms
+01-26 15:36:09.921 D/SurfaceFlinger(  407): Finished setting power mode 2 on display 0
+01-26 15:36:09.921 D/SurfaceControl(  797): Excessive delay in setPowerMode()
+01-26 15:36:09.921 D/DisplayPowerController(  797): updateProximitySensorState: setProximitySensorEnabled(false)
+01-26 15:36:09.922 W/PowerManagerService(  797): Screen on took 466 ms
+01-26 15:36:09.923 D/KeyguardViewMediator( 1025): notifyScreenTurnedOn
+01-26 15:36:09.923 I/gralloc (  407): gralloc_unregister hnd=0xb03c6040, share_fd=77, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xad199000, writeOwner=0, min_pgsz=4096
+01-26 15:36:09.926 D/LIGHTS  (  380): file:vendor/sprd/modules/lights/lights.c, func:write_int, path=/sys/class/backlight/sprd_backlight/brightness, value=83
+01-26 15:36:09.927 E/LIGHTS  (  380): open /sys/touchscreen/ts_suspend failed, errno=2(No such file or directory)
+01-26 15:36:09.928 E/LIGHTS  (  380): open /sys/class/devfreq/scene-frequency/sprd_governor/scenario_dfs failed, errno=13(Permission denied)
+01-26 15:36:09.928 E/LIGHTS  (  380): open /sys/class/devfreq/scene-frequency/sprd_governor/exit_scene failed, errno=13(Permission denied)
+01-26 15:36:09.929 D/refnotify(  521): refnotify_parse_event: SOURCE = sysfs!
+01-26 15:36:09.929 I/WindowManager(  797): Finished waking up... (why=ON_BECAUSE_OF_USER)
+01-26 15:36:09.930 I/gralloc (  378): gralloc_register hnd=0xb3a3ccc0, share_fd=42, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xb0f18000, writeOwner=0, min_pgsz=4096
+01-26 15:36:09.931 I/gralloc (  378): gralloc_register hnd=0xb3a3cd80, share_fd=44, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=276480, width=720, height=96, internalWidth=720, internalHeight=96, stride=720, base=0xb412a000, writeOwner=0, min_pgsz=4096
+01-26 15:36:09.931 I/gralloc (  378): gralloc_register hnd=0xb3a3ce40, share_fd=46, format=1, internal_format=0x1, byte_stride=1792, flags=4, usage=0xb00, size=141568, width=444, height=79, internalWidth=444, internalHeight=79, stride=448, base=0xb40f5000, writeOwner=0, min_pgsz=4096
+01-26 15:36:09.933 I/gralloc (  407): gralloc_unregister hnd=0xaefa8c00, share_fd=104, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x366, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xac70d000, writeOwner=0, min_pgsz=4096
+01-26 15:36:09.936 I/gralloc (  407): gralloc_unregister hnd=0xb03c6700, share_fd=98, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xae098000, writeOwner=0, min_pgsz=4096
+01-26 15:36:09.909 W/light@2.0-servi(  380): type=1400 audit(0.0:761): avc: denied { search } for name="sprd_governor" dev="sysfs" ino=16648 scontext=u:r:hal_light_default:s0 tcontext=u:object_r:sysfs_ddr_dfs:s0 tclass=dir permissive=0
+01-26 15:36:09.909 W/light@2.0-servi(  380): type=1400 audit(0.0:762): avc: denied { search } for name="sprd_governor" dev="sysfs" ino=16648 scontext=u:r:hal_light_default:s0 tcontext=u:object_r:sysfs_ddr_dfs:s0 tclass=dir permissive=0
+01-26 15:36:09.949 I/gralloc (  378): gralloc_register hnd=0xb3a3d080, share_fd=29, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=138240, width=720, height=48, internalWidth=720, internalHeight=48, stride=720, base=0xb40c5000, writeOwner=0, min_pgsz=4096
+01-26 15:36:09.949 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:09.954 D/KeyguardViewMediator( 1025): handleNotifyScreenTurnedOn
+01-26 15:36:09.961 I/gralloc (  378): gralloc_register hnd=0xb3a3d140, share_fd=35, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=138240, width=720, height=48, internalWidth=720, internalHeight=48, stride=720, base=0xb4052000, writeOwner=0, min_pgsz=4096
+01-26 15:36:09.961 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:09.965 I/PowerManagerService(  797): notification Secure modules wakeup
+01-26 15:36:09.966 E/PowerManagerService(  797): wakeup----- mode ::: 0
+01-26 15:36:09.966 E/BarcodeDecodeService(  797): android.intent.action.WAKEUP
+01-26 15:36:09.967 D/BarcodeDecodeService(  797): nls reopen!
+01-26 15:36:09.967 D/BarcodeDecodeService(  797): set thk88 power:1
+01-26 15:36:09.968 D/ScanJni (  399): common_scanner_open=============power
+01-26 15:36:09.968 W/FileUtils(  797): Failed to chmod(/sys/class/scan_ctrl/power_status): android.system.ErrnoException: chmod failed: EPERM (Operation not permitted)
+01-26 15:36:09.973 I/gralloc (  378): gralloc_register hnd=0xb3a3d200, share_fd=36, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=276480, width=720, height=96, internalWidth=720, internalHeight=96, stride=720, base=0xb3f56000, writeOwner=0, min_pgsz=4096
+01-26 15:36:09.973 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:09.976 I/PowerReceiver.onReceive(L:43)( 1698): Enter the awake state
+01-26 15:36:09.977 D/k.a(L:71)( 1698): getParams key:DEVICE_SCREEN_OFF_TIMEOUT
+01-26 15:36:10.019 D/ScanJni (  399): GetChipLicenseVerifyed,SE_REG_GET_SV_STATE return 1 
+01-26 15:36:10.019 D/ScanJni (  399): GetChipUUID
+01-26 15:36:10.023 D/ScanJni (  399): chipUUID: (32 Bytes)
+01-26 15:36:10.023 D/ScanJni (  399): 00000000: 0A 22 23 62 24 37 00 3E - 00 07 E5 09 03 01 04 03 
+01-26 15:36:10.023 D/ScanJni (  399): 00000010: 40 31 07 C8 F2 39 88 8C - 21 2C 74 D3 81 4D CA 86 
+01-26 15:36:10.023 D/ScanJni (  399): LoadLicense, return 256
+01-26 15:36:10.023 D/ScanJni (  399): SendLicense2Chip
+01-26 15:36:10.098 D/ScanJni (  399): GetChipLicenseVerifyed,SE_REG_GET_SV_STATE return 5 
+01-26 15:36:10.098 D/ScanJni (  399): GetChipPublicKey, SE_REG_GET_PUBLIC_KEY
+01-26 15:36:10.110 D/ScanJni (  399): GetChipPublicKey,SE_REG_GET_PUBLIC_KEY end , return 128
+01-26 15:36:10.110 D/ScanJni (  399): start
+01-26 15:36:10.146 D/AlarmManagerService(  797): set alarm to kernel: 4211.231000000, type=3 
+01-26 15:36:10.147 D/AlarmManagerService(  797): set alarm to kernel: 4211.231000000, type=3 
+01-26 15:36:10.148 D/SceneRecognizer(  797): notifySceneStatusChanged: notify 1 receivers
+01-26 15:36:10.148 D/AppSceneRecognizer(  797): ###handle app Event: Exit
+01-26 15:36:10.179 D/ScanJni (  399): GetChipPasswordVerifyed,SE_REG_GET_SV_STATE return 6 
+01-26 15:36:10.235 D/ScanJni (  399): GetChipPasswordVerifyed,SE_REG_GET_SV_STATE return 6 
+01-26 15:36:10.286 D/ScanJni (  399): GetChipPasswordVerifyed,SE_REG_GET_SV_STATE return 7 
+01-26 15:36:10.286 D/ScanJni (  399): ChipVerify, return 1
+01-26 15:36:10.286 D/ScanJni (  399): ePROP_COMM_KNX====================
+01-26 15:36:10.298 D/ScanJni (  399): scanner_readid [2]
+01-26 15:36:10.298 D/ScanJni (  399): nls_scanopen [0]
+01-26 15:36:11.051 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:11.054 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:11.054 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:11.054 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:11.055 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:11.055 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:11.055 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:11.055 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:11.055 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:11.055 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:11.068 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:11.090 D/WindowManager(  797): Input focus has changed to Window{b72d12d u0 Panel:com.newland.template/acquire.app.MainActivity}
+01-26 15:36:11.079 I/chatty  (  797): uid=1000(system) InputReader identical 1 line
+01-26 15:36:11.096 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:11.105 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:11.115 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:11.121 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:11.122 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:11.131 D/mali_winsys( 6168): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+01-26 15:36:11.119 W/HwBinder:377_1(  377): type=1400 audit(0.0:763): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:11.119 W/HwBinder:377_1(  377): type=1400 audit(0.0:764): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:11.133 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:11.133 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.134 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.134 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.134 D/DeviceStorageMonitorService(  797): updateStateEx oldLevel = 0, newLevel = 0
+01-26 15:36:11.119 W/HwBinder:377_1(  377): type=1400 audit(0.0:765): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:11.135 I/gralloc (  407): gralloc_register hnd=0xb03c5980, share_fd=89, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeea0000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.136 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:11.137 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.137 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.137 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.137 I/gralloc (  407): gralloc_register hnd=0xb03c6040, share_fd=82, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaee24000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.138 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:11.138 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.139 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.139 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.139 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:11.139 I/gralloc (  407): gralloc_register hnd=0xb03c64c0, share_fd=27, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeda8000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.139 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:11.149 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:11.150 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:11.150 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:11.150 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:11.154 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:11.155 I/gralloc ( 6168): gralloc_register hnd=0x87389c40, share_fd=130, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x85309000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.155 E/        ( 6168): Shared attribute region not available to be mapped
+01-26 15:36:11.160 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:36:11.170 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:11.216 I/gralloc ( 6168): gralloc_register hnd=0x87399600, share_fd=132, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x8528d000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.216 E/        ( 6168): Shared attribute region not available to be mapped
+01-26 15:36:11.221 I/gralloc (  378): gralloc_register hnd=0xb3a3d500, share_fd=31, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb2699000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.221 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:11.222 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:36:11.238 I/gralloc (  378): gralloc_register hnd=0xb3a3c900, share_fd=33, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb0e9c000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.229 W/HwBinder:377_1(  377): type=1400 audit(0.0:766): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:11.238 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:11.239 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:11.245 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.245 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.245 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.246 I/gralloc (  407): gralloc_register hnd=0xb03c6700, share_fd=94, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xae098000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.247 I/gralloc ( 6168): gralloc_register hnd=0x87399cc0, share_fd=134, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x8013f000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.248 E/        ( 6168): Shared attribute region not available to be mapped
+01-26 15:36:11.252 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:36:11.262 I/gralloc (  378): gralloc_register hnd=0xb3a3d5c0, share_fd=34, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xaf736000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.263 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:11.273 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:11.290 I/gralloc ( 6168): gralloc_register hnd=0x87713500, share_fd=136, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x83013000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.290 E/        ( 6168): Shared attribute region not available to be mapped
+01-26 15:36:11.293 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:36:11.279 W/HwBinder:377_1(  377): type=1400 audit(0.0:767): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:11.299 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:11.304 I/gralloc (  378): gralloc_register hnd=0xb3a3d740, share_fd=48, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb0a2a000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.304 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:11.307 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.307 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.307 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.309 I/gralloc (  407): gralloc_register hnd=0xb03c6e80, share_fd=97, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xadd14000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.310 I/gralloc ( 6168): gralloc_register hnd=0x87713680, share_fd=135, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x7cc95000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.310 E/        ( 6168): Shared attribute region not available to be mapped
+01-26 15:36:11.314 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:36:11.321 I/gralloc (  378): gralloc_register hnd=0xb3a3d800, share_fd=37, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xaf3b2000, writeOwner=0, min_pgsz=4096
+01-26 15:36:11.321 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:11.486 I/chatty  (  378): uid=1000(system) HwBinder:378_2 identical 10 lines
+01-26 15:36:11.504 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:11.520 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:12.196 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:12.197 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:12.197 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:12.197 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:12.197 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:12.197 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:12.197 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:12.198 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:12.198 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:12.198 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:12.210 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:12.223 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:12.237 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:12.676 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:12.677 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:12.677 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:12.677 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:12.677 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:12.677 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:12.677 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:12.678 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:12.678 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:12.678 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:12.690 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:12.762 I/chatty  (  797): uid=1000(system) InputReader identical 5 lines
+01-26 15:36:12.774 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:12.788 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:12.790 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:12.791 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:12.791 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:12.791 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:12.791 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:12.791 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:12.791 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:12.791 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:12.791 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:12.791 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:12.791 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:12.791 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:12.817 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:13.048 I/chatty  (  378): uid=1000(system) HwBinder:378_2 identical 14 lines
+01-26 15:36:13.065 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:13.074 I/gralloc (  407): gralloc_unregister hnd=0xb03c6040, share_fd=82, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaee24000, writeOwner=0, min_pgsz=4096
+01-26 15:36:13.075 I/gralloc (  407): gralloc_unregister hnd=0xb03c64c0, share_fd=27, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeda8000, writeOwner=0, min_pgsz=4096
+01-26 15:36:13.075 I/gralloc ( 6168): gralloc_unregister hnd=0x87389c40, share_fd=130, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x85309000, writeOwner=0, min_pgsz=4096
+01-26 15:36:13.076 I/gralloc ( 6168): gralloc_unregister hnd=0x87399600, share_fd=132, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x8528d000, writeOwner=0, min_pgsz=4096
+01-26 15:36:13.076 I/gralloc ( 6168): gralloc_unregister hnd=0x87713500, share_fd=136, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x83013000, writeOwner=0, min_pgsz=4096
+01-26 15:36:13.076 E/BufferQueueProducer(  407): [Panel:com.newland.template/acquire.app.MainActivity#0] disconnect: not connected (req=1)
+01-26 15:36:13.077 W/libEGL  ( 6168): EGLNativeWindowType 0x86eb1ee8 disconnect failed
+01-26 15:36:13.078 D/NuPlayerDriver(  470): reset(0xad135aa0) at state 4
+01-26 15:36:13.078 D/NuPlayerDriver(  470): notifyResetComplete(0xad135aa0)
+01-26 15:36:13.082 D/NuPlayerDriver(  470): reset(0xad135aa0) at state 0
+01-26 15:36:13.082 D/SurfaceUtils(  470): disconnecting from surface 0xad193008, reason disconnectNativeWindow
+01-26 15:36:13.085 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:13.086 V/MediaPlayer( 6168): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+01-26 15:36:13.086 V/MediaPlayer( 6168): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+01-26 15:36:13.087 V/MediaPlayer( 6168): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+01-26 15:36:13.087 V/MediaPlayer( 6168): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+01-26 15:36:13.090 I/MediaFocusControl(  797): abandonAudioFocus() from uid/pid 11078/6168 clientId=android.media.AudioManager@9c6b03d
+01-26 15:36:13.101 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:13.114 I/gralloc (  407): gralloc_unregister hnd=0xaefa89c0, share_fd=118, format=21, internal_format=0x15, byte_stride=720, flags=4, usage=0x966, size=626688, width=720, height=576, internalWidth=720, internalHeight=576, stride=720, base=0xad93a000, writeOwner=0, min_pgsz=4096
+01-26 15:36:13.127 D/WindowManager(  797): Input focus has changed to Window{5c8516f u0 com.newland.template/acquire.app.MainActivity}
+01-26 15:36:13.129 D/SSense  (  797): windowsChanged
+01-26 15:36:13.134 I/gralloc (  378): gralloc_unregister hnd=0xb3a3d740, share_fd=48, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb0a2a000, writeOwner=0, min_pgsz=4096
+01-26 15:36:13.134 I/gralloc (  378): gralloc_unregister hnd=0xb3a3c900, share_fd=33, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb0e9c000, writeOwner=0, min_pgsz=4096
+01-26 15:36:13.134 I/gralloc (  378): gralloc_unregister hnd=0xb3a3d500, share_fd=31, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb2699000, writeOwner=0, min_pgsz=4096
+01-26 15:36:13.147 I/gralloc (  407): gralloc_unregister hnd=0xb03c5980, share_fd=89, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeea0000, writeOwner=0, min_pgsz=4096
+01-26 15:36:14.219 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:14.220 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:14.220 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:14.220 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:14.220 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:14.220 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:14.220 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:14.221 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:14.222 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:14.222 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:14.233 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:14.244 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:14.675 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:14.676 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:14.676 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:14.676 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:14.676 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:14.676 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:14.676 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:14.677 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:14.677 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:14.677 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:14.713 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:14.755 I/chatty  (  797): uid=1000(system) InputReader identical 3 lines
+01-26 15:36:14.771 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:14.776 I/MediaFocusControl(  797): requestAudioFocus() from uid/pid 11078/6168 clientId=android.media.AudioManager@9c6b03d callingPack=com.newland.template req=1 flags=0x0 sdk=33
+01-26 15:36:14.784 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:14.788 W/MediaPlayer( 6168): Couldn't open /storage/emulated/0/custom_brac/vdo_home.mp4
+01-26 15:36:14.788 W/MediaPlayer( 6168): java.io.FileNotFoundException: No content provider: /storage/emulated/0/custom_brac/vdo_home.mp4
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.content.ContentResolver.openTypedAssetFileDescriptor(ContentResolver.java:1673)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1503)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1420)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.media.MediaPlayer.attemptDataSource(MediaPlayer.java:1103)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.media.MediaPlayer.setDataSource(MediaPlayer.java:1075)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.media.MediaPlayer.setDataSource(MediaPlayer.java:1099)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.widget.VideoView.openVideo(VideoView.java:412)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.widget.VideoView.access$2200(VideoView.java:83)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.widget.VideoView$7.surfaceCreated(VideoView.java:694)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.view.SurfaceView.updateSurface(SurfaceView.java:762)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.view.SurfaceView$2.onPreDraw(SurfaceView.java:157)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.view.ViewTreeObserver.dispatchOnPreDraw(ViewTreeObserver.java:1088)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2784)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1760)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:7646)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:966)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.view.Choreographer.doCallbacks(Choreographer.java:790)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.view.Choreographer.doFrame(Choreographer.java:725)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:951)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.os.Handler.handleCallback(Handler.java:883)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.os.Handler.dispatchMessage(Handler.java:100)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.os.Looper.loop(Looper.java:214)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at android.app.ActivityThread.main(ActivityThread.java:7635)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at java.lang.reflect.Method.invoke(Native Method)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:587)
+01-26 15:36:14.788 W/MediaPlayer( 6168): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+01-26 15:36:14.789 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:14.789 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:14.789 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:14.789 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:14.789 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:14.789 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:14.792 D/NuPlayerDriver(  470): NuPlayerDriver(0xad135aa0) created, clientPid(6168)
+01-26 15:36:14.799 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:14.801 I/Codec2Client(  470): Creating a Codec2 client to service "software"
+01-26 15:36:14.807 I/Codec2Client(  470): Client to Codec2 service "software" created
+01-26 15:36:14.809 D/SurfaceUtils(  470): connecting to surface 0xad193008, reason setVideoSurfaceTexture
+01-26 15:36:14.810 D/NuPlayer(  470): onSetVideoSurface(0xad193800, no video decoder)
+01-26 15:36:14.813 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:14.820 D/DRM_DrmOmaPlugIn(  457): onInitialize : 6197
+01-26 15:36:14.820 D/DRM_DrmOmaPlugIn(  457): onSetOnInfoListener : 6197
+01-26 15:36:14.821 D/DRM_DrmOmaPlugIn(  457): (6197)onOpenDecryptSession : offset:0, length:11651169, fd:7
+01-26 15:36:14.821 D/DRM_DcfParser(  457): parse (null), fd: 8
+01-26 15:36:14.821 D/DRM_DcfParser(  457): parse (null), version: 0
+01-26 15:36:14.821 E/DRM_DcfParser(  457): parse error, only dcf v1 is supported, 0
+01-26 15:36:14.821 E/DRM_DrmOmaPlugIn(  457): onOpenDecryptSession , dcf parse error
+01-26 15:36:14.822 D/DRM_DrmOmaPlugIn(  457): onTerminate : 6197
+01-26 15:36:14.822 D/GenericSource(  470): FileSource remote
+01-26 15:36:14.825 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:14.826 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:14.826 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:14.826 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:14.826 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:14.826 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:14.826 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:14.843 I/SampleTable(  468): There are reordered frames present.
+01-26 15:36:14.858 D/MediaBufferGroup(  468): creating MemoryDealer
+01-26 15:36:14.870 D/SurfaceCallbackHelper( 6168): dispatchSurfaceRedrawNeededAsync, callbacks=[Landroid.view.SurfaceHolder$Callback;@a5d8771, callbacks.length=1
+01-26 15:36:14.871 D/SurfaceCallbackHelper( 6168): mFinishDrawingRunnable, mFinishDrawingCollected=1, mFinishDrawingExpected=1
+01-26 15:36:14.872 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:14.872 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:14.872 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:14.885 D/MediaPlayerNative( 6168): getMetadata
+01-26 15:36:15.462 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:15.463 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:15.463 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:15.463 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:15.463 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:15.463 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:15.463 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:15.464 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:15.464 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:15.464 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:15.476 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:15.530 I/chatty  (  797): uid=1000(system) InputReader identical 2 lines
+01-26 15:36:15.541 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:15.553 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:15.556 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:15.556 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:15.556 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:15.563 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:15.663 I/chatty  (  378): uid=1000(system) HwBinder:378_2 identical 6 lines
+01-26 15:36:15.679 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:15.697 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:15.860 I/chatty  (  378): uid=1000(system) composer@2.1-se identical 10 lines
+01-26 15:36:15.877 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:15.989 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:15.990 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:15.990 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:15.990 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:15.991 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:15.991 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:15.991 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:15.991 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:15.991 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:15.991 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:16.011 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:16.017 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=1 deviceId=1
+01-26 15:36:16.024 D/WindowManager(  797): Input focus has changed to Window{3c818b0 u0 Panel:com.newland.template/acquire.app.MainActivity}
+01-26 15:36:16.027 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:16.032 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=1 deviceId=1
+01-26 15:36:16.044 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:16.047 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:16.060 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:16.066 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:16.049 W/HwBinder:377_1(  377): type=1400 audit(0.0:768): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:16.067 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x966, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.067 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x966, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.067 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x966, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.067 I/gralloc (  407): gralloc_register hnd=0xb03c5980, share_fd=91, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x966, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeea0000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.068 I/gralloc ( 6168): gralloc_register hnd=0x87399600, share_fd=128, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x966, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x852e9000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.068 E/ion     ( 6168): ioctl c0044901 failed with code -1: Not a typewriter
+01-26 15:36:16.074 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:36:16.077 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:16.085 I/gralloc ( 6168): gralloc_unregister hnd=0x87399600, share_fd=128, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x966, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x852e9000, writeOwner=48, min_pgsz=4096
+01-26 15:36:16.093 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:16.095 D/WindowManager(  797): Input focus has changed to Window{5c8516f u0 com.newland.template/acquire.app.MainActivity}
+01-26 15:36:16.097 D/SSense  (  797): windowsChanged
+01-26 15:36:16.108 I/gralloc (  407): gralloc_unregister hnd=0xb03c5980, share_fd=91, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x966, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeea0000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.110 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:16.125 I/chatty  (  378): uid=1000(system) composer@2.1-se identical 1 line
+01-26 15:36:16.142 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:16.564 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:16.564 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:16.564 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:16.564 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:16.565 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:16.565 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:16.565 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:16.566 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:16.566 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:16.566 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:16.576 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:16.588 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:16.593 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:16.595 D/WindowManager(  797): Input focus has changed to Window{f2816ae u0 Panel:com.newland.template/acquire.app.MainActivity}
+01-26 15:36:16.610 I/chatty  (  378): uid=1000(system) composer@2.1-se identical 1 line
+01-26 15:36:16.627 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:16.639 D/mali_winsys( 6168): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+01-26 15:36:16.644 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:16.629 W/HwBinder:377_1(  377): type=1400 audit(0.0:769): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:16.646 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:16.647 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.647 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.647 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.648 I/gralloc (  407): gralloc_register hnd=0xb03c5980, share_fd=20, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeea0000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.639 W/HwBinder:377_1(  377): type=1400 audit(0.0:770): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:16.639 W/HwBinder:377_1(  377): type=1400 audit(0.0:771): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:16.652 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:16.652 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.653 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.653 I/gralloc (  407): gralloc_register hnd=0xb03c6040, share_fd=92, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaee24000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.653 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.653 I/gralloc ( 6168): gralloc_register hnd=0x87a0c780, share_fd=130, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x85309000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.653 E/        ( 6168): Shared attribute region not available to be mapped
+01-26 15:36:16.654 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:16.657 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.657 I/gralloc (  407): gralloc_register hnd=0xb03c64c0, share_fd=91, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeda8000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.658 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:36:16.658 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.658 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.675 I/gralloc (  378): gralloc_register hnd=0xb3a3d500, share_fd=31, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb2699000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.676 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:16.679 I/gralloc ( 6168): gralloc_register hnd=0x87a0dec0, share_fd=132, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x8528d000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.679 E/        ( 6168): Shared attribute region not available to be mapped
+01-26 15:36:16.682 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:36:16.692 I/gralloc (  378): gralloc_register hnd=0xb3a3d680, share_fd=38, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb0e9c000, writeOwner=0, min_pgsz=4096
+01-26 15:36:16.693 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:16.707 I/chatty  (  378): uid=1000(system) composer@2.1-se identical 1 line
+01-26 15:36:16.723 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:17.007 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:17.008 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:17.008 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:17.008 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:17.008 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:17.008 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:17.008 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:17.008 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:17.008 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:17.008 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:17.014 I/gralloc (  407): gralloc_unregister hnd=0xb03c6040, share_fd=92, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaee24000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.015 I/gralloc (  407): gralloc_unregister hnd=0xb03c5980, share_fd=20, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeea0000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.016 I/gralloc ( 6168): gralloc_unregister hnd=0x87a0c780, share_fd=130, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x85309000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.017 I/gralloc ( 6168): gralloc_unregister hnd=0x87a0dec0, share_fd=132, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x8528d000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.017 E/BufferQueueProducer(  407): [Panel:com.newland.template/acquire.app.MainActivity#0] disconnect: not connected (req=1)
+01-26 15:36:17.017 W/libEGL  ( 6168): EGLNativeWindowType 0x86eb2208 disconnect failed
+01-26 15:36:17.020 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:17.031 D/WindowManager(  797): Input focus has changed to Window{5c8516f u0 com.newland.template/acquire.app.MainActivity}
+01-26 15:36:17.033 D/SSense  (  797): windowsChanged
+01-26 15:36:17.042 I/gralloc (  378): gralloc_unregister hnd=0xb3a3d500, share_fd=31, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb2699000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.042 I/gralloc (  378): gralloc_unregister hnd=0xb3a3d680, share_fd=38, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb0e9c000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.044 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:17.057 I/gralloc (  407): gralloc_unregister hnd=0xb03c64c0, share_fd=91, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeda8000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.060 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:17.063 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:17.070 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:17.081 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:17.089 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:17.492 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:17.493 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:17.493 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:17.493 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:17.493 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:17.493 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:17.493 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:17.493 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:17.493 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:17.493 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:17.516 D/WindowManager(  797): Input focus has changed to Window{f0e0fdc u0 Panel:com.newland.template/acquire.app.MainActivity}
+01-26 15:36:17.524 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:17.533 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:17.541 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:17.549 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:17.552 D/mali_winsys( 6168): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+01-26 15:36:17.555 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:17.555 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.539 W/HwBinder:377_1(  377): type=1400 audit(0.0:772): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:17.555 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.555 I/gralloc (  407): gralloc_register hnd=0xb03c5980, share_fd=103, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeea0000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.555 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.539 W/HwBinder:377_1(  377): type=1400 audit(0.0:773): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:17.556 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:17.556 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:17.556 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.557 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.557 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.557 I/gralloc (  407): gralloc_register hnd=0xb03c6040, share_fd=90, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaee24000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.539 W/HwBinder:377_1(  377): type=1400 audit(0.0:774): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:17.558 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:17.558 I/gralloc ( 6168): gralloc_register hnd=0x8739a500, share_fd=130, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x85309000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.559 E/        ( 6168): Shared attribute region not available to be mapped
+01-26 15:36:17.559 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.561 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:17.559 I/gralloc (  407): gralloc_register hnd=0xb03c64c0, share_fd=89, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeda8000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.562 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.562 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.563 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:36:17.573 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:17.574 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:17.582 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:17.582 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:17.582 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:17.590 I/gralloc (  378): gralloc_register hnd=0xb3a3d500, share_fd=31, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb2699000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.590 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:17.599 I/gralloc ( 6168): gralloc_register hnd=0x87a0df80, share_fd=132, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x8528d000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.599 E/        ( 6168): Shared attribute region not available to be mapped
+01-26 15:36:17.604 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:36:17.622 I/gralloc (  378): gralloc_register hnd=0xb3a3d680, share_fd=40, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb0e9c000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.622 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:17.921 I/chatty  (  378): uid=1000(system) composer@2.1-se identical 18 lines
+01-26 15:36:17.937 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:17.951 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:17.952 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:17.952 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:17.952 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:17.952 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:17.952 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:17.952 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:17.953 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:17.953 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:17.953 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:17.959 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:17.972 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:17.980 I/gralloc (  407): gralloc_unregister hnd=0xb03c5980, share_fd=103, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeea0000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.981 I/gralloc (  407): gralloc_unregister hnd=0xb03c6040, share_fd=90, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaee24000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.982 I/gralloc ( 6168): gralloc_unregister hnd=0x8739a500, share_fd=130, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x85309000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.983 I/gralloc ( 6168): gralloc_unregister hnd=0x87a0df80, share_fd=132, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x8528d000, writeOwner=0, min_pgsz=4096
+01-26 15:36:17.983 E/BufferQueueProducer(  407): [Panel:com.newland.template/acquire.app.MainActivity#0] disconnect: not connected (req=1)
+01-26 15:36:17.983 W/libEGL  ( 6168): EGLNativeWindowType 0x86eb2208 disconnect failed
+01-26 15:36:17.988 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:17.994 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:18.002 D/WindowManager(  797): Input focus has changed to Window{5c8516f u0 com.newland.template/acquire.app.MainActivity}
+01-26 15:36:18.004 D/SSense  (  797): windowsChanged
+01-26 15:36:18.003 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:18.006 I/gralloc (  378): gralloc_unregister hnd=0xb3a3d500, share_fd=31, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb2699000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.007 I/gralloc (  378): gralloc_unregister hnd=0xb3a3d680, share_fd=40, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb0e9c000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.008 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:18.014 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:18.020 I/gralloc (  407): gralloc_unregister hnd=0xb03c64c0, share_fd=89, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeda8000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.023 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:18.027 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:18.038 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:18.048 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:18.051 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:18.051 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:18.051 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:18.054 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:18.603 I/chatty  (  378): uid=1000(system) composer@2.1-se identical 33 lines
+01-26 15:36:18.619 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:18.622 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:18.626 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:18.628 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:18.629 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:18.629 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:18.629 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:18.629 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:18.629 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:18.629 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:18.629 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:18.636 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:18.653 D/WindowManager(  797): Input focus has changed to Window{762efba u0 Panel:com.newland.template/acquire.app.MainActivity}
+01-26 15:36:18.655 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:18.661 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:18.679 D/mali_winsys( 6168): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+01-26 15:36:18.669 W/HwBinder:377_1(  377): type=1400 audit(0.0:775): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:18.680 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:18.680 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.681 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.681 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.682 I/gralloc (  407): gralloc_register hnd=0xb03c5980, share_fd=62, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeea0000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.669 W/HwBinder:377_1(  377): type=1400 audit(0.0:776): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:18.682 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:18.683 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.683 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.683 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.669 W/HwBinder:377_1(  377): type=1400 audit(0.0:777): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:18.684 I/gralloc (  407): gralloc_register hnd=0xb03c6040, share_fd=67, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaee24000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.686 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:18.687 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.687 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.687 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.688 I/gralloc (  407): gralloc_register hnd=0xb03c64c0, share_fd=27, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeda8000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.688 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:18.689 I/gralloc ( 6168): gralloc_register hnd=0x87a0c840, share_fd=130, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x85309000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.690 E/        ( 6168): Shared attribute region not available to be mapped
+01-26 15:36:18.693 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:36:18.701 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:18.704 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:18.713 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:18.714 I/gralloc ( 6168): gralloc_register hnd=0x87a0e580, share_fd=136, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x8528d000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.715 E/        ( 6168): Shared attribute region not available to be mapped
+01-26 15:36:18.717 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:36:18.721 I/gralloc (  378): gralloc_register hnd=0xb3a3d500, share_fd=47, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb2699000, writeOwner=0, min_pgsz=4096
+01-26 15:36:18.721 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:18.727 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:18.729 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:18.729 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:18.729 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:18.729 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:18.729 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:18.729 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:18.729 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:18.729 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:18.729 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:18.737 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:18.752 I/chatty  (  378): uid=1000(system) composer@2.1-se identical 1 line
+01-26 15:36:18.769 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:19.036 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:19.037 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:19.037 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:19.037 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:19.038 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:19.038 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:19.038 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:19.038 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:19.038 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:19.038 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:19.043 I/gralloc (  407): gralloc_unregister hnd=0xb03c5980, share_fd=62, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeea0000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.043 I/gralloc (  407): gralloc_unregister hnd=0xb03c64c0, share_fd=27, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeda8000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.044 I/gralloc ( 6168): gralloc_unregister hnd=0x87a0c840, share_fd=130, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x85309000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.045 I/gralloc ( 6168): gralloc_unregister hnd=0x87a0e580, share_fd=136, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x8528d000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.045 E/BufferQueueProducer(  407): [Panel:com.newland.template/acquire.app.MainActivity#0] disconnect: not connected (req=1)
+01-26 15:36:19.045 W/libEGL  ( 6168): EGLNativeWindowType 0x86eb2208 disconnect failed
+01-26 15:36:19.059 D/WindowManager(  797): Input focus has changed to Window{5c8516f u0 com.newland.template/acquire.app.MainActivity}
+01-26 15:36:19.061 D/SSense  (  797): windowsChanged
+01-26 15:36:19.071 I/gralloc (  378): gralloc_unregister hnd=0xb3a3d500, share_fd=47, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb2699000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.073 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:19.083 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:19.086 I/gralloc (  407): gralloc_unregister hnd=0xb03c6040, share_fd=67, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaee24000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.088 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:19.101 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:19.119 D/InputReader(  797): processEventsLocked: type=3 Count=12 code=57 value=0 deviceId=1
+01-26 15:36:19.151 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:19.616 D/SSense  (  797): onTouchRateChanged: rate:0.3255814
+01-26 15:36:19.662 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:19.662 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:19.662 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:19.662 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:19.663 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:19.663 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:19.663 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:19.663 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:19.663 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:19.663 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:19.690 D/WindowManager(  797): Input focus has changed to Window{75a4dc8 u0 Panel:com.newland.template/acquire.app.MainActivity}
+01-26 15:36:19.699 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:19.702 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:19.716 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:19.719 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:19.726 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:19.733 D/mali_winsys( 6168): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+01-26 15:36:19.719 W/HwBinder:377_1(  377): type=1400 audit(0.0:778): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:19.735 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:19.719 W/HwBinder:377_1(  377): type=1400 audit(0.0:779): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:19.736 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:19.737 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:19.737 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.738 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.738 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.738 I/gralloc (  407): gralloc_register hnd=0xb03c5980, share_fd=20, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeea0000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.738 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:19.738 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.739 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.739 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.739 I/gralloc (  407): gralloc_register hnd=0xb03c6040, share_fd=49, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaee24000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.741 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:36:19.729 W/HwBinder:377_1(  377): type=1400 audit(0.0:780): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:36:19.741 I/gralloc ( 6168): gralloc_register hnd=0x8739bd00, share_fd=130, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x85309000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.742 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.742 E/        ( 6168): Shared attribute region not available to be mapped
+01-26 15:36:19.745 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:36:19.745 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.745 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xac55b000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.745 I/gralloc (  407): gralloc_register hnd=0xb03c64c0, share_fd=95, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeda8000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.746 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:19.751 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:19.751 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:19.751 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:19.751 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:19.769 I/gralloc (  378): gralloc_register hnd=0xb3a3d500, share_fd=31, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb2699000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.769 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:19.788 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:19.790 I/gralloc ( 6168): gralloc_register hnd=0x87a0e640, share_fd=132, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x8528d000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.790 E/        ( 6168): Shared attribute region not available to be mapped
+01-26 15:36:19.793 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:36:19.801 I/gralloc (  378): gralloc_register hnd=0xb3a3d680, share_fd=33, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb0e9c000, writeOwner=0, min_pgsz=4096
+01-26 15:36:19.801 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:20.036 I/chatty  (  378): uid=1000(system) composer@2.1-se identical 14 lines
+01-26 15:36:20.054 W/DPUModule(  378): Warning: Dispc cannot support 6 layer blending(0)
+01-26 15:36:20.070 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:20.177 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:20.178 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:20.178 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:20.178 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:20.178 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:20.178 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:20.178 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:20.178 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:20.178 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:20.178 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:20.188 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:20.249 I/chatty  (  797): uid=1000(system) InputReader identical 5 lines
+01-26 15:36:20.259 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:20.268 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:20.274 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:20.280 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:20.280 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:20.280 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:20.285 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:20.515 I/chatty  (  378): uid=1000(system) composer@2.1-se identical 14 lines
+01-26 15:36:20.532 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:20.538 I/gralloc (  407): gralloc_unregister hnd=0xb03c5980, share_fd=20, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeea0000, writeOwner=0, min_pgsz=4096
+01-26 15:36:20.539 I/gralloc (  407): gralloc_unregister hnd=0xb03c6040, share_fd=49, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaee24000, writeOwner=0, min_pgsz=4096
+01-26 15:36:20.542 I/gralloc ( 6168): gralloc_unregister hnd=0x8739bd00, share_fd=130, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x85309000, writeOwner=0, min_pgsz=4096
+01-26 15:36:20.542 I/gralloc ( 6168): gralloc_unregister hnd=0x87a0e640, share_fd=132, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0x8528d000, writeOwner=0, min_pgsz=4096
+01-26 15:36:20.542 E/BufferQueueProducer(  407): [Panel:com.newland.template/acquire.app.MainActivity#0] disconnect: not connected (req=1)
+01-26 15:36:20.543 W/libEGL  ( 6168): EGLNativeWindowType 0x86eb2208 disconnect failed
+01-26 15:36:20.549 W/DPUModule(  378): Warning: Dispc cannot support 5 layer blending(0)
+01-26 15:36:20.561 D/WindowManager(  797): Input focus has changed to Window{5c8516f u0 com.newland.template/acquire.app.MainActivity}
+01-26 15:36:20.564 D/SSense  (  797): windowsChanged
+01-26 15:36:20.569 I/gralloc (  378): gralloc_unregister hnd=0xb3a3d500, share_fd=31, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb2699000, writeOwner=0, min_pgsz=4096
+01-26 15:36:20.570 I/gralloc (  378): gralloc_unregister hnd=0xb3a3d680, share_fd=33, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xb0e9c000, writeOwner=0, min_pgsz=4096
+01-26 15:36:20.581 I/gralloc (  407): gralloc_unregister hnd=0xb03c64c0, share_fd=95, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=506880, width=720, height=176, internalWidth=720, internalHeight=176, stride=720, base=0xaeda8000, writeOwner=0, min_pgsz=4096
+01-26 15:36:20.592 D/NuPlayerDriver(  470): reset(0xad135aa0) at state 4
+01-26 15:36:20.594 D/NuPlayerDriver(  470): notifyResetComplete(0xad135aa0)
+01-26 15:36:20.594 D/NuPlayerDriver(  470): reset(0xad135aa0) at state 0
+01-26 15:36:20.596 D/SurfaceUtils(  470): disconnecting from surface 0xad193008, reason disconnectNativeWindow
+01-26 15:36:20.598 V/MediaPlayer( 6168): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+01-26 15:36:20.598 V/MediaPlayer( 6168): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+01-26 15:36:20.598 V/MediaPlayer( 6168): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+01-26 15:36:20.599 V/MediaPlayer( 6168): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+01-26 15:36:20.599 I/MediaFocusControl(  797): abandonAudioFocus() from uid/pid 11078/6168 clientId=android.media.AudioManager@9c6b03d
+01-26 15:36:23.018 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:23.018 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:23.018 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:23.018 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:23.019 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:23.019 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:23.019 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:23.019 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:23.019 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:23.019 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:23.030 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:23.090 I/chatty  (  797): uid=1000(system) InputReader identical 5 lines
+01-26 15:36:23.101 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:23.158 D/InputReader(  797): processEventsLocked: type=3 Count=9 code=57 value=0 deviceId=1
+01-26 15:36:23.159 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:23.159 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:23.159 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:23.159 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:23.159 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:23.159 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:23.161 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:23.161 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:23.161 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:23.162 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:23.163 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:23.163 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:24.141 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:24.142 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:24.142 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:24.142 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:24.142 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:24.142 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:24.142 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:24.142 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:24.142 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:24.142 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:24.152 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:24.227 I/chatty  (  797): uid=1000(system) InputReader identical 4 lines
+01-26 15:36:24.247 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:24.248 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:24.248 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:24.248 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:24.248 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:24.248 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:24.248 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:24.266 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:24.280 I/chatty  (  797): uid=1000(system) InputReader identical 1 line
+01-26 15:36:24.282 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:24.294 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:24.295 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:24.295 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:24.295 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:24.295 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:24.295 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:24.295 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:24.295 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:24.295 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:24.295 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:24.829 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:24.830 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:24.830 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:24.830 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:24.830 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:24.830 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:24.830 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:24.831 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:24.831 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:24.831 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:24.843 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:24.881 I/chatty  (  797): uid=1000(system) InputReader identical 3 lines
+01-26 15:36:24.894 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:24.910 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:24.917 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:24.917 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:24.917 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:25.364 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:25.365 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:25.365 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:25.365 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:25.365 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:25.365 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:25.365 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:25.366 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:25.367 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:25.367 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:25.375 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:25.399 I/chatty  (  797): uid=1000(system) InputReader identical 2 lines
+01-26 15:36:25.412 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:25.426 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:25.431 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:25.434 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:25.434 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:25.807 D/InputReader(  797): processEventsLocked: type=3 Count=8 code=57 value=0 deviceId=1
+01-26 15:36:25.808 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:25.808 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:25.808 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:25.808 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:25.808 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:25.808 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:25.812 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:25.812 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:25.812 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:25.817 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:25.876 I/chatty  (  797): uid=1000(system) InputReader identical 5 lines
+01-26 15:36:25.893 D/InputReader(  797): processEventsLocked: type=3 Count=7 code=57 value=0 deviceId=1
+01-26 15:36:25.900 D/InputReader(  797): processEventsLocked: type=3 Count=5 code=57 value=0 deviceId=1
+01-26 15:36:25.902 D/PowerHAL(  396): ###Enter interaction_other scene bgn###
+01-26 15:36:25.902 E/PowerHAL(  396): !!!subsys default value check failed
+01-26 15:36:25.902 D/PowerHAL(  396): ###Enter interaction_other scene end###
+01-26 15:36:29.317 D/Power-HealthInfoCallback(  396): Update charge status to: 1
+01-26 15:36:29.346 I/gralloc (  378): gralloc_register hnd=0xb3a3c900, share_fd=31, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=138240, width=720, height=48, internalWidth=720, internalHeight=48, stride=720, base=0xb3ff1000, writeOwner=0, min_pgsz=4096
+01-26 15:36:29.617 D/SSense  (  797): onTouchRateChanged: rate:7.162791
+01-26 15:36:35.253 I/adbd    ( 1492): Tianyuan Current sh name:getprop
+01-26 15:36:35.299 W/getprop ( 6588): type=1400 audit(0.0:781): avc: denied { map } for path="/dev/__properties__/u:object_r:firstboot_prop:s0" dev="tmpfs" ino=238 scontext=u:r:shell:s0 tcontext=u:object_r:firstboot_prop:s0 tclass=file permissive=0
+01-26 15:36:35.299 W/getprop ( 6588): type=1400 audit(0.0:782): avc: denied { map } for path="/dev/__properties__/u:object_r:ylog_prop:s0" dev="tmpfs" ino=314 scontext=u:r:shell:s0 tcontext=u:object_r:ylog_prop:s0 tclass=file permissive=0
+01-26 15:36:39.617 D/SSense  (  797): onTouchRateChanged: rate:3.5813954
+01-26 15:36:42.459 E/spserver(  453): Line[526]SP_SERVER: enter powersaving  success, cmdid = 144 exec_ret = 0
+01-26 15:36:42.460 I/spserver(  453): release wake_unlock
+01-26 15:36:49.619 D/SSense  (  797): onTouchRateChanged: rate:1.7906977
+01-26 15:36:59.621 D/SSense  (  797): onTouchRateChanged: rate:0.89534885
+01-26 15:37:09.622 D/SSense  (  797): onTouchRateChanged: rate:0.44767442
+01-26 15:37:11.161 D/DeviceStorageMonitorService(  797): updateStateEx oldLevel = 0, newLevel = 0
+01-26 15:37:11.327 D/DeviceStatisticsService(  797): writeToxml mtag = device
+01-26 15:37:11.327 D/DeviceStatisticsService(  797): writeToxml mtag = power
+01-26 15:37:11.327 D/DeviceStatisticsService(  797): writeToxml mtag = battery
+01-26 15:37:11.328 D/DeviceStatisticsService(  797): writeToxml mtag = print
+01-26 15:37:11.328 D/DeviceStatisticsService(  797): writeToxml mtag = ic_card
+01-26 15:37:11.328 D/DeviceStatisticsService(  797): writeToxml mtag = magnetic_card
+01-26 15:37:11.328 D/DeviceStatisticsService(  797): writeToxml mtag = rfc_card
+01-26 15:37:11.328 D/DeviceStatisticsService(  797): writeToxml mtag = sam
+01-26 15:37:11.328 D/DeviceStatisticsService(  797): writeToxml mtag = pinpad
+01-26 15:37:11.328 D/DeviceStatisticsService(  797): writeToxml mtag = earphone
+01-26 15:37:11.329 D/DeviceStatisticsService(  797): writeToxml mtag = usb
+01-26 15:37:11.329 D/DeviceStatisticsService(  797): writeToxml mtag = storage
+01-26 15:37:11.335 D/DeviceStatisticsService(  797): writeToxml mtag = camera
+01-26 15:37:11.335 D/DeviceStatisticsService(  797): writeToxml mtag = physical_key
+01-26 15:37:11.335 D/DeviceStatisticsService(  797): writeToxml mtag = touchscreen
+01-26 15:37:11.338 D/DeviceStatisticsService(  797): writeToxml mtag = lcd
+01-26 15:37:11.338 D/DeviceStatisticsService(  797): Location = passive
+01-26 15:37:11.338 D/DeviceStatisticsService(  797): Location = gps
+01-26 15:37:11.339 D/DeviceStatisticsService(  797): writeToxml mtag = gps
+01-26 15:37:11.339 D/DeviceStatisticsService(  797): linkStr = 3, successStr = 1
+01-26 15:37:11.339 D/DeviceStatisticsService(  797): writeToxml mtag = wlan
+01-26 15:37:11.339 D/DeviceStatisticsService(  797): writeToxml mtag = bluethooth
+01-26 15:37:11.343 W/ContentProvider( 1003): Normalized content://telephony/carriers/preferapn//subId/1 to content://telephony/carriers/preferapn/subId/1 to avoid possible security issues
+01-26 15:37:11.368 D/DeviceStatisticsService(  797): [dealApn]  getPreferApn
+01-26 15:37:11.369 W/ContentProvider( 1003): Normalized content://telephony/carriers/preferapn//subId/1 to content://telephony/carriers/preferapn/subId/1 to avoid possible security issues
+01-26 15:37:11.403 D/DeviceStatisticsService(  797): writeToxml mtag = cellular_data
+01-26 15:37:11.403 D/DeviceStatisticsService(  797): writeToxml mtag = crash
+01-26 15:37:11.405 I/key     (  797): /newland/system/patchLevel = 
+01-26 15:37:11.405 D/DeviceStatisticsService(  797): writeToxml mtag = patch_info
+01-26 15:37:18.809 D/DisplayPowerController(  797): updateProximitySensorState: setProximitySensorEnabled(false)
+01-26 15:37:18.810 V/DisplayPowerController(  797): Brightness [18] reason changing to: 'manual [ dim ]', previous reason: 'manual'.
+01-26 15:37:18.816 D/LIGHTS  (  380): file:vendor/sprd/modules/lights/lights.c, func:write_int, path=/sys/class/backlight/sprd_backlight/brightness, value=82
+01-26 15:37:18.817 D/refnotify(  521): refnotify_parse_event: SOURCE = sysfs!
+01-26 15:37:18.840 D/LIGHTS  (  380): file:vendor/sprd/modules/lights/lights.c, func:write_int, path=/sys/class/backlight/sprd_backlight/brightness, value=67
+01-26 15:37:18.841 D/refnotify(  521): refnotify_parse_event: SOURCE = sysfs!
+01-26 15:37:18.856 D/LIGHTS  (  380): file:vendor/sprd/modules/lights/lights.c, func:write_int, path=/sys/class/backlight/sprd_backlight/brightness, value=57
+01-26 15:37:18.857 D/refnotify(  521): refnotify_parse_event: SOURCE = sysfs!
+01-26 15:37:18.872 D/LIGHTS  (  380): file:vendor/sprd/modules/lights/lights.c, func:write_int, path=/sys/class/backlight/sprd_backlight/brightness, value=47
+01-26 15:37:18.873 D/refnotify(  521): refnotify_parse_event: SOURCE = sysfs!
+01-26 15:37:18.890 D/LIGHTS  (  380): file:vendor/sprd/modules/lights/lights.c, func:write_int, path=/sys/class/backlight/sprd_backlight/brightness, value=37
+01-26 15:37:18.891 D/refnotify(  521): refnotify_parse_event: SOURCE = sysfs!
+01-26 15:37:18.907 D/LIGHTS  (  380): file:vendor/sprd/modules/lights/lights.c, func:write_int, path=/sys/class/backlight/sprd_backlight/brightness, value=27
+01-26 15:37:18.907 D/refnotify(  521): refnotify_parse_event: SOURCE = sysfs!
+01-26 15:37:18.921 D/DisplayPowerController(  797): updateProximitySensorState: setProximitySensorEnabled(false)
+01-26 15:37:18.923 D/LIGHTS  (  380): file:vendor/sprd/modules/lights/lights.c, func:write_int, path=/sys/class/backlight/sprd_backlight/brightness, value=18
+01-26 15:37:18.924 D/refnotify(  521): refnotify_parse_event: SOURCE = sysfs!
+01-26 15:37:19.625 D/SSense  (  797): onTouchRateChanged: rate:0.22383721
+01-26 15:37:25.813 I/PowerManagerService(  797): Going to sleep due to timeout (uid 1000)...
+01-26 15:37:25.813 W/UsageStatsService(  797): Event reported without a package name, eventType:16
+01-26 15:37:25.814 I/PowerManagerService(  797): Sleeping (uid 1000)...
+01-26 15:37:25.815 D/DisplayPowerController(  797): updateProximitySensorState: setProximitySensorEnabled(false)
+01-26 15:37:25.818 D/PowerController.BgClean(  797): updateVisibleActivities done
+01-26 15:37:25.819 I/WindowManager(  797): Started going to sleep... (why=OFF_BECAUSE_OF_TIMEOUT)
+01-26 15:37:25.820 D/KeyguardViewMediator( 1025): onStartedGoingToSleep(3)
+01-26 15:37:25.827 D/mali_winsys(  797): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+01-26 15:37:25.827 D/AlarmManagerService(  797): set alarm to kernel: 4242.056000000, type=2 
+01-26 15:37:25.829 D/KeyguardViewMediator( 1025): setting alarm to turn off keyguard, seq = 12
+01-26 15:37:25.819 W/HwBinder:377_1(  377): type=1400 audit(0.0:783): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:37:25.831 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:37:25.831 D/KeyguardViewMediator( 1025): notifyStartedGoingToSleep
+01-26 15:37:25.836 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x366, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.836 D/KeyguardViewMediator( 1025): handleNotifyStartedGoingToSleep
+01-26 15:37:25.837 I/gralloc (  407): gralloc_register hnd=0xb03c5980, share_fd=81, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x366, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xad64f000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.837 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x366, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.837 D/AS.AudioService(  797): Volume controller visible: false
+01-26 15:37:25.837 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x366, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.838 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:37:25.851 I/gralloc (  407): gralloc_unregister hnd=0xb03c5980, share_fd=81, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x366, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xad64f000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.855 I/gralloc (  797): gralloc_register hnd=0x7b3c9a40, share_fd=339, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x366, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x6e79b000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.856 E/        (  797): Shared attribute region not available to be mapped
+01-26 15:37:25.861 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:37:25.849 W/HwBinder:377_1(  377): type=1400 audit(0.0:784): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:37:25.864 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.865 I/gralloc (  407): gralloc_register hnd=0xb03c5980, share_fd=56, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xad64f000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.866 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.866 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.866 I/gralloc (  797): gralloc_register hnd=0x7b3c9980, share_fd=343, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x6991f000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.867 E/        (  797): Shared attribute region not available to be mapped
+01-26 15:37:25.870 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:37:25.872 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:37:25.859 W/HwBinder:377_1(  377): type=1400 audit(0.0:785): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:37:25.891 I/gralloc (  378): gralloc_unregister hnd=0xb3a3ce40, share_fd=46, format=1, internal_format=0x1, byte_stride=1792, flags=4, usage=0xb00, size=141568, width=444, height=79, internalWidth=444, internalHeight=79, stride=448, base=0xb40f5000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.892 I/gralloc (  378): gralloc_unregister hnd=0xb3a3d200, share_fd=36, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=276480, width=720, height=96, internalWidth=720, internalHeight=96, stride=720, base=0xb3f56000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.892 I/gralloc (  378): gralloc_unregister hnd=0xb3a3cd80, share_fd=44, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=276480, width=720, height=96, internalWidth=720, internalHeight=96, stride=720, base=0xb412a000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.892 I/gralloc (  378): gralloc_unregister hnd=0xb3a3d080, share_fd=29, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=138240, width=720, height=48, internalWidth=720, internalHeight=48, stride=720, base=0xb40c5000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.892 I/gralloc (  378): gralloc_unregister hnd=0xb3a3c900, share_fd=31, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=138240, width=720, height=48, internalWidth=720, internalHeight=48, stride=720, base=0xb3ff1000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.893 I/gralloc (  378): gralloc_unregister hnd=0xb3a3d140, share_fd=35, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=138240, width=720, height=48, internalWidth=720, internalHeight=48, stride=720, base=0xb4052000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.893 I/gralloc (  378): gralloc_unregister hnd=0xb3a3ccc0, share_fd=42, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xb0f18000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.893 I/gralloc (  378): gralloc_unregister hnd=0xb3a3d5c0, share_fd=34, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xaf736000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.894 I/gralloc (  378): gralloc_unregister hnd=0xb3a3d800, share_fd=37, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xaf3b2000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.895 I/gralloc (  378): gralloc_register hnd=0xb3a3c900, share_fd=29, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xb0f18000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.896 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.896 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.896 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.896 I/gralloc (  407): gralloc_register hnd=0xb03c6040, share_fd=49, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xad2cb000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.897 I/gralloc (  797): gralloc_register hnd=0x7b3c9bc0, share_fd=347, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x68b40000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.898 E/        (  797): Shared attribute region not available to be mapped
+01-26 15:37:25.900 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:37:25.889 W/HwBinder:377_1(  377): type=1400 audit(0.0:786): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:37:25.901 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:37:25.906 I/gralloc (  378): gralloc_register hnd=0xb3a3c9c0, share_fd=35, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xaf736000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.930 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.931 I/gralloc (  407): gralloc_register hnd=0xb03c64c0, share_fd=103, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xacf47000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.931 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.931 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.932 I/gralloc (  797): gralloc_register hnd=0x7b3c9c80, share_fd=346, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x68438000, writeOwner=0, min_pgsz=4096
+01-26 15:37:25.932 E/        (  797): Shared attribute region not available to be mapped
+01-26 15:37:25.939 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:37:25.940 V/DisplayPowerController(  797): Brightness [83] reason changing to: 'manual', previous reason: 'manual [ dim ]'.
+01-26 15:37:25.956 I/gralloc (  378): gralloc_register hnd=0xb3a3cb40, share_fd=37, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xaf3b2000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.007 D/DisplayPowerController(  797): updateProximitySensorState: setProximitySensorEnabled(false)
+01-26 15:37:26.008 I/DisplayPowerController(  797): Blocking screen off
+01-26 15:37:25.999 W/HwBinder:377_1(  377): type=1400 audit(0.0:787): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=197 scontext=u:r:hal_graphics_allocator_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-26 15:37:26.008 I/DisplayPowerController(  797): Unblocked screen off after 0 ms
+01-26 15:37:25.999 W/light@2.0-servi(  380): type=1400 audit(0.0:788): avc: denied { search } for name="sprd_governor" dev="sysfs" ino=16648 scontext=u:r:hal_light_default:s0 tcontext=u:object_r:sysfs_ddr_dfs:s0 tclass=dir permissive=0
+01-26 15:37:26.008 I/WindowManager(  797): Screen turned off...
+01-26 15:37:25.999 W/light@2.0-servi(  380): type=1400 audit(0.0:789): avc: denied { search } for name="sprd_governor" dev="sysfs" ino=16648 scontext=u:r:hal_light_default:s0 tcontext=u:object_r:sysfs_ddr_dfs:s0 tclass=dir permissive=0
+01-26 15:37:26.010 E/libc    (  377): Access denied finding property "enable_ion_heap_id_mask_cam"
+01-26 15:37:26.011 D/LIGHTS  (  380): file:vendor/sprd/modules/lights/lights.c, func:write_int, path=/sys/class/backlight/sprd_backlight/brightness, value=0
+01-26 15:37:26.012 E/LIGHTS  (  380): open /sys/touchscreen/ts_suspend failed, errno=2(No such file or directory)
+01-26 15:37:26.012 E/LIGHTS  (  380): open /sys/class/devfreq/scene-frequency/sprd_governor/scenario_dfs failed, errno=13(Permission denied)
+01-26 15:37:26.013 E/LIGHTS  (  380): open /sys/class/devfreq/scene-frequency/sprd_governor/exit_scene failed, errno=13(Permission denied)
+01-26 15:37:26.014 D/refnotify(  521): refnotify_parse_event: SOURCE = sysfs!
+01-26 15:37:26.030 I/gralloc (  377): gralloc=>alloc hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x366, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.030 I/gralloc (  377): gralloc_unregister hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x366, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.030 I/gralloc (  377): gralloc=>free hnd=0xac33a000, share_fd=8, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x366, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xab3a1000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.030 I/gralloc (  407): gralloc_register hnd=0xb03c6f40, share_fd=106, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x366, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xacbc3000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.031 E/        (  407): Shared attribute region not available to be mapped
+01-26 15:37:26.038 I/gralloc (  797): gralloc_register hnd=0x7b3c9ec0, share_fd=348, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x366, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x67d30000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.039 D/ActivityTaskManager(  797): Top Process State changed to PROCESS_STATE_TOP_SLEEPING
+01-26 15:37:26.040 D/SectionHabit(  797): updateFgTimeInner pkgName:com.newland.template,type:3,data:package:com.newland.template ,count :6,launchCountIndex:1,fgtime:73690,fgtimeIndex:0
+01-26 15:37:26.042 I/gralloc ( 1025): gralloc_register hnd=0x84815700, share_fd=71, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x366, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x81788000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.042 D/KeyguardViewMediator( 1025): notifyScreenTurnedOff
+01-26 15:37:26.043 D/SensorManager(  797): unregisterListenerImpl sensor = null, listener = com.android.server.policy.WindowOrientationListener$AccelSensorJudge@1c555c8
+01-26 15:37:26.043 D/KeyguardViewMediator( 1025): handleNotifyScreenTurnedOff
+01-26 15:37:26.044 D/sensor  (  384): poll__batch handle=0 sampling_period_ns=66ms, max_report_latency_ns=0ms
+01-26 15:37:26.044 E/sensor  (  384): invensense: set accel delay to 66 ms
+01-26 15:37:26.044 E/sensor  (  384): invensense: open /accel_delay fail
+01-26 15:37:26.046 I/gralloc (  407): gralloc_unregister hnd=0xb03c6040, share_fd=49, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xad2cb000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.047 I/gralloc (  407): gralloc_unregister hnd=0xb03c64c0, share_fd=103, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xacf47000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.047 E/        (  797): Shared attribute region not available to be mapped
+01-26 15:37:26.047 E/BufferQueueProducer(  407): [ColorFade#0] disconnect: not connected (req=1)
+01-26 15:37:26.048 W/mali_winsys(  797): native_window_api_disconnect failed: -19
+01-26 15:37:26.048 I/gralloc (  797): gralloc_unregister hnd=0x7b3c9bc0, share_fd=347, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x68b40000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.048 D/SensorManager( 1025): unregisterListenerImpl sensor = null, listener = com.android.systemui.classifier.brightline.BrightLineFalsingManager$1@611ccb4
+01-26 15:37:26.048 V/bankdemoR3.13:LogLife.onPause(L:35)( 6168): MainActivity{816463f}->onPause
+01-26 15:37:26.048 I/gralloc (  797): gralloc_unregister hnd=0x7b3c9c80, share_fd=346, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x68438000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.051 I/gralloc (  797): gralloc_unregister hnd=0x7b3c9980, share_fd=343, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x6991f000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.054 V/DisplayPowerController(  797): Brightness [0] reason changing to: 'screen_off', previous reason: 'manual'.
+01-26 15:37:26.054 D/DisplayPowerController(  797): updateProximitySensorState: setProximitySensorEnabled(false)
+01-26 15:37:26.055 D/SurfaceFlinger(  407): Setting power mode 0 on display 0
+01-26 15:37:26.057 I/DisplayManagerService(  797): Display device changed state: "Built-in Screen", OFF
+01-26 15:37:26.067 V/bankdemoR3.13:LogLife.onPause(L:35)( 6168): MainBracFragment{8e49841}->onPause
+01-26 15:37:26.068 D/DeviceManagerImpl( 6168): >>>NL_HARDWARE_CONFIG: 0024131F120105010101010102FFFFFF11FFFF01FFFFFF0201FF
+01-26 15:37:26.068 D/DeviceManagerImpl( 6168): >>>Capability: 594E59595959595959
+01-26 15:37:26.069 D/DeviceManagerImpl( 6168): remoteCfg:15
+01-26 15:37:26.069 D/DeviceManagerImpl( 6168): NL_HARDWARE_ID:A10>>>> version:D1.1.51
+01-26 15:37:26.100 V/bankdemoR3.13:LogLife.onStop(L:39)( 6168): MainActivity{816463f}->onStop
+01-26 15:37:26.106 D/SceneRecognizer(  797): notifySceneStatusChanged: notify 1 receivers
+01-26 15:37:26.106 D/AppSceneRecognizer(  797): ###handle app Event: Exit
+01-26 15:37:26.110 V/bankdemoR3.13:LogLife.onStop(L:39)( 6168): MainBracFragment{8e49841}->onStop
+01-26 15:37:26.112 V/bankdemoR3.13:LogLife.onStop(L:39)( 6168): MenuBankItemsFragment{299383a}->onStop
+01-26 15:37:26.115 V/bankdemoR3.13:LogLife.onStop(L:39)( 6168): BankMenuItemsFragment{2fed1e6}->onStop
+01-26 15:37:26.123 D/ConnectivityService(  797): releasing NetworkRequest [ TRACK_DEFAULT id=23, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 11078] ] (release request)
+01-26 15:37:26.136 D/Tile.LteServiceTile( 1025): handleUpdateState: mLteEnabled = true mSimAvailable = true mServiceForPhone 0
+01-26 15:37:26.160 D/CellularTile( 1025): handleUpdateState() mobileDataEnabled = true
+01-26 15:37:26.160 D/RotationLockTile( 1025): state.value: true state.state 1
+01-26 15:37:26.161 D/PowerManagerServiceEx(  797): get Power Save Mode When Charging
+01-26 15:37:26.172 I/gralloc (  407): gralloc_unregister hnd=0xb03c4540, share_fd=65, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xae41c000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.172 I/gralloc (  407): gralloc_unregister hnd=0xb03c6e80, share_fd=97, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xadd14000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.173 I/gralloc ( 6168): gralloc_unregister hnd=0x87388500, share_fd=120, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x81b18000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.173 I/gralloc ( 6168): gralloc_unregister hnd=0x87713680, share_fd=135, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x7cc95000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.173 I/gralloc ( 6168): gralloc_unregister hnd=0x87399cc0, share_fd=134, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x8013f000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.174 E/BufferQueueProducer(  407): [com.newland.template/acquire.app.MainActivity#0] disconnect: not connected (req=1)
+01-26 15:37:26.174 W/libEGL  ( 6168): EGLNativeWindowType 0x9c6c7348 disconnect failed
+01-26 15:37:26.175 D/mali_winsys( 6168): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+01-26 15:37:26.241 I/ndroid.systemu( 1025): NativeAlloc concurrent copying GC freed 20545(862KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 4854KB/9709KB, paused 104us total 196.869ms
+01-26 15:37:26.244 I/gralloc ( 1025): gralloc_unregister hnd=0x84815700, share_fd=71, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x366, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x81788000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.263 D/SPRDHWComposer(  378): Excessive delay in drm_blank(): 207ms
+01-26 15:37:26.263 D/SurfaceFlinger(  407): Finished setting power mode 0 on display 0
+01-26 15:37:26.265 D/SurfaceControl(  797): Excessive delay in setPowerMode()
+01-26 15:37:26.266 I/gralloc (  378): gralloc_unregister hnd=0xb3a3c900, share_fd=29, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xb0f18000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.266 D/DisplayPowerController(  797): updateProximitySensorState: setProximitySensorEnabled(false)
+01-26 15:37:26.266 I/gralloc (  378): gralloc_unregister hnd=0xb3a3c9c0, share_fd=35, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xaf736000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.267 I/gralloc (  378): gralloc_unregister hnd=0xb3a3cb40, share_fd=37, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0xb00, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0xaf3b2000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.269 I/WindowManager(  797): Finished going to sleep... (why=OFF_BECAUSE_OF_TIMEOUT)
+01-26 15:37:26.271 D/KeyguardViewMediator( 1025): onFinishedGoingToSleep(3)
+01-26 15:37:26.271 D/KeyguardViewMediator( 1025): notifyFinishedGoingToSleep
+01-26 15:37:26.271 D/KeyguardViewMediator( 1025): handleNotifyFinishedGoingToSleep
+01-26 15:37:26.278 W/AlarmManager(  797): Unrecognized alarm listener com.android.server.power.sprdpower.BackgroundCleanHelper$1@78cce6d
+01-26 15:37:26.280 E/WifiClientModeImpl(  797): getWifiLinkLayerStats called without an interface
+01-26 15:37:26.282 D/AS.AudioService(  797): onReceive()  action= android.intent.action.SCREEN_OFF
+01-26 15:37:26.283 I/audio_hw_primary(  369): adev_set_parameters  kvpairs : screen_state=off
+01-26 15:37:26.283 I/AudioCustom_MMI(  369): AudioMMIParse MMI test is close!
+01-26 15:37:26.283 V/audio_hw_primary(  369): AudioCustom_MmiParse Is OFF
+01-26 15:37:26.284 I/BTAudioHw(  369): adev_sprd_set_parameters
+01-26 15:37:26.284 I/BTAudioHw(  369): adev_sprd_set_parameters: stream_ptr is NULL, return.
+01-26 15:37:26.287 D/Tile.LteServiceTile( 1025): handleUpdateState: mLteEnabled = true mSimAvailable = true mServiceForPhone 0
+01-26 15:37:26.301 D/CellularTile( 1025): handleUpdateState() mobileDataEnabled = true
+01-26 15:37:26.301 D/RotationLockTile( 1025): state.value: true state.state 1
+01-26 15:37:26.303 D/PowerManagerServiceEx(  797): get Power Save Mode When Charging
+01-26 15:37:26.303 I/GnssLocationProvider(  797): receive broadcast intent, action: android.intent.action.SCREEN_OFF
+01-26 15:37:26.313 D/AS.AudioService(  797): Volume controller visible: false
+01-26 15:37:26.315 E/PowerManagerService(  797): location mode off, mode ::: 0
+01-26 15:37:26.316 D/LatinIME( 1297): Receive screen off broadcast
+01-26 15:37:26.322 E/BarcodeDecodeService(  797): android.intent.action.SLEEP
+01-26 15:37:26.322 D/BarcodeDecodeService(  797): Nls sleep!
+01-26 15:37:26.322 D/BarcodeDecodeService(  797): set thk88 power:0
+01-26 15:37:26.324 D/ScanJni (  399): common_scanner_stop_decode has stop
+01-26 15:37:26.324 D/ScanJni (  399): nls_scanstopdecode [0]
+01-26 15:37:26.324 W/FileUtils(  797): Failed to chmod(/sys/class/scan_ctrl/power_status): android.system.ErrnoException: chmod failed: EPERM (Operation not permitted)
+01-26 15:37:26.326 I/PowerReceiver.onReceive(L:32)( 1698): Go to sleep
+01-26 15:37:26.342 D/StatusBar/NavBarView( 1025): mDisabledFlags = 0 mKeyguardManager.isKeyguardLocked() = false pinningActive = false navigationbar_config = 0
+01-26 15:37:26.424 D/ScanJni (  399): PAUL: scanner_close_camera PAUL
+01-26 15:37:26.424 D/ScanJni (  399): scanner_close_camera ======================[jni oper]
+01-26 15:37:26.424 D/ScanJni (  399): common_scanner_close=============power
+01-26 15:37:26.424 D/ScanJni (  399): nls_scanclose [0]
+01-26 15:37:26.444 I/system_server(  797): NativeAlloc concurrent copying GC freed 78907(4543KB) AllocSpace objects, 73(1764KB) LOS objects, 39% free, 9524KB/15MB, paused 194us total 287.040ms
+01-26 15:37:26.448 I/gralloc (  797): gralloc_unregister hnd=0x7b3c9a40, share_fd=339, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x366, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x6e79b000, writeOwner=0, min_pgsz=4096
+01-26 15:37:26.450 I/gralloc (  797): gralloc_unregister hnd=0xa89e67c0, share_fd=326, format=1, internal_format=0x1, byte_stride=2880, flags=4, usage=0x366, size=3686400, width=720, height=1280, internalWidth=720, internalHeight=1280, stride=720, base=0x6f061000, writeOwner=0, min_pgsz=4096
+01-26 15:37:29.318 D/Power-HealthInfoCallback(  396): Update charge status to: 1
+01-26 15:37:30.827 D/KeyguardViewMediator( 1025): received DELAYED_KEYGUARD_ACTION with seq = 12, mDelayedShowingSequence = 12
+01-26 15:37:30.827 D/AlarmManagerService(  797): set alarm to kernel: 4257.814000000, type=2 
+01-26 15:37:30.832 D/LockPatternUtils( 1025): isLockScreenDisabled disabledByDefault = false isSystemUser = false isDemoUser = false
+01-26 15:37:30.832 D/KeyguardViewMediator( 1025): doKeyguard: not showing because lockscreen is off
+01-26 15:37:34.896 I/UsageStatsService(  797): User[0] Flushing usage stats to disk
+01-26 15:37:34.967 E/AppIdleHistory(  797): Error writing app idle file for user 0
+01-26 15:37:35.332 I/adbd    ( 1492): Tianyuan Current sh name:getprop
+01-26 15:37:35.389 W/getprop ( 6592): type=1400 audit(0.0:790): avc: denied { map } for path="/dev/__properties__/u:object_r:firstboot_prop:s0" dev="tmpfs" ino=238 scontext=u:r:shell:s0 tcontext=u:object_r:firstboot_prop:s0 tclass=file permissive=0
+01-26 15:37:35.389 W/getprop ( 6592): type=1400 audit(0.0:791): avc: denied { map } for path="/dev/__properties__/u:object_r:ylog_prop:s0" dev="tmpfs" ino=314 scontext=u:r:shell:s0 tcontext=u:object_r:ylog_prop:s0 tclass=file permissive=0
+01-26 15:37:46.591 D/AlarmManagerService(  797): set alarm to kernel: 4288.509000000, type=2 
+01-26 15:37:46.591 D/AlarmManagerService(  797): set alarm to kernel: 4271.231000000, type=3 
+01-26 15:37:46.592 I/c*.n*.t*.p*.AlarmManag*( 1698): onReceive: [groopush-ping]:com.newland.pospp.mtms.client.n900
+01-26 15:37:46.592 I/c*.n*.t*.p*.AlarmManag*( 1698): Alarm went off
+01-26 15:37:46.597 I/c*.n*.g*.c*.m*.i*.Simp*( 1698): start ping...
+01-26 15:37:46.792 I/c*.n*.g*.c*.m*.i*.Simp*( 1698): receive mqtt msg:13
+01-26 15:37:46.793 I/c*.n*.g*.c*.m*.i*.Simp*( 1698): ping end...[196]
+01-26 15:37:46.794 I/c*.n*.t*.p*.AlarmManag*( 1698): schedule[[groopush-ping]:com.newland.pospp.mtms.client.n900]register alarm![4258024,299803,4557827]1769420266793
+01-26 15:37:46.795 D/AlarmManagerService(  797): set alarm to kernel: 4271.231000000, type=3 
+01-26 15:37:52.294 I/adbd    ( 1492): Tianyuan Current sh name:export ANDROID_LOG_TAGS="''"; exec logcat '-v' 'time' 'process'

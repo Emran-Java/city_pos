@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/exInputPin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="center"
+        android:longClickable="false"
+        android:textIsSelectable="false"
+        android:hint="****"
+        android:background="#00000000"
+        android:inputType="numberPassword"
+        android:letterSpacing="1"
+        android:maxLength="4"
+        android:padding="20dp"
+        android:text=""
+        android:textColor="#5f5f5f"
+        android:textSize="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!-- Position 1 -->
+    <TextView
+        android:id="@+id/tvPosition1"
+        style="@style/TvPinPad"
+        android:text="1"
+        app:layout_constraintEnd_toStartOf="@+id/tvPosition2"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exInputPin" />
+
+    <!-- Position 2 -->
+    <TextView
+        android:id="@+id/tvPosition2"
+        style="@style/TvPinPad"
+        android:text="2"
+        app:layout_constraintEnd_toStartOf="@+id/tvPosition3"
+        app:layout_constraintStart_toEndOf="@+id/tvPosition1"
+        app:layout_constraintTop_toBottomOf="@+id/exInputPin" />
+
+    <!-- Position 3 -->
+    <TextView
+        android:id="@+id/tvPosition3"
+        style="@style/TvPinPad"
+        android:text="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvPosition2"
+        app:layout_constraintTop_toTopOf="@+id/tvPosition2" />
+
+    <!-- Position 4 -->
+    <TextView
+        android:id="@+id/tvPosition4"
+        style="@style/TvPinPad"
+        android:text="4"
+        app:layout_constraintEnd_toStartOf="@+id/tvPosition2"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPosition1" />
+
+    <!-- Position 5 -->
+    <TextView
+        android:id="@+id/tvPosition5"
+        style="@style/TvPinPad"
+        android:text="5"
+        app:layout_constraintEnd_toStartOf="@+id/tvPosition6"
+        app:layout_constraintStart_toEndOf="@+id/tvPosition4"
+        app:layout_constraintTop_toBottomOf="@+id/tvPosition2" />
+
+    <!-- Position 6 -->
+    <TextView
+        android:id="@+id/tvPosition6"
+        style="@style/TvPinPad"
+        android:text="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvPosition5"
+        app:layout_constraintTop_toBottomOf="@+id/tvPosition3" />
+
+    <!-- Position 7 -->
+    <TextView
+        android:id="@+id/tvPosition7"
+        style="@style/TvPinPad"
+        android:text="7"
+        app:layout_constraintEnd_toStartOf="@+id/tvPosition8"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPosition4" />
+
+    <!-- Position 8 -->
+    <TextView
+        android:id="@+id/tvPosition8"
+        style="@style/TvPinPad"
+        android:text="8"
+        app:layout_constraintEnd_toStartOf="@+id/tvPosition9"
+        app:layout_constraintStart_toEndOf="@+id/tvPosition7"
+        app:layout_constraintTop_toBottomOf="@+id/tvPosition5" />
+
+    <!-- Position 6 -->
+    <TextView
+        android:id="@+id/tvPosition9"
+        style="@style/TvPinPad"
+        android:text="9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvPosition8"
+        app:layout_constraintTop_toBottomOf="@+id/tvPosition6" />
+
+
+    <!-- Position clear -->
+    <TextView
+        android:id="@+id/tvPositionClear"
+        style="@style/TvPinPad"
+        android:text="@string/clear"
+        app:layout_constraintEnd_toStartOf="@+id/tvPosition10"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPosition7" />
+
+    <!-- Position 8 -->
+    <TextView
+        android:id="@+id/tvPosition10"
+        style="@style/TvPinPad"
+        android:text="0"
+        app:layout_constraintEnd_toStartOf="@+id/tvPosition9"
+        app:layout_constraintStart_toEndOf="@+id/tvPositionClear"
+        app:layout_constraintTop_toBottomOf="@+id/tvPosition8" />
+
+    <!-- Position 6 -->
+    <TextView
+        android:id="@+id/tvPositionOk"
+        style="@style/TvPinPad"
+        android:text="@string/ok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvPosition10"
+        app:layout_constraintTop_toBottomOf="@+id/tvPosition9" />
+
+    <View
+        android:layout_width="@dimen/dimnPinKeyPadDivider"
+        android:layout_height="0dp"
+        android:background="@color/colorPinKeyDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvPosition1"
+        app:layout_constraintTop_toBottomOf="@+id/exInputPin" />
+
+    <View
+        android:layout_width="@dimen/dimnPinKeyPadDivider"
+        android:layout_height="0dp"
+        android:background="@color/colorPinKeyDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvPosition2"
+        app:layout_constraintTop_toBottomOf="@+id/exInputPin" />
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dimnPinKeyPadDivider"
+        android:background="@color/colorPinKeyDivider"
+        app:layout_constraintBottom_toTopOf="@+id/tvPosition4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPosition1" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dimnPinKeyPadDivider"
+        android:background="@color/colorPinKeyDivider"
+        app:layout_constraintBottom_toTopOf="@+id/tvPosition1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exInputPin" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dimnPinKeyPadDivider"
+        android:background="@color/colorPinKeyDivider"
+        app:layout_constraintBottom_toTopOf="@+id/tvPosition7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPosition4" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dimnPinKeyPadDivider"
+        android:background="@color/colorPinKeyDivider"
+        app:layout_constraintBottom_toTopOf="@+id/tvPositionOk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPosition7" />
+
+    <!--    <View
+            android:id="@+id/vwBottom"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPosition10"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

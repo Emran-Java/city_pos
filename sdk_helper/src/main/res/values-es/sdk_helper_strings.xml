@@ -1,0 +1,23 @@
+<resources>
+    <string name="sdk_helper_printer_status_normal">Normal</string>
+    <string name="sdk_helper_printer_status_outof_paper">Sin papel</string>
+    <string name="sdk_helper_printer_status_hot">Impresora sobrecalentada</string>
+    <string name="sdk_helper_printer_status_paper_slot">Trapa de impresora no cerrada.</string>
+    <string name="sdk_helper_printer_status_busy">Impresora ocupada</string>
+    <string name="sdk_helper_printer_status_exception">Excepción de impresora</string>
+    <string name="sdk_helper_pinpad_online_pin">Ingrese el PIN en línea</string>
+    <string name="sdk_helper_pinpad_offline_pin">Ingrese el PIN con conexión</string>
+    <string name="sdk_helper_fly_parameter_not_init">Ingrese el PIN sin conexión</string>
+    <string name="sdk_helper_fly_parameter_updating">Hay una tarea de actualización pendiente.</string>
+    <string name="sdk_helper_fly_key_error_unavailable_message">Fly Key falló y no se pudo analizar el mensaje de error</string>
+    <string name="sdk_helper_entry_description_mag">ENTRADA MAG</string>
+    <string name="sdk_helper_entry_description_insert">ENTRADA CONTACTO</string>
+    <string name="sdk_helper_entry_description_tap">ENTRADA SIN CONTACTO</string>
+    <string name="sdk_helper_entry_description_manual">ENTRADA MANUAL</string>
+    <string name="sdk_helper_entry_description_scan">ENTRADA ESCAN</string>
+    <string name="sdk_helper_entry_description_qr_code">ENTRADA CODIGO QR</string>
+    <string name="sdk_helper_entry_description_unknown">ENTRADA DESCONOCIDA</string>
+    <string name="sdk_helper_serial_open_failed">Error abriendo serial</string>
+    <string name="sdk_helper_usb1_open_failed">Error abriendo usb1</string>
+    <string name="sdk_helper_usb2_open_failed">Error abriendo usb2</string>
+</resources>

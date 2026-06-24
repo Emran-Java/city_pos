@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--X800 resource-->
+<resources>
+    <integer name="app_main_menu_columns">3</integer>
+</resources>

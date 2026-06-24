@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application>
+        <activity
+            android:name="acquire.core.TransActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.Transparent"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="stateHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.third" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="acquire.core.ThirdActivity"
+            android:exported="true"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.Transparent">
+            <intent-filter>
+
+                <!-- uri: "newland://acquire/transaction" -->
+                <data
+                    android:host="acquire"
+                    android:path="/transaction"
+                    android:scheme="newland" />
+
+                <action android:name="android.intent.action.NEWLAND.PAYMENT.URI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.NEWLAND.PAYMENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:launchMode="singleInstance"
+            android:theme="@style/AppTheme.Launch"
+            android:name="acquire.core.bluetooth.BluetoothActivity" />
+        <activity
+            android:launchMode="singleInstance"
+            android:theme="@style/AppTheme.Launch"
+            android:name="acquire.core.native_usb.UsbActivity" />
+       <!-- <activity
+            android:launchMode="singleInstance"
+            android:theme="@style/RepotAppTheme.Launch"
+            android:name="acquire.core.fragment.common.ReportsActivity" />-->
+        <service
+            android:name="acquire.core.PaymentService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.NEWLAND.PAYMENT.SERVICE" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".SchedulerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="schedule.service" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/base_disable_color" android:state_enabled="false" />
+    <item android:color="@color/base_press_mask" android:state_enabled="true" android:state_pressed="true" />
+    <item android:color="@color/base_background"  />
+
+</selector>

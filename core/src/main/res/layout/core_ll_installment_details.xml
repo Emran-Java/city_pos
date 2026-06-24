@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/coreColorBracBG">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/mcvPayFlexInstallmentDetails"
+        style="@style/Widget.Material3.CardView.Filled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="20dp"
+        app:cardCornerRadius="0dp"
+        android:background="#ffffff"
+        app:cardElevation="2dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/details_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/tvCardNoTitle"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:text="CARD NO."
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvCardNoVal"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:text="432145******5946"
+            android:textColor="#212121"
+            app:layout_constraintTop_toTopOf="@id/tvCardNoTitle"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tvTransType"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:layout_marginTop="12dp"
+            android:text="TRANSACTION TYPE"
+            app:layout_constraintTop_toBottomOf="@id/tvCardNoTitle"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txTransTypeVal"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:text="EMI_SALE"
+            android:textColor="#212121"
+            app:layout_constraintTop_toTopOf="@id/tvTransType"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tvAmount"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:layout_marginTop="12dp"
+            android:text="AMOUNT"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/tvTransType"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvAmountVal"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:text="TK 2.00"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            app:layout_constraintTop_toTopOf="@id/tvAmount"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tvName"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:layout_marginTop="12dp"
+            android:text="CARDHOLDER NAME"
+            android:textColor="#757575"
+            app:layout_constraintTop_toBottomOf="@id/tvAmount"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvCardHolderNameVal"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:text="/"
+            android:textColor="#212121"
+            app:layout_constraintTop_toTopOf="@id/tvName"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tvTenure"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:layout_marginTop="12dp"
+            android:text="TENURE"
+            app:layout_constraintTop_toBottomOf="@id/tvName"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvTenureVal"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:text="6"
+            android:textColor="#212121"
+            app:layout_constraintTop_toTopOf="@id/tvTenure"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tvVendorName"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:layout_marginTop="12dp"
+            android:text="VENDOR NAME"
+            app:layout_constraintTop_toBottomOf="@id/tvTenure"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvVendorNameVal"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:text="BBL"
+            app:layout_constraintTop_toTopOf="@id/tvVendorName"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:id="@+id/txVendorCode"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:layout_marginTop="12dp"
+            android:text="VENDOR CODE"
+            app:layout_constraintTop_toBottomOf="@id/tvVendorName"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvVendorCodeVal"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:text="11111111"
+            app:layout_constraintTop_toTopOf="@id/txVendorCode"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <Button
+        android:id="@+id/btnOk"
+        style="@style/PrimaryBracButton"
+        android:layout_marginVertical="24dp"
+        android:layout_width="@dimen/base_primary_button_width"
+        android:layout_height="@dimen/base_primary_button_height"
+        android:text="OK"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

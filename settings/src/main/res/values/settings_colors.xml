@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--item params text color-->
+    <color name="settings_menu_light_pink_background">#fffff2ef</color>
+    <color name="settings_menu_light_blue_background">#ffe7f3ff</color>
+    <color name="settings_menu_light_green_background">#ffddf5f8</color>
+    <color name="settings_menu_light_purple_background">#ffe7e9f8</color>
+
+</resources>

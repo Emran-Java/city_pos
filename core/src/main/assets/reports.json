@@ -1,0 +1,161 @@
+{
+  "reports": [
+    {
+      "title": "Details Report",
+      "id": 1,
+      "position": 1,
+      "code": "DTL_RPT",
+      "icon": "ic_report",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Print-Report-Details",
+      "childData": []
+    },
+    {
+      "title": "Batch Totals",
+      "id": 2,
+      "position": 2,
+      "code": "BTH_TL",
+      "icon": "ic_app_batch",
+      "isShow": false,
+      "isActive": false,
+      "hasChild": false,
+      "nextStep": "Print-Report-Details",
+      "childData": []
+    },
+    {
+      "title": "Void Report",
+      "id": 3,
+      "position": 3,
+      "code": "VOID_RPT",
+      "icon": "ic_app_void",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Print-Report-Details",
+      "childData": []
+    },
+    {
+      "title": "Card Report",
+      "id": 4,
+      "position": 4,
+      "code": "CRD_RPT",
+      "icon": "ic_app_report",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Print-Report-Details",
+      "childData": []
+    },
+    {
+      "title": "Pre-Auth Report",
+      "id": 5,
+      "position": 5,
+      "code": "PRE_AUTH_RPT",
+      "icon": "ic_report",
+      "isShow": false,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Print-Report-Details",
+      "childData": []
+    },
+    {
+      "title": "Last Settle",
+      "id": 6,
+      "position": 6,
+      "code": "LAST_STL",
+      "icon": "ic_report",
+      "isShow": false,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Print-Report-Details",
+      "childData": []
+    },
+    {
+      "title": "Reversal Report",
+      "id": 7,
+      "position": 7,
+      "code": "REV_RPT",
+      "icon": "ic_app_report",
+      "isShow": false,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Print-Report-Details",
+      "childData": []
+    },
+    {
+      "title": "Decline Report",
+      "id": 8,
+      "position": 8,
+      "code": "DECLINE_RPT",
+      "icon": "ic_report",
+      "isShow": false,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Print-Report-Details",
+      "childData": []
+    },
+    {
+      "title": "Pre-Auth Void Report",
+      "id": 9,
+      "position": 9,
+      "code": "PRE_AUTH_VOID_RPT",
+      "icon": "ic_app_report",
+      "isShow": false,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Print-Report-Details",
+      "childData": []
+    },
+    {
+      "title": "Other",
+      "id": 10,
+      "position": 10,
+      "code": "OTR_RPT",
+      "icon": "ic_drawable.png",
+      "isShow": false,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Print-Report-Details",
+      "childData": [
+        {
+          "title": "Option 1",
+          "id": 1,
+          "position": 1,
+          "code": "OPT_1",
+          "icon": "ic_drawable.png",
+          "isShow": true,
+          "isActive": true,
+          "hasChild": false,
+          "nextStep": "Print-Report-Details",
+          "childData": []
+        },
+        {
+          "title": "Option 2",
+          "id": 2,
+          "position": 2,
+          "code": "OPT_2",
+          "icon": "ic_drawable.png",
+          "isShow": true,
+          "isActive": true,
+          "hasChild": false,
+          "nextStep": "Print-Report-Details",
+          "childData": []
+        },
+        {
+          "title": "Option 3",
+          "id": 3,
+          "position": 3,
+          "code": "OPT_3",
+          "icon": "ic_drawable.png",
+          "isShow": true,
+          "isActive": true,
+          "hasChild": false,
+          "nextStep": "Print-Report-Details",
+          "childData": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_background">
+
+    <ImageView
+        android:id="@+id/iv_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/core_login_topbar" />
+
+    <acquire.base.widget.PrimaryToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_user"
+        style="?attr/textInputFilledStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_topbar"
+        android:layout_marginStart="@dimen/core_login_edit_margin_start"
+        android:layout_marginTop="@dimen/core_login_edit_margin_top"
+        android:layout_marginEnd="@dimen/core_login_edit_margin_start"
+        android:hint="@string/core_login_user_hint"
+        app:boxBackgroundColor="@color/base_background"
+        app:counterEnabled="true"
+        app:counterMaxLength="2"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="2"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_password"
+        style="?attr/textInputFilledStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/til_user"
+        android:layout_marginStart="@dimen/core_login_edit_margin_start"
+        android:layout_marginEnd="@dimen/core_login_edit_margin_start"
+        android:hint="@string/core_login_password_hint"
+        app:boxBackgroundColor="@color/base_background"
+        app:counterEnabled="true"
+        app:counterMaxLength="4"
+        app:errorEnabled="true"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:maxLength="4"
+            android:maxLines="1"
+            app:counterEnabled="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_done"
+        android:layout_width="@dimen/base_primary_button_width"
+        android:layout_height="@dimen/base_primary_button_height"
+        android:layout_below="@id/til_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/core_login_button_margin_top"
+        android:text="@string/base_done" />
+</RelativeLayout>

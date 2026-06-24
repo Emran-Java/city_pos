@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/base_card_background"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp19"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:background="@drawable/core_display1_card_manual_button"
+            android:gravity="center"
+            android:id="@+id/manual"
+            android:layout_height="@dimen/dp32"
+            android:layout_width="@dimen/dp140"
+            android:text="@string/core_card_manual_entry"
+            android:textSize="@dimen/base_secondaryTextSize" />
+
+        <View
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="0dp" />
+
+        <TextView
+            android:id="@+id/tv_amount"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dp24"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/cb_access_pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/dp16"
+        android:button="@drawable/core_card_access_pin_switch"
+        app:buttonTint="@null"/>
+
+    <ImageView
+        android:id="@+id/iv_entry"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp32"
+        android:layout_width="wrap_content"
+        android:src="@drawable/core_display1_card_entry" />
+
+
+    <TextView
+        android:id="@+id/tv_prompt"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_width="wrap_content"
+        android:text="@string/core_presentation_waiting_card"
+        android:textColor="@color/base_secondaryText" />
+
+    <View
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_height="@dimen/dp1"
+        android:layout_width="match_parent"
+        app:dividerColor="@color/base_divider" />
+
+    <com.google.android.material.button.MaterialButton
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/btn_exit"
+        android:layout_height="@dimen/base_primary_button_height"
+        android:layout_width="match_parent"
+        android:text="@string/base_exit"
+        android:textColor="@color/base_secondaryText"
+        android:textSize="@dimen/core_display1_text_size" />
+
+
+</LinearLayout>

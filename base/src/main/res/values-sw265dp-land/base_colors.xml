@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--theme primary color-->
+    <color name="base_primary_gradient_start">#607CFF</color>
+    <color name="base_primary_gradient_end">#607CFF</color>
+</resources>

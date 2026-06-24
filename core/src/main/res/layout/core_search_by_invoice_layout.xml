@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/coreColorBracBG">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp24"
+        android:layout_marginTop="24dp"
+        android:letterSpacing="0.03"
+        android:text="INPUT INVOICE NO."
+        android:textColor="#757575"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Invoice Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilInvoice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etInputInvoice"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_et_invoice_input"
+            android:maxLength="6"
+            android:enabled="false"
+            android:gravity="right|center"
+            android:inputType="text"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="0dp"
+            android:text=""
+            android:textColor="@color/txtColor"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- OK Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOk"
+        style="@style/PrimaryBracButton"
+        android:layout_marginBottom="20dp"
+        android:text="OK"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/keyboard_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <acquire.base.widget.keyboard.SimpleKeyboard
+        android:id="@+id/keyboard_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

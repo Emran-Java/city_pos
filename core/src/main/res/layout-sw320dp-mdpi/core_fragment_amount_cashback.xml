@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--U200-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_background"
+    android:orientation="vertical">
+
+    <acquire.base.widget.PrimaryToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dp6"
+        android:layout_height="@dimen/core_cashback_amount_card_height"
+        android:orientation="horizontal">
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv_purchase_amount"
+            style="@style/Widget.Material3.CardView.Filled"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/dp6"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp12"
+            app:cardBackgroundColor="@color/core_cash_amount_select"
+            app:cardCornerRadius="@dimen/core_cashback_amount_card_corn"
+            app:contentPaddingBottom="@dimen/core_cashback_amount_card_pad_bottom"
+            app:contentPaddingLeft="@dimen/core_cashback_amount_card_pad_horizontal"
+            app:contentPaddingRight="@dimen/core_cashback_amount_card_pad_horizontal"
+            app:contentPaddingTop="@dimen/core_cashback_amount_card_pad_top">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_purchase_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/core_amount_hint"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/base_secondaryTextSize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_purchase_hint"
+                    android:gravity="end"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/base_secondaryTextSize" />
+
+                <TextView
+                    android:id="@+id/tv_currency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/tv_purchase_amount"
+                    android:layout_marginEnd="@dimen/dp12"
+                    android:layout_toStartOf="@id/tv_purchase_amount"
+                    android:textColor="@android:color/white"  />
+
+                <TextView
+                    android:id="@+id/tv_purchase_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@android:color/white" />
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv_cash_back"
+            style="@style/Widget.Material3.CardView.Filled"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/dp6"
+            app:cardBackgroundColor="@color/core_cash_amount_unselect"
+            app:cardCornerRadius="@dimen/core_cashback_amount_card_corn"
+            app:contentPaddingBottom="@dimen/core_cashback_amount_card_pad_bottom"
+            app:contentPaddingLeft="@dimen/core_cashback_amount_card_pad_horizontal"
+            app:contentPaddingRight="@dimen/core_cashback_amount_card_pad_horizontal"
+            app:contentPaddingTop="@dimen/core_cashback_amount_card_pad_top">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_cash_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/core_cash_amount_hint"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/base_secondaryTextSize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/tv_cash_hint"
+                    android:gravity="end"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/base_secondaryTextSize" />
+
+                <TextView
+                    android:id="@+id/tv_cash_currency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/tv_cash_amount"
+                    android:layout_marginEnd="@dimen/dp12"
+                    android:layout_toStartOf="@id/tv_cash_amount"
+                    android:textColor="@android:color/white"/>
+
+                <TextView
+                    android:id="@+id/tv_cash_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@android:color/white" />
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <acquire.base.widget.keyboard.NumberKeyboard
+        android:id="@+id/keyboard_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

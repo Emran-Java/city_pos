@@ -1,0 +1,296 @@
+{
+  "schemeGroup": [
+    {
+      "schemeTitle": "Visa On-Us",
+      "totalSchemeWiseTranCount": "12",
+      "totalSchemeWiseTranAmount": "15.33",
+      "groupByTranType": [
+        {
+          "title": "SALE",
+          "count": "2",
+          "tranType": "Sale",
+          "amount": "12.33",
+          "tipAmount": "1.00",
+          "isSubtract": false,
+          "isCountable": true,
+          "isShowTip": true,
+          "isCalculate": true
+        },
+        {
+          "title": "VOID",
+          "count": "2",
+          "tranType": "VoidSale",
+          "amount": "5.11",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": false,
+          "isShowTip": false,
+          "isCalculate": false
+        },
+        {
+          "title": "SALE COMPLETE",
+          "count": "2",
+          "tranType": "PreAuth",
+          "amount": "3.00",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": true,
+          "isShowTip": false,
+          "isCalculate": true
+        },
+        {
+          "title": "VOID SALE COMPLETE",
+          "count": "2",
+          "tranType": "VoidPeAuth",
+          "amount": "5.11",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": false,
+          "isShowTip": false,
+          "isCalculate": false
+        },
+        {
+          "title": "TIP ADJUST",
+          "count": "2",
+          "tranType": "TipAdjust",
+          "amount": "1.44",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": true,
+          "isShowTip": true,
+          "isCalculate": false
+        },
+        {
+          "title": "VOID TIP ADJUST",
+          "count": "2",
+          "tranType": "VoidTipAdjust",
+          "amount": "1.00",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": false,
+          "isShowTip": false,
+          "isCalculate": false
+        }
+      ]
+    },
+    {
+      "schemeTitle": "Visa Off-Us",
+      "totalSchemeWiseTranCount": "13",
+      "totalSchemeWiseTranAmount": "10.35",
+      "groupByTranType": [
+        {
+          "title": "SALE",
+          "count": "3",
+          "tranType": "Sale",
+          "amount": "10.35",
+          "tipAmount": "1.00",
+          "isSubtract": false,
+          "isCountable": true,
+          "isShowTip": true,
+          "isCalculate": true
+        },
+        {
+          "title": "VOID",
+          "count": "2",
+          "tranType": "VoidSale",
+          "amount": "5.11",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": false,
+          "isShowTip": false,
+          "isCalculate": false
+        },
+        {
+          "title": "SALE COMPLETE",
+          "count": "2",
+          "tranType": "PreAuth",
+          "amount": "3.00",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": true,
+          "isShowTip": false,
+          "isCalculate": true
+        },
+        {
+          "title": "VOID SALE COMPLETE",
+          "count": "2",
+          "tranType": "VoidPeAuth",
+          "amount": "5.11",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": false,
+          "isShowTip": false,
+          "isCalculate": false
+        },
+        {
+          "title": "TIP ADJUST",
+          "count": "2",
+          "tranType": "TipAdjust",
+          "amount": "1.44",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": true,
+          "isShowTip": true,
+          "isCalculate": false
+        },
+        {
+          "title": "VOID TIP ADJUST",
+          "count": "2",
+          "tranType": "VoidTipAdjust",
+          "amount": "1.00",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": false,
+          "isShowTip": false,
+          "isCalculate": false
+        }
+      ]
+    },
+    {
+      "schemeTitle": "Mastercard On-Us",
+      "totalSchemeWiseTranCount": "5",
+      "totalSchemeWiseTranAmount": "20.55",
+      "groupByTranType": [
+        {
+          "title": "SALE",
+          "count": "1",
+          "tranType": "Sale",
+          "amount": "10.55",
+          "tipAmount": "1.00",
+          "isSubtract": false,
+          "isCountable": true,
+          "isShowTip": true,
+          "isCalculate": true
+        },
+        {
+          "title": "VOID",
+          "count": "1",
+          "tranType": "VoidSale",
+          "amount": "5.11",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": false,
+          "isShowTip": false,
+          "isCalculate": false
+        },
+        {
+          "title": "SALE COMPLETE",
+          "count": "2",
+          "tranType": "PreAuth",
+          "amount": "8.00",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": true,
+          "isShowTip": false,
+          "isCalculate": true
+        },
+        {
+          "title": "VOID SALE COMPLETE",
+          "count": "2",
+          "tranType": "VoidPeAuth",
+          "amount": "5.11",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": false,
+          "isShowTip": false,
+          "isCalculate": false
+        },
+        {
+          "title": "TIP ADJUST",
+          "count": "2",
+          "tranType": "TipAdjust",
+          "amount": "2.00",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": true,
+          "isShowTip": true,
+          "isCalculate": false
+        },
+        {
+          "title": "VOID TIP ADJUST",
+          "count": "2",
+          "tranType": "VoidTipAdjust",
+          "amount": "1.00",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": false,
+          "isShowTip": false,
+          "isCalculate": false
+        }
+      ]
+    },
+    {
+      "schemeTitle": "Mastercard Off-Us",
+      "totalSchemeWiseTranCount": "13",
+      "totalSchemeWiseTranAmount": "30.00",
+      "groupByTranType": [
+        {
+          "title": "SALE",
+          "count": "10",
+          "tranType": "Sale",
+          "amount": "20.00",
+          "tipAmount": "1.00",
+          "isSubtract": false,
+          "isCountable": true,
+          "isShowTip": true,
+          "isCalculate": true
+        },
+        {
+          "title": "VOID",
+          "count": "2",
+          "tranType": "VoidSale",
+          "amount": "5.11",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": false,
+          "isShowTip": false,
+          "isCalculate": false
+        },
+        {
+          "title": "SALE COMPLETE",
+          "count": "2",
+          "tranType": "PreAuth",
+          "amount": "15.00",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": true,
+          "isShowTip": false,
+          "isCalculate": true
+        },
+        {
+          "title": "VOID SALE COMPLETE",
+          "count": "2",
+          "tranType": "VoidPeAuth",
+          "amount": "5.11",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": false,
+          "isShowTip": false,
+          "isCalculate": false
+        },
+        {
+          "title": "TIP ADJUST",
+          "count": "1",
+          "tranType": "TipAdjust",
+          "amount": "15.00",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": true,
+          "isShowTip": true,
+          "isCalculate": false
+        },
+        {
+          "title": "VOID TIP ADJUST",
+          "count": "2",
+          "tranType": "VoidTipAdjust",
+          "amount": "1.00",
+          "tipAmount": "0.00",
+          "isSubtract": false,
+          "isCountable": false,
+          "isShowTip": false,
+          "isCalculate": false
+        }
+      ]
+    }
+  ]
+}

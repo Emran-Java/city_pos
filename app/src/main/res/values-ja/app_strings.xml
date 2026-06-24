@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">銀行テンプレート</string>
+    <string name="app_exit_prompt"> このアプリケーションを終了しますか？</string>
+    <string name="app_menu_top_description">金額を支払う</string>
+    <string name="app_menu_print_folder_title">プリント</string>
+    <string name="app_menu_qr_folder_title">QRコード</string>
+    <string name="app_menu_pre_auth_folder_title">じぜんしょうにん</string>
+    <string name="app_menu_exit">出口</string>
+    <string name="app_version">バージョン</string>
+    <string name="splash_text">BRAC BANK</string>
+    <string  name="app_saver_fragment_key_entry_promote">セールは1、メニューは他のキーを押してください。</string>
+
+    <string name="success">Success</string>
+    <string name="payment_successful">Payment is successful</string>
+    <string name="failed">Failed</string>
+    <string name="payment_failed">Payment not completed</string>
+    <string name="clear">Clear</string>
+    <string name="ok">OK</string>
+    <string name="device_not_support">Device not supported</string>
+
+</resources>

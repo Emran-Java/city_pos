@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:foreground="?android:attr/selectableItemBackgroundBorderless"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/settings_item_horizontal_margin"
+    android:paddingEnd="@dimen/settings_item_horizontal_margin">
+
+
+    <TextView
+        android:id="@+id/tv_numeric_code"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/dp50"
+        android:gravity="start|center_vertical"
+        android:textSize="@dimen/base_secondaryTextSize"/>
+
+    <TextView
+        android:id="@+id/tv_alpha_code"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/base_secondaryText"
+        android:textSize="@dimen/base_secondaryTextSize" />
+
+    <TextView
+        android:id="@+id/tv_symbol"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textColor="@color/base_secondaryText"
+        android:textSize="@dimen/base_secondaryTextSize" />
+
+</LinearLayout>

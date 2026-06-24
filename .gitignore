@@ -1,0 +1,4 @@
+/.gradle/
+/.idea/
+/database/schemas/
+/app/release/

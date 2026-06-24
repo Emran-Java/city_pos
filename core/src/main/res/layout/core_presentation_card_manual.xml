@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_background"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_card_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp20"
+            android:layout_marginEnd="@dimen/dp20"
+            android:hint="@string/core_card_manual_number"
+            app:errorEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_card_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="1234567890 "
+                android:textSize="@dimen/base_secondaryTextSize" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp50" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_expdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp20"
+            android:layout_marginEnd="@dimen/dp20"
+            android:hint="@string/core_card_manual_expdate"
+            app:errorEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_expdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cursorVisible="false"
+                android:digits="1234567890/"
+                android:textSize="@dimen/base_secondaryTextSize" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <acquire.base.widget.keyboard.NumberKeyboard
+        android:id="@+id/keyboard_number"
+        android:layout_width="@dimen/base_keyboard_display2_width"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_underBackground"
+    android:orientation="vertical">
+
+    <acquire.base.widget.PrimaryToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/core_usb_activity_title" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp6"
+        android:layout_marginStart="@dimen/dp16"
+        android:text="@string/core_usb_devices"
+        android:textColor="@color/base_secondaryText"
+        android:textSize="@dimen/base_tertiaryTextSize" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp6"
+        android:background="@android:color/white"
+        android:paddingStart="@dimen/dp12"
+        android:paddingEnd="@dimen/dp12"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    <TextView
+        android:id="@+id/tv_no_device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/core_usb_no_device"
+        android:textColor="@color/base_warning"
+        android:textSize="@dimen/base_primaryTextSize"
+        android:visibility="gone" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_refresh"
+        android:layout_width="@dimen/base_primary_button_width"
+        android:layout_height="@dimen/base_primary_button_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp12"
+        android:layout_marginBottom="@dimen/dp4"
+        android:text="@string/core_usb_refresh" />
+</LinearLayout>
+

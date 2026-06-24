@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="app_main_menu_columns">2</integer>
+    <integer name="btn_color_shad_angle">45</integer>
+
+</resources>

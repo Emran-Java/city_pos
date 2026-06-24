@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/coreColorBracBG">
+
+    <!-- Toolbar -->
+    <acquire.base.widget.PrimaryToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="24dp">
+
+            <!-- Logo -->
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:src="@drawable/img_core_bracbank_logo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Section Title -->
+            <TextView
+                android:id="@+id/tvContactInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-20dp"
+                android:text="@string/contact_information"
+                android:textSize="@dimen/dimn_contact_info_tv_size"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imgLogo" />
+
+            <!-- Contact Name Label -->
+            <TextView
+                android:id="@+id/tvNameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Contact Name"
+                android:textSize="@dimen/dimn_tv_contact_info_txt_size"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvContactInfo" />
+
+            <!-- Contact Name -->
+            <EditText
+                android:id="@+id/etContactName"
+                style="@style/CoreCommonEditText"
+                android:layout_marginTop="@dimen/dimn_contact_info_edit_text_margin_top"
+                android:text="John Doe"
+                android:paddingHorizontal="@dimen/dimn_contact_info_edit_text_padding_horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvNameLabel" />
+
+            <!-- Mobile Label -->
+            <TextView
+                android:id="@+id/tvMobileLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimn_tv_margin_top"
+                android:text="Mobile Number"
+                android:textSize="@dimen/dimn_tv_contact_info_txt_size"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etContactName" />
+
+            <!-- Mobile -->
+            <EditText
+                android:id="@+id/etMobile"
+                style="@style/CoreCommonEditText"
+                android:layout_marginTop="@dimen/dimn_contact_info_edit_text_margin_top"
+                android:hint="+88"
+                android:text="+880"
+                android:inputType="phone"
+                android:paddingHorizontal="@dimen/dimn_contact_info_edit_text_padding_horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvMobileLabel" />
+
+            <!-- Alternative Label -->
+            <TextView
+                android:id="@+id/tvAltLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimn_tv_margin_top"
+                android:text="Alternative Number"
+                android:textSize="@dimen/dimn_tv_contact_info_txt_size"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etMobile" />
+
+            <!-- Alternative Number -->
+            <EditText
+                android:id="@+id/etAlternative"
+                style="@style/CoreCommonEditText"
+                android:layout_marginTop="@dimen/dimn_contact_info_edit_text_margin_top"
+                android:hint="+880"
+                android:text="+88"
+                android:inputType="phone"
+                android:paddingHorizontal="@dimen/dimn_contact_info_edit_text_padding_horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvAltLabel" />
+
+            <!-- Email Label -->
+            <TextView
+                android:id="@+id/tvEmailLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimn_tv_margin_top"
+                android:text="Email"
+                android:textSize="@dimen/dimn_tv_contact_info_txt_size"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etAlternative" />
+
+            <!-- Email -->
+            <EditText
+                android:id="@+id/etEmail"
+                style="@style/CoreCommonEditText"
+                android:layout_marginTop="@dimen/dimn_contact_info_edit_text_margin_top"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/bg_et_invoice_input"
+                android:text="merchant.acquiring@bracbank.com"
+                android:inputType="textEmailAddress"
+                android:paddingHorizontal="@dimen/dimn_contact_info_edit_text_padding_horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvEmailLabel" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

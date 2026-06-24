@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/base_card_background">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp360"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp56"
+        app:lottie_autoPlay="true"
+        app:lottie_imageAssetsFolder="@string/core_lottie_assets_folder"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/lottie_load_paper" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ll_button_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp32"
+        android:gravity="center_horizontal"
+        android:text="@string/core_print_load_paper"
+        android:textColor="@color/base_secondaryText" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        android:layout_above="@id/ll_button_container"
+        app:dividerColor="@color/base_divider" />
+
+    <LinearLayout
+        android:id="@+id/ll_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:minHeight="@dimen/base_primary_button_height"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/base_cancel"
+            android:textColor="@color/base_secondaryText" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="@dimen/dp1"
+            android:layout_height="match_parent"
+            app:dividerColor="@color/base_divider" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_reprint"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/core_print_dialog_button_reprint"
+            android:textColor="?android:attr/colorPrimary" />
+    </LinearLayout>
+
+
+</RelativeLayout>

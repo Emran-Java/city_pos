@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--S30 resource-->
+<resources>
+    <!--Keyboard-->
+    <dimen name="base_keyboard_simple_height">@dimen/dp224</dimen>
+    <dimen name="base_keyboard_height">@dimen/dp245</dimen>
+</resources>

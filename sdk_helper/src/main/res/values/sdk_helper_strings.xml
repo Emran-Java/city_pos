@@ -1,0 +1,34 @@
+<resources>
+    <!--Printer-->
+    <string name="sdk_helper_printer_status_normal">Normal</string>
+    <string name="sdk_helper_printer_status_outof_paper">Out of paper</string>
+    <string name="sdk_helper_printer_status_hot">Printer overheated</string>
+    <string name="sdk_helper_printer_status_paper_slot">Paper slot not closed.</string>
+    <string name="sdk_helper_printer_status_busy">Printer busy</string>
+    <string name="sdk_helper_printer_status_exception">Printer exception</string>
+
+    <!--Pinpad-->
+    <string name="sdk_helper_pinpad_online_pin">Input online PIN</string>
+    <string name="sdk_helper_pinpad_offline_pin">Input offline PIN</string>
+
+    <!--TOMS-->
+    <string name="sdk_helper_fly_parameter_not_init">Init FlyParameterHelper first</string>
+    <string name="sdk_helper_fly_parameter_updating">There is an open update task.</string>
+
+    <!--FLY KEY-->
+    <string name="sdk_helper_fly_key_error_unavailable_message">Fly Key failed,and unable to parse error message </string>
+
+    <!--entry-->
+    <string name="sdk_helper_entry_description_mag">MAG ENTRY</string>
+    <string name="sdk_helper_entry_description_insert">CHP(PIN)</string>
+    <string name="sdk_helper_entry_description_tap">NFC</string>
+    <string name="sdk_helper_entry_description_manual">MANUAL ENTRY</string>
+    <string name="sdk_helper_entry_description_scan">SCAN ENTRY</string>
+    <string name="sdk_helper_entry_description_qr_code">QR CCODE ENTRY</string>
+    <string name="sdk_helper_entry_description_unknown">UNKNOWN ENTRY</string>
+
+    <!--port-->
+    <string name="sdk_helper_serial_open_failed">Open serial failed</string>
+    <string name="sdk_helper_usb1_open_failed">Open usb1 failed</string>
+    <string name="sdk_helper_usb2_open_failed">Open usb2 failed</string>
+</resources>

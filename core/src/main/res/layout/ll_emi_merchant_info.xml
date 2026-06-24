@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mcvRootMarchant"
+    style="@style/Widget.Material3.CardView.Filled"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    app:cardCornerRadius="0dp"
+    android:background="#ffffff"
+    app:cardElevation="0dp">
+
+    <RelativeLayout
+        android:id="@+id/rlEmiMerchant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:padding="@dimen/core_report_details_root_padding">
+
+        <TextView
+            android:id="@+id/tvMrcnName"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:text="Merchant Name" />
+
+        <TextView
+            android:id="@+id/tvMrcnNameValue"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/tvMrcnName"
+            android:gravity="end"
+            android:text="No Merchant" />
+
+        <TextView
+            android:id="@+id/tvMrcnId"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:layout_below="@+id/tvMrcnName"
+            android:text="Merchant ID" />
+
+        <TextView
+            android:id="@+id/tvMrcnIdVal"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:layout_below="@+id/tvMrcnName"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/tvMrcnId"
+            android:gravity="end"
+            android:text="1000000000XXXXX" />
+
+        <TextView
+            android:id="@+id/tvTerminalId"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:layout_below="@+id/tvMrcnId"
+            android:text="Terminal ID" />
+
+        <TextView
+            android:id="@+id/tvTerminalIdVal"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:layout_below="@+id/tvMrcnId"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/tvTerminalId"
+            android:gravity="end"
+            android:text="600XXXXX" />
+
+        <TextView
+            android:id="@+id/tvBtcId"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:layout_below="@+id/tvTerminalId"
+            android:text="Batch ID" />
+
+        <TextView
+            android:id="@+id/tvBtcIdVal"
+            style="@style/RepotMerchantDetailsTextAppearance"
+            android:layout_below="@+id/tvTerminalId"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/tvBtcId"
+            android:gravity="end"
+            android:text="XXXX" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

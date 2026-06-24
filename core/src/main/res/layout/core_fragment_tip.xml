@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_background"
+    android:orientation="vertical">
+
+    <acquire.base.widget.PrimaryToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tv_total_amount"
+            android:layout_toStartOf="@id/tv_total_amount"
+            android:textSize="@dimen/base_secondaryTextSize" />
+
+        <TextView
+            android:id="@+id/tv_total_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/core_amount_text_size" />
+
+        <TextView
+            android:id="@+id/tv_orig_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tv_total_amount"
+            android:layout_toEndOf="@id/tv_total_amount"
+            android:textColor="@color/base_secondaryText"
+            android:textSize="@dimen/base_tertiaryTextSize" />
+    </RelativeLayout>
+
+    <!-- bre brac-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/base_gradient_background"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_currency2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tv_amount"
+            android:layout_marginRight="4dp"
+            android:layout_toStartOf="@id/tv_amount"
+            android:text="TK"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/core_amount_text_size" />
+
+        <TextView
+            android:id="@+id/tv_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/core_amount_text_size" />
+    </LinearLayout>
+
+    <!--_________-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/core_tip_amount_title" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp8"
+            android:hint="@string/core_tip_amount_default"
+            android:maxLength="8"
+            android:minWidth="@dimen/dp170"
+            android:paddingStart="@dimen/dp8" />
+
+        <TextView
+            android:id="@+id/tv_max_tip_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tv_total_amount"
+            android:layout_toEndOf="@id/tv_total_amount"
+            android:text=""
+            android:textColor="@color/base_secondaryText"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/group_percents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp10"
+        android:layout_marginEnd="@dimen/dp10"
+        android:layout_marginBottom="@dimen/dp30"
+        android:visibility="gone"
+        app:selectionRequired="true"
+        app:singleSelection="true">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_percent15"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/core_tip_percent_15" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_percent25"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/core_tip_percent_25" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_percent30"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/core_tip_percent_30" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_percent40"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/core_tip_percent_40" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+<!--    <acquire.base.widget.keyboard.NumberPointKeyboard
+        android:id="@+id/keyboard_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/inclNumKey"
+            layout="@layout/core_layout_number_pad"/>
+    </LinearLayout>
+
+</LinearLayout>

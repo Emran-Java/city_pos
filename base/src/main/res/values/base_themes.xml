@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Material3.DynamicColors.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--primary-->
+        <item name="colorPrimary">@color/base_colorPrimary</item>
+        <item name="colorAccent">@color/base_colorPrimary</item>
+        <item name="android:colorBackground">@color/base_background</item>
+        <!--text-->
+        <item name="colorOnSurface">@color/base_primaryText</item>
+        <item name="colorOnBackground">@color/base_primaryText</item>
+        <item name="android:textColor">@color/base_primaryText</item>
+        <item name="android:textSize">@dimen/base_primaryTextSize</item>
+        <!--change button style-->
+        <item name="materialButtonStyle">@style/MyMaterialButtonStyle</item>
+        <!-- Navigation bar -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/base_colorPrimary</item>
+
+        <item name="android:windowLightStatusBar">false</item>
+
+    </style>
+
+    <style name="AppTheme.Transparent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--bottom status bar-->
+<!--        <item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--bottom navigation bar-->
+<!--        <item name="android:navigationBarColor">@android:color/transparent</item>-->
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/base_colorPrimary</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="AppTheme.Launch" >
+        <item name="android:windowBackground">@color/base_background</item>
+        <!--bottom status bar-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!--bottom navigation bar-->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="RepotAppTheme.Launch" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@color/base_background</item>
+        <!--bottom status bar-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!--bottom navigation bar-->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!--global material button style-->
+    <style name="MyMaterialButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:textSize">@dimen/base_secondaryTextSize</item>
+    </style>
+</resources>

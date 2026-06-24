@@ -8,7 +8,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import com.zztl.pos.ucb.R;
+import com.zztl.pos.city.R;
 import acquire.base.utils.LoggerUtils;
 import acquire.base.utils.ParamsUtils;
 import acquire.core.constant.ParamsConst;

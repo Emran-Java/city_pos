@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
-import com.zztl.pos.ucb.R;
+import com.zztl.pos.city.R;
 
 import androidx.fragment.app.Fragment;
 

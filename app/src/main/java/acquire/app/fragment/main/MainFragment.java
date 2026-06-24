@@ -25,9 +25,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import com.zztl.pos.ucb.R;
-import com.zztl.pos.ucb.databinding.AppFragmentMainBinding;
-import com.zztl.pos.ucb.databinding.AppPageDotBinding;
+import com.zztl.pos.city.R;
+import com.zztl.pos.city.databinding.AppFragmentMainBinding;
+import com.zztl.pos.city.databinding.AppPageDotBinding;
 import acquire.app.fragment.main.menu.MainMenu;
 import acquire.app.fragment.main.menu.MainMenuAdapter;
 import acquire.app.fragment.main.menu.MenuItem;

@@ -24,11 +24,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import com.zztl.pos.ucb.R;
+import com.zztl.pos.city.R;
 
 import acquire.app.brac.ui.key_board.NumberPadBottomSheet;
-import com.zztl.pos.ucb.databinding.AppFragmentBankMenuItemsBinding;
-import com.zztl.pos.ucb.databinding.AppPageDotBinding;
+import com.zztl.pos.city.databinding.AppFragmentBankMenuItemsBinding;
+import com.zztl.pos.city.databinding.AppPageDotBinding;
 import acquire.app.fragment.main.SaverFragment;
 import acquire.app.fragment.main.menu.MainMenu;
 import acquire.app.fragment.main.menu.MenuItem;

@@ -15,7 +15,7 @@ import androidx.core.app.ActivityCompat;
 
 import java.util.Objects;
 
-import com.zztl.pos.ucb.databinding.AppFragmentSaverBinding;
+import com.zztl.pos.city.databinding.AppFragmentSaverBinding;
 import acquire.base.ActivityStackManager;
 import acquire.base.activity.BaseFragment;
 import acquire.base.activity.callback.FragmentCallback;

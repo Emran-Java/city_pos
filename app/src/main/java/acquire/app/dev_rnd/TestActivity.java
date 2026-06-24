@@ -21,7 +21,7 @@ import java.net.SocketTimeoutException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import com.zztl.pos.ucb.R;
+import com.zztl.pos.city.R;
 import acquire.base.utils.network.NetworkUtils;
 
 public class TestActivity extends AppCompatActivity {

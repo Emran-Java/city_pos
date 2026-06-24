@@ -15,7 +15,7 @@ import java.util.List;
 import acquire.core.model.FeatureSubMenuModel;
 
 import acquire.core.R;
-//import com.zztl.pos.ucb.R;
+//import com.zztl.pos.city.R;
 //import acquire.app.brac.models.ReportModel;
 
 public class CoreSubMenuAdapter

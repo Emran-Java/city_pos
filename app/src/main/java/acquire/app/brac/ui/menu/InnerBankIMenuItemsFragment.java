@@ -12,8 +12,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-//import com.zztl.pos.ucb.databinding.AppFragmentBankMenuBinding;
-import com.zztl.pos.ucb.databinding.AppFragmentInnerBankMenuBinding;
+//import com.zztl.pos.city.databinding.AppFragmentBankMenuBinding;
+import com.zztl.pos.city.databinding.AppFragmentInnerBankMenuBinding;
 
 import acquire.app.fragment.main.menu.MainMenu;
 import acquire.app.fragment.main.menu.MenuItem;

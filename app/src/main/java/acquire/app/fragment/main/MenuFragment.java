@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import com.zztl.pos.ucb.databinding.AppFragmentMenuBinding;
+import com.zztl.pos.city.databinding.AppFragmentMenuBinding;
 import acquire.app.fragment.main.menu.MainMenuAdapter;
 import acquire.app.fragment.main.menu.MenuItem;
 import acquire.base.activity.BaseFragment;

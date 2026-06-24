@@ -25,10 +25,10 @@ import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import com.zztl.pos.ucb.R;
+import com.zztl.pos.city.R;
 
 import acquire.app.brac.utility.FileCounter;
-import com.zztl.pos.ucb.databinding.AppFragmentMainBracBinding;
+import com.zztl.pos.city.databinding.AppFragmentMainBracBinding;
 import acquire.app.fragment.main.SaverFragment;
 import acquire.app.fragment.main.menu.MainMenu;
 import acquire.app.fragment.main.menu.MenuItem;

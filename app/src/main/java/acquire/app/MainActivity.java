@@ -26,14 +26,14 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ThreadLocalRandom;
 
 
-import com.zztl.pos.ucb.R;
+import com.zztl.pos.city.R;
 import acquire.app.dev_rnd.TestActivity;
 import acquire.base.activity.bottom_sheet.MessageBottomSheet;
 import acquire.core.constant.CoreContent;
 import acquire.app.brac.ui.menu.BankMenuItemsFragment;
 import acquire.app.brac.ui.home.MainBracFragment;
 import acquire.app.brac.ui.home.MainViewPagerAdapter;
-import com.zztl.pos.ucb.databinding.AppActivityMainBinding;
+import com.zztl.pos.city.databinding.AppActivityMainBinding;
 import acquire.app.fragment.splash.SplashFragment;
 import acquire.base.BaseApplication;
 import acquire.base.activity.BaseActivity;

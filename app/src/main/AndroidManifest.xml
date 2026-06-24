@@ -35,7 +35,7 @@
         </activity>-->
 
         <!--<activity
-            android:name="com.zztl.pos.ucbbrac.ui.report.ReportsActivity"
+            android:name="com.zztl.pos.citybrac.ui.report.ReportsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

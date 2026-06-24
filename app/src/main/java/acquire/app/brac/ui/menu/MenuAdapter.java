@@ -11,8 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import com.zztl.pos.ucb.R;
-import com.zztl.pos.ucb.databinding.AppMenuUcbItemBinding;
+import com.zztl.pos.city.R;
+import com.zztl.pos.city.databinding.AppMenuUcbItemBinding;
 
 import acquire.base.activity.bottom_sheet.MessageBottomSheet;
 import acquire.base.utils.ParamsUtils;

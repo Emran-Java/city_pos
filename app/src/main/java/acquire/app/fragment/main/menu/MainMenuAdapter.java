@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import com.zztl.pos.ucb.databinding.AppMenuItemBinding;
+import com.zztl.pos.city.databinding.AppMenuItemBinding;
 import acquire.app.fragment.main.SubMenuFragment;
 import acquire.base.ActivityStackManager;
 import acquire.base.activity.BaseActivity;

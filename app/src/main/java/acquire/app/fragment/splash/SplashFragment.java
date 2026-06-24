@@ -13,8 +13,8 @@ import androidx.fragment.app.Fragment;
 
 import java.util.Locale;
 
-import com.zztl.pos.ucb.R;
-import com.zztl.pos.ucb.databinding.AppFragmentSplashBinding;
+import com.zztl.pos.city.R;
+import com.zztl.pos.city.databinding.AppFragmentSplashBinding;
 import acquire.base.activity.BaseFragment;
 import acquire.base.activity.callback.SimpleCallback;
 import acquire.base.utils.AppUtils;

@@ -15,7 +15,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 import java.util.List;
 import java.util.Objects;
 
-import com.zztl.pos.ucb.databinding.AppFragmentSubMenuBinding;
+import com.zztl.pos.city.databinding.AppFragmentSubMenuBinding;
 import acquire.app.fragment.main.menu.MainMenuAdapter;
 import acquire.app.fragment.main.menu.MenuItem;
 import acquire.base.activity.BaseFragment;

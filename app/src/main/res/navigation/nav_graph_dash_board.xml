@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_dash_board"
+    app:startDestination="@id/citySplashFragment">
+
+    <fragment
+        android:id="@+id/citySplashFragment"
+        android:name="acquire.app.brac.ui.new_home.CitySplashFragment"
+        android:label="CitySplashFragment" >
+        <action
+            android:id="@+id/action_citySplashFragment_to_cityHomeFragment"
+            app:destination="@id/cityHomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cityHomeFragment"
+        android:name="acquire.app.brac.ui.new_home.CityHomeFragment"
+        android:label="CityHomeFragment" >
+        <action
+            android:id="@+id/action_cityHomeFragment_to_cityFeatureMenuFragment"
+            app:destination="@id/cityFeatureMenuFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cityFeatureMenuFragment"
+        android:name="acquire.app.brac.ui.new_home.CityFeatureMenuFragment"
+        android:label="CityFeatureMenuFragment" />
+
+
+</navigation>

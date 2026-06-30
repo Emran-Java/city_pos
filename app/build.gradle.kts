@@ -110,10 +110,20 @@ dependencies {
     androidTestImplementation(libs.runner)
     implementation("com.github.bumptech.glide:glide:4.16.0")
 
+    // --- navigation ---
+    //def nav_version "2.5.2"
+    implementation ("androidx.navigation:navigation-fragment-ktx:2.5.2")
+    implementation ("androidx.navigation:navigation-ui-ktx:2.5.2")
+    // Feature module Support
+    implementation ("androidx.navigation:navigation-dynamic-features-fragment:2.5.2")
+    // ----------------------------------------------------------------------------------------
+
+
     implementation(project(":base"))
     implementation(project(":core"))
     implementation(project(":database"))
     implementation(project(":settings"))
+
 }
 
 

@@ -8,9 +8,9 @@
         android:id="@+id/citySplashFragment"
         android:name="acquire.app.brac.ui.new_home.CitySplashFragment"
         android:label="CitySplashFragment" >
-        <action
+        <!--<action
             android:id="@+id/action_citySplashFragment_to_cityHomeFragment"
-            app:destination="@id/cityHomeFragment" />
+            app:destination="@id/cityHomeFragment" />-->
     </fragment>
 
     <fragment

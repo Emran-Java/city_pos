@@ -18,15 +18,17 @@ import acquire.sdk.emv.IEmvParamLoader;
 public class FileConst {
 
     public final static String EXTRA_FILE_URL_CUSTOM_FOLDER = "/storage/emulated/0/custom_city";
-    public final static String EXTRA_FILE_URL_INI = "/storage/emulated/0/custom_city/CITYLPARA.ini";
+    public final static String EXTRA_FILE_URL_INI = "/storage/emulated/0/custom_city/CITYPARAM.ini";
 
     public final static String MENU_FILE_PRINT_RECEIPT = "print-receipt.json";
     public final static String MENU_KEY_PRINT_RECEIPT = "printReceiptMenuPrefKey";
 
 
+    public final static String MENU_FILE_FEATURE_MAIN_MENU = "feature-main-menu.json";
+    public final static String MENU_KEY_FEATURE_MAIN_MENU = "payFlexMenuPrefKey";
+
     public final static String MENU_FILE_PAY_FLEX = "pay-flex.json";
     public final static String MENU_KEY_PAY_FLEX = "payFlexMenuPrefKey";
-
     public final static String MENU_FILE_PRE_AUTH = "pre-auth.json";
     public final static String MENU_PREF_KEY_PRE_AUTH = "preauthMenuPrefKey";
     public final static String MENU_FILE_RECORDS = "records.json";

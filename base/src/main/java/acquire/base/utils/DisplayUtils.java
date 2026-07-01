@@ -266,4 +266,62 @@ public class DisplayUtils {
         return screenHeight < screenWidth;
     }
 
+
+    private static final String TAG = "DisplayInfo";
+
+    public static void getAllDisplayInfo(Context context) {
+
+        WindowManager windowManager =
+                (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+
+        if (windowManager == null) {
+            LoggerUtils.e(TAG+ "WindowManager is null");
+            return;
+        }
+
+        Display display = windowManager.getDefaultDisplay();
+
+        DisplayMetrics metrics = new DisplayMetrics();
+        display.getMetrics(metrics);
+
+        DisplayMetrics realMetrics = new DisplayMetrics();
+        display.getRealMetrics(realMetrics);
+
+        LoggerUtils.d(TAG+  "================ Display Information ================");
+
+        LoggerUtils.d(TAG+  "Manufacturer : " + Build.MANUFACTURER);
+        LoggerUtils.d(TAG+  "Brand        : " + Build.BRAND);
+        LoggerUtils.d(TAG+  "Model        : " + Build.MODEL);
+        LoggerUtils.d(TAG +  "Device       : " + Build.DEVICE);
+        LoggerUtils.d(TAG +  "Product      : " + Build.PRODUCT);
+        LoggerUtils.d(TAG +  "Board        : " + Build.BOARD);
+        LoggerUtils.d(TAG +  "Hardware     : " + Build.HARDWARE);
+        LoggerUtils.d(TAG +  "Android      : " + Build.VERSION.RELEASE);
+        LoggerUtils.d(TAG +  "API Level    : " + Build.VERSION.SDK_INT);
+
+        LoggerUtils.d(TAG +  "--------------------------------------------------");
+
+        LoggerUtils.d(TAG +  "Width (dp)   : " + (metrics.widthPixels / metrics.density));
+        LoggerUtils.d(TAG +  "Height (dp)  : " + (metrics.heightPixels / metrics.density));
+
+        LoggerUtils.d(TAG +  "Width (px)   : " + metrics.widthPixels);
+        LoggerUtils.d(TAG +  "Height (px)  : " + metrics.heightPixels);
+
+        LoggerUtils.d(TAG +  "Real Width   : " + realMetrics.widthPixels);
+        LoggerUtils.d(TAG +  "Real Height  : " + realMetrics.heightPixels);
+
+        LoggerUtils.d(TAG +  "Density      : " + metrics.density);
+        LoggerUtils.d(TAG +  "DensityDpi   : " + metrics.densityDpi);
+
+        LoggerUtils.d(TAG +  "ScaledDensity: " + metrics.scaledDensity);
+
+        LoggerUtils.d(TAG +  "xdpi         : " + metrics.xdpi);
+        LoggerUtils.d(TAG +  "ydpi         : " + metrics.ydpi);
+
+        LoggerUtils.d(TAG +  "Refresh Rate : " + display.getRefreshRate() + " Hz");
+
+        LoggerUtils.d(TAG +  "Rotation     : " + display.getRotation());
+
+        LoggerUtils.d(TAG +  "==================================================");
+    }
 }

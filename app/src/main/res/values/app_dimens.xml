@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <dimen name="dimnTopCardMarginTop">0dp</dimen>
+
     <dimen name="app_banner_margin_top">@dimen/dp52</dimen>
     <dimen name="app_banner_height">@dimen/dp50</dimen>
 
@@ -18,7 +20,15 @@
     <dimen name="dimnBtnRoundSquareStroke">0.5dp</dimen>
     <dimen name="dimnBtnRoundSquareRadius">8dp</dimen>
     <dimen name="dimnBtnStrokeColorWidth">2dp</dimen>
-
+    <dimen name="dimnTopCardRadius">12dp</dimen>
+    <dimen name="dimnTopCardElevation">2dp</dimen>
+    <dimen name="dimnTopCardTextSize">18sp</dimen>
+    <dimen name="dimnCityRootBorderGap">16dp</dimen>
+    <dimen name="dimnCityHomeTopLeftLogoWH">60dp</dimen>
+    <dimen name="dimnCityHomeTopRightLogoWH">38dp</dimen>
+    <dimen name="dimnCityCardRootBorderMargin">12dp</dimen>
+    <dimen name="dimnCityHomeSliderHeight">175dp</dimen>
+    <dimen name="dimnCityHomeSliderMarginVertical">2dp</dimen>
 
 
 </resources>

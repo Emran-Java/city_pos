@@ -58,5 +58,6 @@
     <!--    <color name="colorBtnYellowCenter">#EAC400</color>-->
     <!--    <color name="colorBtnYellowStart">#E5AB00</color>-->
     <color name="colorBtnYellowStroke">#FFAB00</color>
+    <color name="dimnTopCardTxtColor">#444</color>
 
 </resources>

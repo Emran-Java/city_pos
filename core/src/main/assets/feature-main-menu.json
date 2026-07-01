@@ -1,0 +1,113 @@
+{
+  "featureMainMenu": [
+    {
+      "title": "Sale",
+      "id": 1,
+      "position": 1,
+      "code": "SALE",
+      "icon": "ic_sale",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Sale",
+      "childData": []
+    },
+    {
+      "title": "EMI",
+      "id": 2,
+      "position": 2,
+      "code": "EMI",
+      "icon": "ic_emi",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Installment",
+      "childData": []
+    },
+    {
+      "title": "Settlement",
+      "id": 3,
+      "position": 3,
+      "code": "SETTLEMENT",
+      "icon": "ic_settlement",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Settlement",
+      "childData": []
+    },
+    {
+      "title": "Logon",
+      "id": 4,
+      "position": 4,
+      "code": "LOGON",
+      "icon": "ic_logon",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Logon",
+      "childData": []
+    },
+    {
+      "title": "Print",
+      "id": 5,
+      "position": 5,
+      "code": "PRINT",
+      "icon": "ic_print",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": true,
+      "nextStep": "Print",
+      "childData": [
+        {
+          "title": "Print Last Receipt",
+          "id": 51,
+          "position": 1,
+          "code": "PRINT_LST_RCPT",
+          "icon": "ic_print_last_rc",
+          "isShow": true,
+          "isActive": true,
+          "hasChild": false,
+          "nextStep": "PrintLastReceipt",
+          "childData": []
+        },
+        {
+          "title": "Reprint Receipt",
+          "id": 52,
+          "position": 5,
+          "code": "REPRINT_RCPT",
+          "icon": "ic_print",
+          "isShow": true,
+          "isActive": true,
+          "hasChild": true,
+          "nextStep": "ReprintReceipt",
+          "childData": []
+        }
+      ]
+    },
+    {
+      "title": "Batch Report",
+      "id": 6,
+      "position": 6,
+      "code": "BATCH_REPORT",
+      "icon": "ic_app_report",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Batch-Report",
+      "childData": []
+    },
+    {
+      "title": "PreAuth+",
+      "id": 7,
+      "position": 7,
+      "code": "PRE_AUTH",
+      "icon": "ic_pre_auth",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Pre-Auth",
+      "childData": []
+    }
+  ]
+}

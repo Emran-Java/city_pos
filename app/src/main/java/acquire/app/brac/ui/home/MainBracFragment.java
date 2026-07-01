@@ -17,7 +17,6 @@ import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.viewpager2.widget.ViewPager2;
 
 import java.util.ArrayList;
@@ -27,7 +26,7 @@ import java.util.concurrent.Executors;
 
 import com.zztl.pos.city.R;
 
-import acquire.app.brac.utility.FileCounter;
+import acquire.app.brac.utility.FileUtility;
 import com.zztl.pos.city.databinding.AppFragmentMainBracBinding;
 import acquire.app.fragment.main.SaverFragment;
 import acquire.app.fragment.main.menu.MainMenu;
@@ -44,10 +43,8 @@ import acquire.core.constant.FileConst;
 import acquire.core.constant.ParamsConst;
 import acquire.core.constant.ScreenHeightDps;
 import acquire.core.constant.TransTag;
-import acquire.core.constant.TransType;
 import acquire.core.fragment.key_board.CoreNumberPadBottomSheet;
 import acquire.sdk.device.BDevice;
-import acquire.settings.contents.MenuChangeListen;
 
 /**
  * A main {@link Fragment}
@@ -124,14 +121,14 @@ public class MainBracFragment extends BaseFragment {
         ExecutorService executor = Executors.newSingleThreadExecutor();
 
         //red file from background thread, because this is IO operation
-        FileCounter fileCounter = FileCounter.getInstance();
+        FileUtility fileUtility = FileUtility.getInstance();
         executor.execute(() -> {
-            fileCounter.countFiles(pathWithDirectoryName);
+            fileUtility.countFiles(pathWithDirectoryName);
         });
 
-        fileCounter.setOnFileCountFinishedListener(new FileCounter.OnFilesCountListener() {
+        fileUtility.setOnFileCountFinishedListener(new FileUtility.OnFilesCountListener() {
             @Override
-            public void filesCountCompleted(ArrayList<FileCounter.FileCountModel> files) {
+            public void filesCountCompleted(ArrayList<FileUtility.FileCountModel> files) {
                 requireActivity().runOnUiThread(() -> {
                     setHomeBrandingSlider(files);
                 });
@@ -140,7 +137,7 @@ public class MainBracFragment extends BaseFragment {
 
     }
 
-    private void setHomeBrandingSlider(ArrayList<FileCounter.FileCountModel> files) {
+    private void setHomeBrandingSlider(ArrayList<FileUtility.FileCountModel> files) {
         ViewPager2 viewPagerHomePromo = binding.viewPagerHomePromo;
 
         boolean isAutoSlide = true;
@@ -148,7 +145,7 @@ public class MainBracFragment extends BaseFragment {
         ViewPagerAdapter homePoromoPagerAdapter = new ViewPagerAdapter(requireActivity());
         for (int i = 0; i < files.size(); i++) {
             //if(!files.get(i).getFileType().equals(FileCounter.EMPTY_FILE_TYPE)){
-            if (FileCounter.acceptableMediaFiles.contains(files.get(i).getFileType())) {
+            if (FileUtility.acceptableMediaFiles.contains(files.get(i).getFileType())) {
                 homePoromoPagerAdapter.addFragment(BrandPromoFragment.newInstance(files.get(i).getFilePath()));
             }
         }

@@ -10,14 +10,14 @@ import androidx.annotation.Nullable;
 
 import com.zztl.pos.city.databinding.FragmentCitySplashBinding;
 
+import java.util.Objects;
+
 import acquire.app.brac.ui.base.BaseFragment;
+import acquire.base.utils.DisplayUtils;
 
 public class CitySplashFragment extends BaseFragment {
 
     private FragmentCitySplashBinding _binding;
-    protected FragmentCitySplashBinding binding() {
-        return _binding;
-    }
 
     @Nullable
     @Override
@@ -33,13 +33,12 @@ public class CitySplashFragment extends BaseFragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        // Initialize UI / listeners here
         initUI();
+        DisplayUtils.getAllDisplayInfo(requireContext());
     }
 
     private void initUI() {
-        // Example:
-        // binding().textTitle.setText("Welcome");
+
     }
 
     @Override

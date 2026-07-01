@@ -9,7 +9,19 @@ import acquire.base.constants.BasePrefKey;
  * @date 2018/3/26
  */
 public class ParamsConst {
-//===========================[SYSTEM & BASE]===========================
+
+
+    //===========================[EXTRANAL PATH]===========================
+
+    public final static String PARAMS_KEY_MENU_FEATURE_MAIN = "MAIN_FEATURE_MENU";
+
+    //===========================[EXTRANAL PATH]===========================
+    public final static String PARAMS_KEY_LOGO_PATH = "LOGO_PATH";
+    public final static String PARAMS_KEY_SLIDER_PATH = "SLIDER_PATH";
+    public final static String PARAMS_KEY_SCREEN_SAVER_PATH= "SCREEN_SAVER_PATH";
+
+
+    //===========================[SYSTEM & BASE]===========================
     /** App first start flag */
     public final static String PARAMS_KEY_FIRST_RUN = "FIRST_RUN";
     public final static String PARAMS_KEY_IS_PRESENT_INI_FILE = "IS_INI_FILE_PREASENT";
@@ -201,5 +213,6 @@ public class ParamsConst {
     //for internal use
     //===========================[TRACK & NOTE]========================
     public final static String PARAMS_KEY_IS_OPERATOR_AVAILABLE = "isOperatorAvailAble";
+
 
 }

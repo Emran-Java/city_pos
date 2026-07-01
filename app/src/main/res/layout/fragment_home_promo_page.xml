@@ -1,47 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000">
+    android:background="@color/base_background">
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/ivHomSlidPromo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:contentDescription="Static Image Display"
         android:scaleType="centerCrop"
         android:visibility="gone"
-        android:contentDescription="Static Image Display" />
+        app:shapeAppearanceOverlay="@style/CityHomeTopImageCardShape" />
 
     <ImageView
         android:id="@+id/ivHomGifSlidPromo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:contentDescription="GIF Display"
         android:scaleType="fitCenter"
-        android:visibility="gone"
-        android:contentDescription="GIF Display" />
+        android:visibility="gone" />
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:visibility="gone">
 
         <VideoView
             android:id="@+id/ivHomVideoSlidPromo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:visibility="gone"/>
+            android:visibility="gone" />
 
         <ImageView
             android:id="@+id/btnMute"
             android:layout_width="32dp"
             android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
             android:layout_gravity="end|bottom"
             android:layout_margin="16dp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
             android:background="@android:color/transparent"
 
-            android:src="@drawable/ic_mute"/>
+            android:src="@drawable/ic_mute" />
     </RelativeLayout>
 
 </FrameLayout>

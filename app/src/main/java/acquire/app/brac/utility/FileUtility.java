@@ -1,6 +1,10 @@
 package acquire.app.brac.utility;
 
+import android.content.Context;
 import android.util.Log;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -8,7 +12,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FileCounter {
+public class FileUtility {
 
     public static final String EMPTY_FILE_TYPE = "no_extension";
     public static final String FILE_TYPE_INI = "ini";
@@ -18,22 +22,56 @@ public class FileCounter {
     public static final String FILE_TYPE_PNG = "png";
     public static final String FILE_TYPE_GIF = "gif";
 
-    public static ArrayList<String> acceptableMediaFiles =  new ArrayList<>( Arrays.asList(FILE_TYPE_MP4,FILE_TYPE_JPG,FILE_TYPE_JPEG,FILE_TYPE_PNG,FILE_TYPE_GIF));
-    private static FileCounter mFileCounter;
-    
+    public static ArrayList<String> acceptableMediaFiles = new ArrayList<>(Arrays.asList(FILE_TYPE_MP4, FILE_TYPE_JPG, FILE_TYPE_JPEG, FILE_TYPE_PNG, FILE_TYPE_GIF));
+    private static FileUtility mFileUtility;
+
     private OnFilesCountListener onFilesCountListener;
-    
-    public static FileCounter getInstance(){
-        if(mFileCounter == null ){
-            mFileCounter = new FileCounter();
+
+    public static FileUtility getInstance() {
+        if (mFileUtility == null) {
+            mFileUtility = new FileUtility();
         }
-        return mFileCounter;
+        return mFileUtility;
     }
-    
-    public void setOnFileCountFinishedListener(OnFilesCountListener onFilesCountListener){
+
+    public void setOnFileCountFinishedListener(OnFilesCountListener onFilesCountListener) {
         this.onFilesCountListener = onFilesCountListener;
     }
-    
+
+/*    public void loadImageFromFileUrl(Context context, ImageView imageView, String path) {
+        File file = new File(path);
+
+        if (!file.exists()) return;
+        String extension = getFileExtension(path);
+
+        if (extension.equalsIgnoreCase("mp4")) {
+            return;
+        }
+
+        Glide.with(context).asGif().load(file).into(imageView);
+    }*/
+public void loadImageFromFileUrl(Context context, ImageView imageView, String path) {
+
+    if (path == null || path.trim().isEmpty()) {
+        return;
+    }
+
+    File file = new File(path);
+
+    if (!file.exists()) {
+        return;
+    }
+
+    String extension = getFileExtension(path);
+
+    if (extension != null && extension.equalsIgnoreCase("mp4")) {
+        return;
+    }
+
+    Glide.with(context)
+            .load(file)
+            .into(imageView);
+}
 
     public void countFiles(String directoryPath) {
         //this.onFilesCountListener = onFilesCountListener;
@@ -60,11 +98,11 @@ public class FileCounter {
                 Log.d("FileCounter", " getPath: " + file.getPath());
                 String extension = getFileExtension(file.getName());
 
-                
+
                 if (extension.isEmpty()) {
                     extension = EMPTY_FILE_TYPE;
                 }
-                
+
                 filesPath.add(new FileCountModel(file.getPath(), file.getName(), extension));
 
                 fileTypeMap.put(
@@ -74,9 +112,9 @@ public class FileCounter {
             }
         }
 
-        try{
+        try {
             this.onFilesCountListener.filesCountCompleted(filesPath);
-        }catch (Exception ex){
+        } catch (Exception ex) {
             Log.d("FileCounter", "this.onFilesCountListener.filesCountCompleted(filesPath); exception : " + ex.getMessage());
         }
 
@@ -93,11 +131,11 @@ public class FileCounter {
         return fileName.substring(lastDot + 1).toLowerCase();
     }
 
-    public interface OnFilesCountListener{
+    public interface OnFilesCountListener {
         void filesCountCompleted(ArrayList<FileCountModel> files);
     }
 
-    public static class FileCountModel{
+    public static class FileCountModel {
         String filePath;
         String fileName;
         String fileType;

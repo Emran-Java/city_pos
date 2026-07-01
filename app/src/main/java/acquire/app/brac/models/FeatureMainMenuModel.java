@@ -2,7 +2,7 @@ package acquire.app.brac.models;
 import java.io.Serializable;
 import java.util.List;
 
-public class ReportModel implements Serializable {
+public class FeatureMainMenuModel implements Serializable {
 
     private String title;
     private int id;
@@ -13,7 +13,7 @@ public class ReportModel implements Serializable {
     private boolean isActive;
     private boolean hasChild;
     private String nextStep;
-    private List<ReportModel> childData;
+    private List<FeatureMainMenuModel> childData;
 
     public String getTitle() { return title; }
     public int getId() { return id; }
@@ -24,5 +24,5 @@ public class ReportModel implements Serializable {
     public boolean isActive() { return isActive; }
     public boolean isHasChild() { return hasChild; }
     public String getNextStep() { return nextStep; }
-    public List<ReportModel> getChildData() { return childData; }
+    public List<FeatureMainMenuModel> getChildData() { return childData; }
 }

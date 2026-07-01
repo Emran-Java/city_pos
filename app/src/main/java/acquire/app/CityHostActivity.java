@@ -17,6 +17,10 @@ import androidx.navigation.Navigation;
 import com.zztl.pos.city.R;
 import com.zztl.pos.city.databinding.ActivityCityHostBinding;
 
+import java.util.List;
+
+import acquire.app.brac.models.FeatureMainMenuModel;
+import acquire.app.brac.ui.new_home.ActivityCallback;
 import acquire.app.brac.ui.new_home.CityHomeFragment;
 import acquire.base.BaseApplication;
 import acquire.base.activity.BaseActivity;
@@ -33,7 +37,7 @@ import acquire.core.tools.LoadMenuData;
 import acquire.core.tools.SelfCheckHelper;
 import acquire.sdk.system.BSystem;
 
-public class CityHostActivity extends BaseActivity {
+public class CityHostActivity extends BaseActivity implements ActivityCallback {
 
     private ActivityCityHostBinding _binding;
     private NavController _navController;
@@ -157,15 +161,14 @@ public class CityHostActivity extends BaseActivity {
 
         String json = JsonUtils.loadJSONFromAsset(this, FileConst.MENU_FILE_FEATURE_MAIN_MENU);
 
-        if(json!=null){
-            ParamsUtils.setString(ParamsConst.PARAMS_KEY_MENU_FEATURE_MAIN,json);
-        }
-        else{
+        if (json != null) {
+            ParamsUtils.setString(ParamsConst.PARAMS_KEY_MENU_FEATURE_MAIN, json);
+        } else {
             //TODO: when main feature menu can't load
         }
 
 
-    CoreContent.REPORT_MENU = LoadMenuData.loadReportMenuItems();
+        CoreContent.REPORT_MENU = LoadMenuData.loadReportMenuItems();
         CoreContent.PRE_AUTH_MENU = LoadMenuData.loadPreAuthMenuItems();
         CoreContent.PAY_FLEX_MENU = LoadMenuData.loadPayFlexMenuItems();
         CoreContent.PRINT_RECEIPT_MENU = LoadMenuData.loadPrintReceiptMenuItems();
@@ -176,5 +179,48 @@ public class CityHostActivity extends BaseActivity {
             // CoreContent.REPORT_CARD_ONUS_MAP = LoadMenuData.parseCardBinsMap(cardTypeBin);
             OnUsBinMap.REPORT_CARD_ONUS_MAP = LoadMenuData.parseCardBinsMap(cardTypeBin);
         }
+    }
+
+    @Override
+    public void onSwitchFeature(FeatureMainMenuModel featureMainMenuModel) {
+
+        if (featureMainMenuModel.getCode() == null) return;
+
+        switch (featureMainMenuModel.getCode()) {
+
+            case "SALE": {
+                Intent intent = new Intent(getApplicationContext(), TransActivity.class);
+                intent.putExtra(TransTag.TRANS_TYPE, TransType.TRANS_SALE);
+                startActivity(intent);
+                break;
+            }
+            case "EMI": {
+                Intent intent = new Intent(getApplicationContext(), TransActivity.class);
+                intent.putExtra(TransTag.TRANS_TYPE, TransType.TRANS_INSTALLMENT_MENU);
+                startActivity(intent);
+                break;
+            }
+            case "SETTLEMENT": {
+                Intent intent = new Intent(getApplicationContext(), TransActivity.class);
+                intent.putExtra(TransTag.TRANS_TYPE, TransType.TRANS_SETTLE);
+                startActivity(intent);
+                break;
+            }
+            case "PRINT": {
+                /*if (featureMainMenuModel.isHasChild()) {
+
+                    List<FeatureMainMenuModel> childList = featureMainMenuModel.getChildData();
+
+                    // TODO: Open child screen
+                }*/
+                Intent intent = new Intent(getApplicationContext(), TransActivity.class);
+                intent.putExtra(TransTag.TRANS_TYPE, TransType.TRANS_REPORTS_PRINT);
+                startActivity(intent);
+                break;
+            }
+            default:
+                break;
+        }
+
     }
 }

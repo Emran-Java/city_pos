@@ -34,13 +34,14 @@ import acquire.app.brac.ui.base.BaseFragment;
 import acquire.app.brac.ui.home.BrandPromoFragment;
 import acquire.app.brac.ui.home.ViewPagerAdapter;
 import acquire.app.brac.utility.FileUtility;
-import acquire.core.constant.FileConst;
 
 public class CityHomeFragment extends BaseFragment {
 
     private FragmentCityHomeBinding _binding;
     private MenuAdapter adapter;
     private CityHomeViewModel viewModel;
+
+    private FeatureMainMenuModel featureTopOneMenuModel;
 
     private Handler sliderHandler;
     private Runnable sliderRunnable;
@@ -75,8 +76,17 @@ public class CityHomeFragment extends BaseFragment {
 
         viewModel.getFeatureMainMenuState().observe(getViewLifecycleOwner(), state -> {
             List<FeatureMainMenuModel> featureMainMenuModels = state.getMainFeatureMenuJson();
-            if (featureMainMenuModels != null || !featureMainMenuModels.isEmpty()) {
-                setMenuUi(featureMainMenuModels);
+            List<FeatureMainMenuModel> subFeatureMainMenuModels = new ArrayList<>();
+            if (featureMainMenuModels != null && featureMainMenuModels.size() > 4) {
+                subFeatureMainMenuModels.clear();
+                subFeatureMainMenuModels.addAll(featureMainMenuModels.subList(0, 4));
+            }
+            if (subFeatureMainMenuModels.size() > 3) {
+                //featureTopOneMenuModel = featureMainMenuModels.get(0);
+                updateTopItemOnUi(subFeatureMainMenuModels.get(0));
+                subFeatureMainMenuModels.remove(0);
+                assert featureMainMenuModels != null;
+                setMenuUi(subFeatureMainMenuModels, featureMainMenuModels.size());
             }
 
         });// end state
@@ -100,7 +110,35 @@ public class CityHomeFragment extends BaseFragment {
         });// end observer
     }
 
-    private void setMenuUi(List<FeatureMainMenuModel> featureMainMenuModels) {
+    private void updateTopItemOnUi(FeatureMainMenuModel featureMainMenuModel) {
+        _binding.tvFeatureTopItem.setText(featureMainMenuModel.getTitle());
+        _binding.cvTopFeatureItem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                featureCall(featureMainMenuModel);
+            }
+        });
+    }
+
+    private void featureCall(FeatureMainMenuModel featureMainMenuModel) {
+        if (callback != null) {
+            callback.onSwitchFeature(featureMainMenuModel);
+        }
+    }
+
+    private void setMenuUi(List<FeatureMainMenuModel> featureMainMenuModels, int realMenuSize) {
+
+        if(realMenuSize>4){
+            FeatureMainMenuModel moreFeatureMenuItem = new FeatureMainMenuModel();
+            moreFeatureMenuItem.setId(999);
+            moreFeatureMenuItem.setTitle("More");
+            moreFeatureMenuItem.setCode("MORE");
+            moreFeatureMenuItem.setIcon("ic_more");
+            moreFeatureMenuItem.setActive(true);
+            moreFeatureMenuItem.setShow(true);
+            featureMainMenuModels.add(moreFeatureMenuItem);
+        }
+
         adapter = new MenuAdapter(
                 requireContext(),
                 featureMainMenuModels,
@@ -113,36 +151,7 @@ public class CityHomeFragment extends BaseFragment {
     }
 
     private void onMenuClicked(FeatureMainMenuModel menu) {
-
-        switch (menu.getCode()) {
-
-            case "SALE":
-
-                break;
-
-            case "EMI":
-
-                break;
-
-            case "SETTLEMENT":
-
-                break;
-
-            case "PRINT":
-
-                if (menu.isHasChild()) {
-
-                    List<FeatureMainMenuModel> childList = menu.getChildData();
-
-                    // TODO: Open child screen
-                }
-
-                break;
-
-            default:
-                break;
-        }
-
+        featureCall(menu);
     }
 
     private void setHomeBrandingSlider(ArrayList<FileUtility.FileCountModel> files, boolean autoSlide) {

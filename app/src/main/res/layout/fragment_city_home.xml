@@ -78,7 +78,7 @@
                 android:id="@+id/viewPagerHomePromo"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/dimnCityHomeSliderHeight"
-                android:layout_marginHorizontal="@dimen/dimnCityCardRootBorderMargin"
+                android:layout_marginHorizontal="@dimen/dimnCityCardSliderRootBorderMargin"
                 android:layout_marginTop="@dimen/dimnCityHomeSliderMarginVertical"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -107,6 +107,7 @@
                 style="@style/Widget.CityBank.Card.HomeTopTitle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:layout_marginHorizontal="@dimen/dimnCityCardRootBorderMargin"
                 android:layout_marginTop="-16dp"
                 app:cardCornerRadius="10dp"
@@ -120,12 +121,12 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/txtSale"
+                        android:id="@+id/tvFeatureTopItem"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
                         android:layout_marginTop="8dp"
-                        android:text="Sale"
+                        android:text="Amount"
                         android:textAllCaps="true"
                         android:textColor="#202020"
                         android:textSize="16sp"
@@ -144,7 +145,7 @@
                         android:textSize="22sp"
                         app:layout_constraintBottom_toTopOf="@+id/vwBottom"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/txtSale" />
+                        app:layout_constraintTop_toBottomOf="@id/tvFeatureTopItem" />
 
                     <ImageView
                         android:layout_width="26dp"
@@ -179,7 +180,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cvTopFeatureItem"
-                tools:itemCount="10" />
+                tools:listitem="@layout/item_report_menu"
+                tools:itemCount="4" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

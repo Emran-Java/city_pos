@@ -27,6 +27,7 @@
     <dimen name="dimnCityHomeTopLeftLogoWH">60dp</dimen>
     <dimen name="dimnCityHomeTopRightLogoWH">38dp</dimen>
     <dimen name="dimnCityCardRootBorderMargin">12dp</dimen>
+    <dimen name="dimnCityCardSliderRootBorderMargin">14dp</dimen>
     <dimen name="dimnCityHomeSliderHeight">175dp</dimen>
     <dimen name="dimnCityHomeSliderMarginVertical">2dp</dimen>
 

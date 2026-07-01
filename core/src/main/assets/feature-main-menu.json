@@ -17,7 +17,7 @@
       "id": 2,
       "position": 2,
       "code": "EMI",
-      "icon": "ic_emi",
+      "icon": "ic_installment",
       "isShow": true,
       "isActive": true,
       "hasChild": false,
@@ -25,9 +25,21 @@
       "childData": []
     },
     {
-      "title": "Settlement",
+      "title": "Void",
       "id": 3,
       "position": 3,
+      "code": "VOID",
+      "icon": "ic_void",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "SaleVoid",
+      "childData": []
+    },
+    {
+      "title": "Settlement",
+      "id": 4,
+      "position": 4,
       "code": "SETTLEMENT",
       "icon": "ic_settlement",
       "isShow": true,
@@ -38,8 +50,8 @@
     },
     {
       "title": "Logon",
-      "id": 4,
-      "position": 4,
+      "id": 5,
+      "position": 5,
       "code": "LOGON",
       "icon": "ic_logon",
       "isShow": true,
@@ -48,10 +60,11 @@
       "nextStep": "Logon",
       "childData": []
     },
+
     {
       "title": "Print",
-      "id": 5,
-      "position": 5,
+      "id": 6,
+      "position": 6,
       "code": "PRINT",
       "icon": "ic_print",
       "isShow": true,
@@ -61,7 +74,7 @@
       "childData": [
         {
           "title": "Print Last Receipt",
-          "id": 51,
+          "id": 61,
           "position": 1,
           "code": "PRINT_LST_RCPT",
           "icon": "ic_print_last_rc",
@@ -73,8 +86,8 @@
         },
         {
           "title": "Reprint Receipt",
-          "id": 52,
-          "position": 5,
+          "id": 62,
+          "position": 2,
           "code": "REPRINT_RCPT",
           "icon": "ic_print",
           "isShow": true,
@@ -87,8 +100,8 @@
     },
     {
       "title": "Batch Report",
-      "id": 6,
-      "position": 6,
+      "id": 7,
+      "position": 7,
       "code": "BATCH_REPORT",
       "icon": "ic_app_report",
       "isShow": true,
@@ -99,8 +112,8 @@
     },
     {
       "title": "PreAuth+",
-      "id": 7,
-      "position": 7,
+      "id": 8,
+      "position": 8,
       "code": "PRE_AUTH",
       "icon": "ic_pre_auth",
       "isShow": true,

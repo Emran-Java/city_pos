@@ -2,7 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph_dash_board"
-    app:startDestination="@id/citySplashFragment">
+    app:startDestination="@id/cityHomeFragment">
 
     <fragment
         android:id="@+id/citySplashFragment"
@@ -20,6 +20,8 @@
         <action
             android:id="@+id/action_cityHomeFragment_to_cityFeatureMenuFragment"
             app:destination="@id/cityFeatureMenuFragment" />
+
+
     </fragment>
 
     <fragment

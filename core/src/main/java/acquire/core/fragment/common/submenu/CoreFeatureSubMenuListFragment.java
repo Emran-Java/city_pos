@@ -34,6 +34,7 @@ public class CoreFeatureSubMenuListFragment extends BaseFragment {
         CoreFeatureSubMenuListFragment fragment = new CoreFeatureSubMenuListFragment();
 
         Bundle bundle = new Bundle();
+        if(list==null) list = new ArrayList<>();
         bundle.putSerializable(IntentParamKeyContent.TRANS_REPORT_LIST, new ArrayList<>(list));
         bundle.putSerializable(IntentParamKeyContent.TRANS_TITLE_TEXT, titleText);
         fragment.setArguments(bundle);

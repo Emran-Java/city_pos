@@ -15,6 +15,7 @@ import com.zztl.pos.city.R;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.fragment.NavHostFragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.LinearSmoothScroller;
@@ -24,6 +25,7 @@ import androidx.viewpager2.widget.ViewPager2;
 import com.google.android.material.tabs.TabLayoutMediator;
 import com.zztl.pos.city.databinding.FragmentCityHomeBinding;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -40,6 +42,7 @@ public class CityHomeFragment extends CityBaseFragment {
 
     private FragmentCityHomeBinding _binding;
     private MenuAdapter adapter;
+    private List<FeatureMainMenuModel> _featureMainMenuModels = new ArrayList<>();
     private CityHomeViewModel viewModel;
 
     private FeatureMainMenuModel featureTopOneMenuModel;
@@ -76,18 +79,18 @@ public class CityHomeFragment extends CityBaseFragment {
     private void observeViewModel() {
 
         viewModel.getFeatureMainMenuState().observe(getViewLifecycleOwner(), state -> {
-            List<FeatureMainMenuModel> featureMainMenuModels = state.getMainFeatureMenuJson();
+            _featureMainMenuModels = state.getMainFeatureMenuJson();
             List<FeatureMainMenuModel> subFeatureMainMenuModels = new ArrayList<>();
-            if (featureMainMenuModels != null && featureMainMenuModels.size() > 4) {
+            if (_featureMainMenuModels != null && _featureMainMenuModels.size() > 4) {
                 subFeatureMainMenuModels.clear();
-                subFeatureMainMenuModels.addAll(featureMainMenuModels.subList(0, 4));
+                subFeatureMainMenuModels.addAll(_featureMainMenuModels.subList(0, 4));
             }
             if (subFeatureMainMenuModels.size() > 3) {
                 //featureTopOneMenuModel = featureMainMenuModels.get(0);
                 updateTopItemOnUi(subFeatureMainMenuModels.get(0));
                 subFeatureMainMenuModels.remove(0);
-                assert featureMainMenuModels != null;
-                setMenuUi(subFeatureMainMenuModels, featureMainMenuModels.size());
+                assert _featureMainMenuModels != null;
+                setMenuUi(subFeatureMainMenuModels, _featureMainMenuModels.size());
             }
 
         });// end state
@@ -122,8 +125,28 @@ public class CityHomeFragment extends CityBaseFragment {
     }
 
     private void featureCall(FeatureMainMenuModel featureMainMenuModel) {
-        if (callbackMainMenuItem != null) {
+
+        if (callbackMainMenuItem == null){return;}
+        if (featureMainMenuModel.getId()==999) { // id 999 = MORE
+
+            Bundle bundle = new Bundle();
+
+            List<FeatureMainMenuModel> subFeatureMainMenuModels = new ArrayList<>();
+            if (_featureMainMenuModels != null && _featureMainMenuModels.size() > 4) {
+                subFeatureMainMenuModels.clear();
+                subFeatureMainMenuModels.addAll(_featureMainMenuModels.subList(4, _featureMainMenuModels.size()));
+            }
+
+            bundle.putSerializable("featureMenuList", (Serializable) subFeatureMainMenuModels);
+
+            NavHostFragment.findNavController(this).navigate(
+                    R.id.action_cityHomeFragment_to_cityFeatureMenuFragment,
+                    bundle
+            );
+        }
+        else {
             callbackMainMenuItem.onSwitchFeature(featureMainMenuModel);
+
         }
     }
 

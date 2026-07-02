@@ -1,4 +1,5 @@
 package acquire.app.brac.ui.new_home;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,7 +23,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MenuViewHolder
     }
 
     private final Context context;
-    private final List<FeatureMainMenuModel> menuList;
+    private List<FeatureMainMenuModel> menuList;
     private final OnMenuClickListener listener;
 
     public MenuAdapter(Context context,
@@ -32,6 +33,12 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MenuViewHolder
         this.context = context;
         this.menuList = menuList;
         this.listener = listener;
+    }
+
+    @SuppressLint("NotifyDataSetChanged")
+    public void updateListData(List<FeatureMainMenuModel> menuList){
+        this.menuList = menuList;
+        notifyDataSetChanged();
     }
 
     @NonNull

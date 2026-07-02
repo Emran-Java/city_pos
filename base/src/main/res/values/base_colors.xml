@@ -3,17 +3,17 @@
     <!--theme primary color-->
 <!--    <color name="base_primary_gradient_start">#607CFF</color>-->
 <!--    <color name="base_primary_gradient_end">#78CBF5</color>-->
-    <color name="base_primary_gradient_start">#F26A75</color>
-    <color name="base_primary_gradient_center">#E94B58</color>
-    <color name="base_primary_gradient_end">#DE3241</color>
+    <color name="base_primary_gradient_start">#ec1a23</color>
+    <color name="base_primary_gradient_center">#ec1a23</color>
+    <color name="base_primary_gradient_end">#ec1a23</color>
 
 
-    <color name="status_bar_color">#DA3040</color>
-    <color name="nav_bar_color">#DE3241</color>
+    <color name="status_bar_color">#ec1a23</color>
+    <color name="nav_bar_color">#ec1a23</color>
 
 
     <!--accent color-->
-    <color name="base_colorPrimary">#DE3241</color>
+    <color name="base_colorPrimary">#ec1a23</color>
 
     <!--background-->
     <color name="base_background">#FCFCFF</color>

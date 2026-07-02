@@ -40,11 +40,11 @@ public class SplashFragment extends BaseFragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         AppFragmentSplashBinding binding = AppFragmentSplashBinding.inflate(inflater, container, false);
         //listen to animation over
-        /*binding.animLogo.setListener(() -> {
+        binding.animLogo.setListener(() -> {
             if (!isDetached() && mCallback != null){
                 mCallback.onSuccess(null);
             }
-        });*/
+        });
 
         binding.tvVersion.setText(String.format(Locale.getDefault(),"%s %s",getString(R.string.app_version),AppUtils.getAppVersionName(mActivity)));
 

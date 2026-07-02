@@ -9,11 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.zztl.pos.city.databinding.FragmentCityFeatureMenuBinding;
-import com.zztl.pos.city.databinding.FragmentCitySplashBinding;
 
-import acquire.app.brac.ui.base.BaseFragment;
+import acquire.app.brac.ui.base.CityBaseFragment;
 
-public class CityFeatureMenuFragment extends BaseFragment {
+public class CityFeatureMenuFragment extends CityBaseFragment {
 
     private FragmentCityFeatureMenuBinding _binding;
 

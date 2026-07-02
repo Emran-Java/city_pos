@@ -11,19 +11,19 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.navigation.NavController;
 import androidx.navigation.NavGraph;
-import androidx.navigation.NavOptions;
 import androidx.navigation.Navigation;
 
 import com.zztl.pos.city.R;
 import com.zztl.pos.city.databinding.ActivityCityHostBinding;
 
-import java.util.List;
+import java.util.concurrent.CountDownLatch;
 
 import acquire.app.brac.models.FeatureMainMenuModel;
 import acquire.app.brac.ui.new_home.ActivityCallback;
-import acquire.app.brac.ui.new_home.CityHomeFragment;
+import acquire.app.fragment.splash.SplashFragment;
 import acquire.base.BaseApplication;
 import acquire.base.activity.BaseActivity;
+import acquire.base.activity.callback.SimpleCallback;
 import acquire.base.utils.ParamsUtils;
 import acquire.core.TransActivity;
 import acquire.core.constant.CoreContent;
@@ -35,6 +35,7 @@ import acquire.core.constant.TransType;
 import acquire.core.tools.JsonUtils;
 import acquire.core.tools.LoadMenuData;
 import acquire.core.tools.SelfCheckHelper;
+import acquire.sdk.ServiceHelper;
 import acquire.sdk.system.BSystem;
 
 public class CityHostActivity extends BaseActivity implements ActivityCallback {
@@ -71,8 +72,7 @@ public class CityHostActivity extends BaseActivity implements ActivityCallback {
 
         loadInitialDeviceReq();
 
-        initClickListener();
-        setNavigationGraph();
+
     }
 
     private void setNavigationGraph() {
@@ -84,8 +84,8 @@ public class CityHostActivity extends BaseActivity implements ActivityCallback {
 
         _navGraph = _navController.getNavInflater()
                 .inflate(R.navigation.nav_graph_dash_board);
-        _navGraph.setStartDestination(R.id.citySplashFragment);
-//        _navGraph.setStartDestination(R.id.cityHomeFragment);
+//        _navGraph.setStartDestination(R.id.citySplashFragment);
+        _navGraph.setStartDestination(R.id.cityHomeFragment);
 
         /*if (PayoutDataController.isOpenForEmptyView) {
             navGraph.setStartDestination(R.id.beneficiaryListFragment);
@@ -111,34 +111,28 @@ public class CityHostActivity extends BaseActivity implements ActivityCallback {
     private void loadInitialDeviceReq() {
 
         BaseApplication.SINGLE_EXECUTOR.execute(() -> {
-            SelfCheckHelper.initDevice(this);
+            //SelfCheckHelper.initDevice(this);
             //disable task and home button
             BSystem.setTaskButton(false);
             BSystem.setHomeButton(false);
             //checkDeviceStatus();
-            loadFeatureMenuData();
 
-            //only use in developing time
-            //devRnDTest();
-            try {
-                Thread.sleep(1500); // Delay before updating UI
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-            }
             //Enter the main fragment
             //mSupportDelegate.switchContent(                                                                                                                                                                                                                                                         MainFragment.newInstance());
             runOnUiThread(() -> {
+                initClickListener();
+                setNavigationGraph();
                 /*// Clear everything from the back stack
                 _navController.popBackStack(_navController.getGraph().getStartDestinationId(), true);
                 // Change start destination
                 _navGraph.setStartDestination(R.id.cityHomeFragment);
                 _navController.setGraph(_navGraph);*/
 
-                NavOptions navOptions = new NavOptions.Builder()
+
+/*                NavOptions navOptions = new NavOptions.Builder()
                         .setPopUpTo(_navController.getCurrentDestination().getId(), true)
                         .build();
-
-                _navController.navigate(R.id.cityHomeFragment, null, navOptions);
+                _navController.navigate(R.id.cityHomeFragment, null, navOptions);*/
 
             });
 
@@ -166,7 +160,6 @@ public class CityHostActivity extends BaseActivity implements ActivityCallback {
         } else {
             //TODO: when main feature menu can't load
         }
-
 
         CoreContent.REPORT_MENU = LoadMenuData.loadReportMenuItems();
         CoreContent.PRE_AUTH_MENU = LoadMenuData.loadPreAuthMenuItems();
@@ -221,6 +214,18 @@ public class CityHostActivity extends BaseActivity implements ActivityCallback {
             default:
                 break;
         }
-
     }
+
+
+
+    @Override
+    protected void onDestroy() {
+        if (ServiceHelper.getInstance().isInit()) {
+            //restore task and home button
+            BSystem.setTaskButton(true);
+            BSystem.setHomeButton(true);
+        }
+        super.onDestroy();
+    }
+
 }

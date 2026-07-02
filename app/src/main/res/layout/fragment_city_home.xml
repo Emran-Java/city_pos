@@ -41,6 +41,7 @@
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:overScrollMode="never"
         app:layout_constraintBottom_toTopOf="@+id/vwBottomBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -107,9 +108,9 @@
                 style="@style/Widget.CityBank.Card.HomeTopTitle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:clickable="true"
                 android:layout_marginHorizontal="@dimen/dimnCityCardRootBorderMargin"
                 android:layout_marginTop="-16dp"
+                android:clickable="true"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="2dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -174,14 +175,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginHorizontal="@dimen/dimnCityCardRootBorderMargin"
-
                 android:layout_weight="1"
+                android:overScrollMode="never"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cvTopFeatureItem"
-                tools:listitem="@layout/item_report_menu"
-                tools:itemCount="4" />
+                tools:itemCount="4"
+                tools:listitem="@layout/item_report_menu" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
@@ -258,7 +259,7 @@
         android:id="@+id/vwBottomBar"
         android:layout_width="0dp"
         android:layout_height="8dp"
-        android:background="#F51B23"
+        android:background="@color/base_colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

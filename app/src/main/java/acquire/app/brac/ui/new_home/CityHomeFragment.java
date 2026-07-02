@@ -30,12 +30,13 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import acquire.app.brac.models.FeatureMainMenuModel;
-import acquire.app.brac.ui.base.BaseFragment;
+import acquire.app.brac.ui.base.CityBaseFragment;
 import acquire.app.brac.ui.home.BrandPromoFragment;
 import acquire.app.brac.ui.home.ViewPagerAdapter;
 import acquire.app.brac.utility.FileUtility;
+import acquire.base.widget.dialog.message.MessageDialog;
 
-public class CityHomeFragment extends BaseFragment {
+public class CityHomeFragment extends CityBaseFragment {
 
     private FragmentCityHomeBinding _binding;
     private MenuAdapter adapter;
@@ -121,8 +122,8 @@ public class CityHomeFragment extends BaseFragment {
     }
 
     private void featureCall(FeatureMainMenuModel featureMainMenuModel) {
-        if (callback != null) {
-            callback.onSwitchFeature(featureMainMenuModel);
+        if (callbackMainMenuItem != null) {
+            callbackMainMenuItem.onSwitchFeature(featureMainMenuModel);
         }
     }
 
@@ -312,6 +313,19 @@ public class CityHomeFragment extends BaseFragment {
                 });
             }
         });
+    }
+
+    @Override
+    public boolean onBack() {
+        //Confirm to exit this application
+        new MessageDialog.Builder(mActivity)
+                .setMessage(R.string.app_exit_prompt)
+                .setConfirmButton(dialog -> mActivity.finish())
+//                .setConfirmButton(dialog -> {})
+                .setCancelButton(dialog -> {
+                })
+                .show();
+        return true;
     }
 
     @Override

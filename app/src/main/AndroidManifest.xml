@@ -19,65 +19,24 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name="acquire.app.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="acquire.app.CityHostActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-
-                <!--
-                    <category android:name="android.intent.category.HOME" />
-                <category android:name="android.intent.category.DEFAULT" />
-                -->
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name="acquire.app.dev_rnd.TestActivity"
-            android:exported="true" />
-        <!--
-<activity
-            android:name="acquire.app.dev_rnd.TestActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        -->
-        <!--
-<activity
-            android:name="com.zztl.pos.citybrac.ui.report.ReportsActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        -->
-      <!--  <activity
-            android:name="acquire.app.MainActivity"
             android:configChanges="orientation|screenSize"
             android:exported="true"
             android:launchMode="singleTop"
             android:screenOrientation="nosensor"
             android:theme="@style/AppTheme.Launch"
             android:windowSoftInputMode="stateHidden|adjustPan">
-
-            &lt;!&ndash;
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            &ndash;&gt;
-
-            <intent-filter>
+            <!--<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -86,8 +45,11 @@
                     <category android:name="android.intent.category.HOME" />
                 <category android:name="android.intent.category.DEFAULT" />
                 &ndash;&gt;
-            </intent-filter>
-        </activity>-->
+            </intent-filter>-->
+        </activity>
+        <activity
+            android:name="acquire.app.dev_rnd.TestActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

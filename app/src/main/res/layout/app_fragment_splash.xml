@@ -6,7 +6,8 @@
     android:orientation="vertical">
 
 
-    <ImageView
+ <!--   <ImageView
+        android:visibility="gone"
         android:layout_above="@+id/tvSplsTitle"
         android:id="@+id/ivSplsLogo"
         android:layout_width="300dp"
@@ -15,6 +16,7 @@
         android:src="@drawable/img_splash_logo"/>
 
     <TextView
+        android:visibility="gone"
         android:id="@+id/tvSplsTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,12 +24,12 @@
         android:textSize="@dimen/dp24"
         android:textStyle="bold"
         android:text=""/>
+-->
 
-
-<!--    <acquire.app.fragment.splash.SplashAnimView-->
-<!--        android:id="@+id/anim_logo"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"/>-->
+    <acquire.app.fragment.splash.SplashAnimView
+        android:id="@+id/anim_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
     <TextView
         android:id="@+id/tv_version"

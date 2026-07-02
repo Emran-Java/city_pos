@@ -10,12 +10,10 @@ import androidx.annotation.Nullable;
 
 import com.zztl.pos.city.databinding.FragmentCitySplashBinding;
 
-import java.util.Objects;
-
-import acquire.app.brac.ui.base.BaseFragment;
+import acquire.app.brac.ui.base.CityBaseFragment;
 import acquire.base.utils.DisplayUtils;
 
-public class CitySplashFragment extends BaseFragment {
+public class CitySplashFragment extends CityBaseFragment {
 
     private FragmentCitySplashBinding _binding;
 

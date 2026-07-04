@@ -67,6 +67,9 @@ public class NetworkUtils {
                 (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
 
         if (telephonyManager != null) {
+            if(telephonyManager.getSimOperatorName().equalsIgnoreCase("GramenPhone")){
+                return "GrameenPhone";
+            }
             return telephonyManager.getSimOperatorName();
         }
 

@@ -199,6 +199,18 @@ public class CityHostActivity extends BaseActivity implements ActivityCallback {
                 startActivity(intent);
                 break;
             }
+            case "ABOUT": {
+                Intent intent = new Intent(getApplicationContext(), TransActivity.class);
+                intent.putExtra(TransTag.TRANS_TYPE, TransType.TRANS_ABOUT);
+                startActivity(intent);
+                break;
+            }
+            case "TEST_TRAN": {
+                Intent intent = new Intent(getApplicationContext(), TransActivity.class);
+                intent.putExtra(TransTag.TRANS_TYPE, TransType.TRANS_TEST_TRX);
+                startActivity(intent);
+                break;
+            }
             case "PRINT": {
                 /*if (featureMainMenuModel.isHasChild()) {
 

@@ -233,6 +233,14 @@ public class AppParamsImporter {
                     .filter(model -> opName.equalsIgnoreCase(model.getOperatorName()))
                     .findFirst()
                     .orElse(null);
+          /*  ConnectivityModel mobileOperatorModel = null;
+            for (int i = 0; i < getConnectivityList.size(); i++) {
+                String opNm = getConnectivityList.get(i).getOperatorName();
+                if (opName.equalsIgnoreCase(opNm)) {
+                    mobileOperatorModel = getConnectivityList.get(i);
+                    break;
+                }
+            }*/
 
             if (mobileOperatorModel != null) {
                 ParamsUtils.setBoolean(ParamsConst.PARAMS_KEY_IS_OPERATOR_AVAILABLE, true);

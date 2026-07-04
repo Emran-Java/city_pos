@@ -78,7 +78,7 @@ public class SplashActivity extends BaseActivity {
             BSystem.setHomeButton(false);
             loadFeatureMenuData();
             try {
-                Thread.sleep(1500); // Delay before updating UI
+                Thread.sleep(1000); // Delay before updating UI
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }

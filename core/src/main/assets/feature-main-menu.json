@@ -121,6 +121,30 @@
       "hasChild": false,
       "nextStep": "Pre-Auth",
       "childData": []
+    },
+    {
+      "title": "Test Tran",
+      "id": 8,
+      "position": 8,
+      "code": "TEST_TRAN",
+      "icon": "ic_test_tran",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "TestTxn",
+      "childData": []
+    },
+    {
+      "title": "App Version",
+      "id": 8,
+      "position": 8,
+      "code": "ABOUT",
+      "icon": "ic_about",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "TestTxn",
+      "childData": []
     }
   ]
 }

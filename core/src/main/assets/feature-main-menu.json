@@ -127,7 +127,7 @@
       "id": 8,
       "position": 8,
       "code": "TEST_TRAN",
-      "icon": "ic_test_tran",
+      "icon": "ic_receipt",
       "isShow": true,
       "isActive": true,
       "hasChild": false,
@@ -139,11 +139,35 @@
       "id": 8,
       "position": 8,
       "code": "ABOUT",
-      "icon": "ic_about",
+      "icon": "ic_report",
       "isShow": true,
       "isActive": true,
       "hasChild": false,
       "nextStep": "TestTxn",
+      "childData": []
+    },
+    {
+      "title": "Help Center",
+      "id": 9,
+      "position": 9,
+      "code": "HELP_CENTER",
+      "icon": "ic_help_circle",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "HelpCenter",
+      "childData": []
+    },
+    {
+      "title": "Setting",
+      "id": 10,
+      "position": 10,
+      "code": "SETTING",
+      "icon": "ic_setting",
+      "isShow": true,
+      "isActive": true,
+      "hasChild": false,
+      "nextStep": "Setting",
       "childData": []
     }
   ]

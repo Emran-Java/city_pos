@@ -76,7 +76,7 @@ public class AppParamsImporter {
 
             if (importFile.exists()) {
                 //Brac TODO, currently commit belo line for developingTime. It should open before release
-                importFile.delete(); // this line responsible for remove *.ini file from memory
+                //importFile.delete(); // this line responsible for remove *.ini file from memory
             }
         } catch (Exception e) {
             LoggerUtils.e("initDefaultAppParams failed!", e);

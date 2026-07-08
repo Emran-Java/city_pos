@@ -88,7 +88,7 @@ public class SelfCheckHelper {
                 //AppParamsImporter.initBracDefaultMerchants(opName);
 
                 //set first run false
-                ParamsUtils.setBoolean(ParamsConst.PARAMS_KEY_FIRST_RUN, false);
+                //ParamsUtils.setBoolean(ParamsConst.PARAMS_KEY_FIRST_RUN, false);
                 LoggerUtils.i("App first over.");
             } catch (Exception e) {
                 LoggerUtils.e("first run failed!",e);

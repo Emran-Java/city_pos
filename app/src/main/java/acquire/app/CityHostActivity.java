@@ -37,6 +37,7 @@ import acquire.core.tools.LoadMenuData;
 import acquire.core.tools.SelfCheckHelper;
 import acquire.sdk.ServiceHelper;
 import acquire.sdk.system.BSystem;
+import acquire.settings.SettingsActivity;
 
 public class CityHostActivity extends BaseActivity implements ActivityCallback {
 
@@ -86,6 +87,7 @@ public class CityHostActivity extends BaseActivity implements ActivityCallback {
                 .inflate(R.navigation.nav_graph_dash_board);
 //        _navGraph.setStartDestination(R.id.citySplashFragment);
         _navGraph.setStartDestination(R.id.cityHomeFragment);
+//        _navGraph.setStartDestination(R.id.bankMenuItemsFragment);
 
         /*if (PayoutDataController.isOpenForEmptyView) {
             navGraph.setStartDestination(R.id.beneficiaryListFragment);
@@ -211,6 +213,12 @@ public class CityHostActivity extends BaseActivity implements ActivityCallback {
                 startActivity(intent);
                 break;
             }
+            case "HELP_CENTER": {
+                Intent intent = new Intent(getApplicationContext(), TransActivity.class);
+                intent.putExtra(TransTag.TRANS_TYPE, TransType.TRANS_TEST_TRX);
+                startActivity(intent);
+                break;
+            }
             case "PRINT": {
                 /*if (featureMainMenuModel.isHasChild()) {
 
@@ -219,6 +227,18 @@ public class CityHostActivity extends BaseActivity implements ActivityCallback {
                     // TODO: Open child screen
                 }*/
                 Intent intent = new Intent(getApplicationContext(), TransActivity.class);
+                intent.putExtra(TransTag.TRANS_TYPE, TransType.TRANS_REPORTS_PRINT);
+                startActivity(intent);
+                break;
+            }
+            case "SETTING": {
+                /*if (featureMainMenuModel.isHasChild()) {
+
+                    List<FeatureMainMenuModel> childList = featureMainMenuModel.getChildData();
+
+                    // TODO: Open child screen
+                }*/
+                Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
                 intent.putExtra(TransTag.TRANS_TYPE, TransType.TRANS_REPORTS_PRINT);
                 startActivity(intent);
                 break;
